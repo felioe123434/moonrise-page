@@ -1,0 +1,39 @@
+{
+  "title": "MoonChain：轻量、快速、集成的基础设施",
+  "subtitle": "专为大规模金融应用而构建，MoonChain 提供高性能、低成本，并与 MoonRise 生态系统实现全面集成。",
+  "button_presale": "加入预售",
+  "highlights": {
+    "performance": {
+      "title": "性能",
+      "list": [
+        "每秒 1 个区块",
+        "模块化并行执行",
+        "异步确认",
+        "每笔交易成本 < $0.0001"
+      ]
+    },
+    "integration": {
+      "title": "集成",
+      "list": [
+        "与 MoonWallet 和 MoonBuy 直接连接",
+        "MNR 代币作为标准燃料",
+        "支持稳定币和代币化资产",
+        "使用 MoonLang 的轻量级合约"
+      ]
+    }
+  },
+  "table": {
+    "title": "性能对比",
+    "headers": ["特性", "MoonChain", "BNB Chain", "以太坊"],
+    "rows": [
+      ["每笔交易成本", "~$0.0001", "~$0.10", "~$1.00+"],
+      ["区块时间", "1 秒", "3 秒", "12 秒"],
+      ["处理能力", "可扩展的并行执行", "~3,000 TPS", "~30 TPS"]
+    ]
+  },
+  "closeButton": "关闭",
+  "quote": {
+    "text": "“每个应用都依赖于坚实的基础。MoonChain 就是这个基础。”",
+    "description": "设计用于在大规模下运行，具备轻量、安全和完整集成的能力。"
+  }
+}

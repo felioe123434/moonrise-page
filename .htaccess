@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase /
+
+# Força o tipo correto para imagens
+<FilesMatch "\.(gif|png|jpe?g|svg|webp)$">
+  Header set Content-Type "image/gif"
+</FilesMatch>
+
+# Permite acessar arquivos .html sem a extensão
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.html [L]
+
+# Evita fallback para imagens (mantém visibilidade pública)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.(gif|png|jpe?g|svg|webp)$ [NC]
+RewriteRule . /index.html [L]

@@ -1,0 +1,35 @@
+{
+  "title": "MoonRise Wallet: The Heart of the Sovereign System",
+  "description": "This isn’t just a wallet. It’s a decentralized bank in your pocket — with live balances, native blockchain reading, and total control over your assets.",
+  "status": "🚧 App under continuous development",
+  "status_sub": "constantly evolving",
+  "preview": "📲 What you see is real execution: tokens, balances, and the network operating live — no simulation, no disguise.",
+
+  "visionTitle": "More than a wallet",
+  "vision1": "MoonRise Wallet is a sovereign node operating 24/7 directly on the blockchain. No external APIs, no censorship, no delays. What you see is what the blockchain sees — with millimetric precision.",
+  "vision2": "It is the backbone of your digital empire — sovereign, shielded, and fully under your command.",
+
+  "language_notice": "⚠️ The app shown is still in Portuguese as it’s an in-development version. MoonRise Wallet will support all major global languages — with full translation in every detail of the experience.",
+
+  "featuresTitle": "Features already live and evolving",
+  "features": [
+    "✅ Real-time balance directly from the blockchain",
+    "✅ Automatic contract reading for token import",
+    "✅ Dynamic pricing in BRL and USD (more pairs coming soon)",
+    "✅ Responsive, fluid interface optimized for mobile",
+    "🚧 Pix integration in advanced testing phase",
+    "🔄 Swap module with full ecosystem liquidity support"
+  ],
+
+  "differentialsTitle": "What makes MoonRise unique",
+  "differentials": [
+    "🛰️ Direct connection to the blockchain — no middlemen, no filters",
+    "💱 Native conversion in multiple currencies (BRL, USD, and more)",
+    "⚡ Lightweight, fast interface built for real executors",
+    "🔗 Pix, swaps, and utilities fully integrated inside the app"
+  ],
+
+  "closing": "MoonRise Wallet is not just technology. It’s a tool of governance. For those born to rule, multiply, and leave a legacy. Financial sovereignty now fits in your pocket.",
+  "cta": "Follow Launch on Telegram",
+  "footer": "All rights reserved."
+}

@@ -1,0 +1,39 @@
+{
+  "title": "MoonChain: leichte, schnelle und integrierte Infrastruktur",
+  "subtitle": "Entwickelt für groß angelegte Finanzanwendungen bietet MoonChain hohe Leistung, niedrige Kosten und vollständige Integration mit dem MoonRise-Ökosystem.",
+  "button_presale": "An der Vorverkauf teilnehmen",
+  "highlights": {
+    "performance": {
+      "title": "Leistung",
+      "list": [
+        "1 Block pro Sekunde",
+        "Modulare parallele Ausführung",
+        "Asynchrone Finalisierung",
+        "Kosten < $0.0001 pro Transaktion"
+      ]
+    },
+    "integration": {
+      "title": "Integration",
+      "list": [
+        "Direkte Verbindung mit MoonWallet und MoonBuy",
+        "MNR-Token als Standardgas",
+        "Unterstützung für Stablecoins und tokenisierte Vermögenswerte",
+        "Leichte Verträge in MoonLang"
+      ]
+    }
+  },
+  "table": {
+    "title": "Vergleichsleistung",
+    "headers": ["Eigenschaft", "MoonChain", "BNB Chain", "Ethereum"],
+    "rows": [
+      ["Transaktionskosten", "~$0.0001", "~$0.10", "~$1.00+"],
+      ["Blockzeit", "1 s", "3 s", "12 s"],
+      ["Verarbeitungskapazität", "Skalierbare parallele Ausführung", "~3.000 TPS", "~30 TPS"]
+    ]
+  },
+  "closeButton": "Schließen",
+  "quote": {
+    "text": "“Jede Anwendung braucht ein solides Fundament. MoonChain ist dieses Fundament.”",
+    "description": "Entwickelt für Skalierung mit Leichtigkeit, Sicherheit und vollständiger Ökosystemintegration."
+  }
+}

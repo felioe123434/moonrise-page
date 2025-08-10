@@ -1,0 +1,35 @@
+{
+  "title": "MoonRise Wallet : Le Cœur du Système Souverain",
+  "description": "Ce n’est pas qu’un simple portefeuille. C’est une banque décentralisée dans votre poche — avec solde en temps réel, lecture native de la blockchain et contrôle total sur vos actifs.",
+  "status": "🚧 Application en développement continu",
+  "status_sub": "en constante évolution",
+  "preview": "📲 Ce que vous voyez est une exécution réelle : tokens, soldes et réseau fonctionnant en direct — sans simulation, sans artifice.",
+
+  "visionTitle": "Plus qu’un portefeuille",
+  "vision1": "MoonRise Wallet est un nœud souverain opérant 24h/24 directement sur la blockchain. Pas d’API externes, pas de censure, pas de délais. Ce que vous voyez, c’est ce que voit la blockchain — avec une précision millimétrique.",
+  "vision2": "C’est la colonne vertébrale de votre empire numérique — souveraine, blindée et sous votre contrôle total.",
+
+  "language_notice": "⚠️ L'application affichée est encore en portugais car il s'agit d'une version en cours de développement. MoonRise Wallet prendra en charge toutes les langues principales du monde — avec traduction complète dans chaque détail de l'expérience.",
+
+  "featuresTitle": "Fonctionnalités déjà actives et en constante évolution",
+  "features": [
+    "✅ Solde en temps réel directement depuis la blockchain",
+    "✅ Lecture automatique des contrats pour importer des tokens",
+    "✅ Cotation dynamique en BRL et USD (plus de paires à venir)",
+    "✅ Interface fluide, réactive et optimisée pour mobile",
+    "🚧 Intégration Pix en phase de test avancée",
+    "🔄 Module de swap avec support complet de la liquidité de l’écosystème"
+  ],
+
+  "differentialsTitle": "Ce qui rend MoonRise unique",
+  "differentials": [
+    "🛰️ Connexion directe à la blockchain — sans intermédiaires, sans filtres",
+    "💱 Conversion native en plusieurs devises (BRL, USD et plus)",
+    "⚡ Interface légère, rapide, conçue pour les exécutants réels",
+    "🔗 Pix, swaps et utilitaires intégrés à 100% dans l'application"
+  ],
+
+  "closing": "MoonRise Wallet n’est pas qu’une technologie. C’est un outil de gouvernance. Pour ceux qui sont nés pour régner, multiplier et laisser un héritage. La souveraineté financière tient maintenant dans votre poche.",
+  "cta": "Suivre le lancement sur Telegram",
+  "footer": "Tous droits réservés."
+}

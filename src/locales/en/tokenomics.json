@@ -1,0 +1,64 @@
+{
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise was designed with a structure to ensure balance, transparency, and sustainable growth. No token was distributed for free — everything was planned with purpose, strategy, and long-term vision.",
+
+  "supplyLabels": {
+    "name": "Name",
+    "symbol": "Symbol",
+    "network": "Network",
+    "total": "Total Supply",
+    "burned": "Burned Tokens",
+    "circulating": "Circulating Supply",
+    "contract": "Official Contract"
+  },
+
+  "supply": {
+    "name": "MoonRise",
+    "symbol": "MNR",
+    "network": "BNB Smart Chain (BEP-20)",
+    "total": "7,500,000,000",
+    "burned": "1,600,000,000",
+    "circulating": "5,900,000,000"
+  },
+
+  "distributionNote": "Every fraction of the supply was allocated with purpose. No leftovers, no accidents — only strategy and execution.",
+
+  "distributionTitle": "Token Distribution",
+  "distribution": [
+    { "label": "53.33 %", "title": "Liquidity" },
+    { "label": "6.67 %", "title": "Development" },
+    { "label": "21.33 %", "title": "Burned Tokens" },
+    { "label": "10.00 %", "title": "Marketing" },
+    { "label": "5.33 %", "title": "MoonRise Ecosystem" },
+    { "label": "3.33 %", "title": "Strategic Reserve" },
+    { "label": "0.0067 %", "title": "Founder (Locked)" }
+  ],
+
+  "fundsTitle": "Use of Raised Funds",
+  "fundsText": "All raised funds are allocated transparently and traceably. The priority is to generate value, ensure stability, and drive ecosystem growth.",
+
+  "funds": [
+    {
+      "title": "MoonRise Ecosystem",
+      "desc": "Automatic reinvestment in infrastructure, liquidity, validation, and ecosystem expansion. Every transaction feeds the machine that powers the empire."
+    },
+    {
+      "title": "Stability Reserves",
+      "desc": "Protection fund to maintain liquidity and support price during high volatility."
+    },
+    {
+      "title": "Market Liquidity",
+      "desc": "Ensures smooth movement and continuous support for the token chart."
+    },
+    {
+      "title": "Holder Appreciation",
+      "desc": "Part of the profits is reinvested to benefit loyal holders."
+    }
+  ],
+
+  "closing": {
+    "phrase": "MoonRise was built on execution, data, and long-term vision. The very use of the system drives growth, with fees reinvested in liquidity and sustainable value."
+  },
+
+  "footer": "All rights reserved."
+}

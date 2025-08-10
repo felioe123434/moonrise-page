@@ -1,0 +1,35 @@
+{
+  "title": "MoonRise Wallet: O Coração do Sistema Soberano",
+  "description": "Não é só uma carteira. É um banco descentralizado no seu bolso — com saldo ao vivo, leitura nativa da blockchain e domínio absoluto sobre seus ativos.",
+  "status": "🚧 App em desenvolvimento contínuo",
+  "status_sub": "em constante evolução",
+  "preview": "📲 O que você vê é execução real: tokens, saldos e rede operando ao vivo — sem simulação, sem maquiagem.",
+
+  "visionTitle": "Mais que uma carteira",
+  "vision1": "A MoonRise Wallet é um nó soberano operando 24h direto na blockchain. Nada de APIs externas, censura ou atrasos. O que você vê é o que a blockchain enxerga — com precisão milimétrica.",
+  "vision2": "Ela é a espinha dorsal do seu império digital — soberana, blindada e sob domínio total do executor.",
+
+ "language_notice": "⚠️ O aplicativo demonstrado ainda está em português por ser uma versão em desenvolvimento. A MoonRise Wallet terá suporte nativo para os principais idiomas do mundo — com tradução completa em cada detalhe da experiência.",
+
+  "featuresTitle": "Funcionalidades já em execução e constante evolução",
+  "features": [
+    "✅ Saldo em tempo real direto da blockchain",
+    "✅ Leitura automática de contratos para importação de tokens",
+    "✅ Cotação dinâmica em BRL e USD (e mais pares no futuro)",
+    "✅ Interface responsiva, fluida e otimizada para mobile",
+    "🚧 Integração Pix em fase de testes avançados",
+    "🔄 Módulo de swap com suporte total à liquidez do ecossistema"
+  ],
+
+  "differentialsTitle": "O que torna a MoonRise única",
+  "differentials": [
+    "🛰️ Conexão direta com a blockchain — sem intermediários, sem filtros",
+    "💱 Conversão nativa em múltiplas moedas (BRL, USD e mais)",
+    "⚡ Interface leve, rápida e feita para executores reais",
+    "🔗 Pix, swaps e utilidades 100% integradas dentro do app"
+  ],
+
+  "closing": "A MoonRise Wallet não é só tecnologia. É uma ferramenta de governo. Para quem nasceu pra dominar, multiplicar e deixar legado. A soberania financeira agora cabe no seu bolso.",
+  "cta": "Acompanhar Lançamento no Telegram",
+  "footer": "Todos os direitos reservados."
+}

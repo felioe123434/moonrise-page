@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Der MoonRise-Vorverkauf finanziert Infrastruktur. Keine Spekulation.",
+    "description": "Der MNR-Token wird direkt über einen Smart Contract verteilt, validiert im öffentlichen Netzwerk, mit klaren Phasen und automatischer Lieferung. Das ist keine Wette. Das ist Aufbau.",
+    "button": "Zum Vorverkaufs-Dashboard"
+  },
+  "network": {
+    "title": "Warum sind wir auf der BNB Chain?",
+    "description1": "MoonRise entwickelt seine eigene Blockchain – die MoonChain. In dieser Phase nutzen wir jedoch die BNB Chain aus einem klaren Grund: Sicherheit, Stabilität und Effizienz. Sie bietet niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
+    "description2": "Sobald die MoonChain fertig ist, wird das gesamte Ökosystem auf unsere eigene Infrastruktur migriert."
+  },
+  "structure": {
+    "title": "Wie funktioniert der Vorverkauf?",
+    "token": "Token: MoonRise (MNR) – ERC20-Standard",
+    "smart": "100% über Smart Contract ausgeführt (keine Verwahrung)",
+    "phases": "3 Phasen mit festen Preisen und definierten Limits",
+    "delivery": "Automatische Token-Lieferung nach dem Kauf",
+    "minimum": "Mindestbetrag pro Transaktion: 0.005 BNB",
+    "network": "Verwendetes Netzwerk: BNB Smart Chain"
+  },
+  "phases": {
+    "title": "Vorverkaufsphasen",
+    "phase1": {
+      "title": "Phase 1",
+      "supply": "200.000.000 MNR",
+      "price": "Preis: 0.0000065959 BNB",
+      "status": "Läuft"
+    },
+    "phase2": {
+      "title": "Phase 2",
+      "supply": "550.000.000 MNR",
+      "price": "Preis:0.0000079542 BNB",
+      "status": "Ausstehend"
+    },
+    "phase3": {
+      "title": "Phase 3",
+      "supply": "250.000.000 MNR",
+      "price": "Preis:  0.0000086765 BNB",
+      "status": "Ausstehend"
+    },
+    "status": {
+      "active": "Aktuelle Phase",
+      "awaiting": "Ausstehend",
+      "finished": "Abgeschlossen"
+    },
+    "counterTitle": "Verkaufte Tokens"
+  },
+  "purpose": {
+    "title": "Warum gibt es das?",
+    "description": "MNR ist kein Hype. Es ist ein Fundament. Es entsteht als Grundstein der MoonChain – einer eigenen, leichten und souveränen Blockchain. Wer am Vorverkauf teilnimmt, wird Gründer des Ökosystems. Man kauft keinen Token – man kauft eine Position."
+  },
+  "utility": {
+    "title": "Nutzung des MNR-Tokens",
+    "use1": "Offizielle Währung der MoonChain",
+    "use2": "Gas für Transaktionen (wie BNB auf der BNB Chain)",
+    "use3": "Staking-, Belohnungs- und Liquiditäts-Token",
+    "use4": "Native Währung der MoonRise-Produkte: MoonWallet, MoonSwap, MoonBank",
+    "use5": "Vorrang bei zukünftigen Verteilungen und Launches"
+  },
+  "security": {
+    "title": "Sicherheit & Transparenz",
+    "point1": "Jede Lieferung erfolgt zu 100 % automatisch über Smart Contract",
+    "point2": "Keine Verwahrung. Keine Versprechen",
+    "point3": "Auditierbarer Vertrag, bereits öffentlich ausgeführt",
+    "point4": "Liquidität wird kontrolliert freigegeben, um Stabilität zu gewährleisten"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "step1": "Vorverkauf geöffnet",
+    "step2": "MoonChain-Entwicklung",
+    "step3": "Erste Liquidität",
+    "step4": "Offizieller Start der MoonChain",
+    "step5": "Erweiterung der MoonRise-Produkte"
+  },
+  "call": {
+    "title": "Tausende werden zuschauen. Wenige werden gründen.",
+    "description": "Wenn du das hier liest, wurdest du berufen zu bauen. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für kommende Generationen zu gründen."
+  },
+  "closeButton": "Schließen",
+  "contracts": {
+    "title": "Öffentliche Verträge",
+    "token": "MNR-Token",
+    "wallet": "Master-Wallet",
+    "panel": "Offizielles Dashboard"
+  },
+  "legal": {
+    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über einen Smart Contract."
+  },
+  "buttons": {
+  "tokenomics": "📊 Tokenomics anzeigen",
+  "transparency": "🔍 Transparenz anzeigen"
+}
+
+}

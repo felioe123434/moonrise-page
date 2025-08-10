@@ -1,0 +1,15 @@
+{
+  "brand": "MoonRise Technologies",
+  "menu": {
+    "home": "मुखपृष्ठ",
+    "moonchain": "MoonChain",
+    "products": "AppMoonRise",
+    "about": "परिचय",
+    "contact": "संपर्क"
+  },
+  "closeButton": "बंद करें",
+  "buttons": {
+    "community": "समुदाय",
+    "presale": "प्रीसेल"
+  }
+}

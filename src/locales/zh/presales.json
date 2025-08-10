@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "MoonRise 的预售用于建设基础设施，而非投机。",
+    "description": "MNR 代币通过智能合约直接分发，在公共网络上验证，具有明确阶段和自动交付。这不是赌博，这是构建。",
+    "button": "进入预售面板"
+  },
+  "network": {
+    "title": "我们为什么选择 BNB Chain？",
+    "description1": "MoonRise 正在开发自己的区块链 —— MoonChain。但在当前阶段，我们选择 BNB Chain，是因为它的安全性、稳定性和效率。它提供低费用、快速执行以及广泛兼容性。",
+    "description2": "一旦 MoonChain 构建完成，整个生态系统将迁移到我们的专属基础设施。"
+  },
+  "structure": {
+    "title": "预售如何运作？",
+    "token": "代币：MoonRise (MNR) —— ERC20 标准",
+    "smart": "100% 通过智能合约执行（无托管）",
+    "phases": "3 个阶段，价格固定，限额明确",
+    "delivery": "购买后自动发放代币",
+    "minimum": "每笔交易最低金额：0.005 BNB",
+    "network": "使用网络：BNB Smart Chain"
+  },
+  "phases": {
+    "title": "预售阶段",
+    "phase1": {
+      "title": "第一阶段",
+      "supply": "2 亿 MNR",
+      "price": "价格：0.0000065959 BNB",
+      "status": "进行中"
+    },
+    "phase2": {
+      "title": "第二阶段",
+      "supply": "5.5 亿 MNR",
+      "price": "价格： 0.0000079542 BNB",
+      "status": "待开始"
+    },
+    "phase3": {
+      "title": "第三阶段",
+      "supply": "2.5 亿 MNR",
+      "price": "价格： 0.0000086765 BNB",
+      "status": "待开始"
+    },
+    "status": {
+      "active": "当前阶段",
+      "awaiting": "待开始",
+      "finished": "已完成"
+    },
+    "counterTitle": "已售出代币"
+  },
+  "purpose": {
+    "title": "为什么要这样做？",
+    "description": "MNR 不是炒作，而是根基。它是 MoonChain 的基石 —— 一个轻量级、主权独立的专属区块链。参与预售的用户，将成为生态系统的创始人。买的不是代币，而是一个位置。"
+  },
+  "utility": {
+    "title": "MNR 代币用途",
+    "use1": "MoonChain 的官方货币",
+    "use2": "交易 gas（如同 BNB 在 BNB Chain）",
+    "use3": "用于质押、奖励和流动性",
+    "use4": "MoonRise 产品的原生货币：MoonWallet、MoonSwap、MoonBank",
+    "use5": "优先参与未来的分发和发布"
+  },
+  "security": {
+    "title": "安全性与透明度",
+    "point1": "所有发放均通过智能合约 100% 自动执行",
+    "point2": "无托管，无承诺",
+    "point3": "合约已通过审计并在公链上运行",
+    "point4": "流动性将以可控方式开启，以确保稳定性"
+  },
+  "roadmap": {
+    "title": "路线图",
+    "step1": "预售开启",
+    "step2": "MoonChain 构建",
+    "step3": "初始流动性注入",
+    "step4": "MoonChain 正式发布",
+    "step5": "MoonRise 产品扩展"
+  },
+  "call": {
+    "title": "成千上万人会围观。只有少数会创建。",
+    "description": "如果你在读这段文字，那你就是被拣选来建造的人。这是勇者的召唤：为下一代奠定一个主权基础设施。"
+  },
+  "closeButton": "关闭",
+  "contracts": {
+    "title": "公开合约",
+    "token": "MNR 代币",
+    "wallet": "主钱包",
+    "panel": "官方面板"
+  },
+  "legal": {
+    "disclaimer": "本页面仅供参考，不构成注册的公开发行。参与预售完全自愿，并通过智能合约直接执行。"
+  },
+  "buttons": {
+  "tokenomics": "📊 查看代币经济",
+  "transparency": "🔍 查看透明度"
+}
+
+}

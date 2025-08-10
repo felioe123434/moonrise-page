@@ -1,0 +1,101 @@
+{
+  "title": "MoonRise Transparenz",
+  "intro": "Hier gibt es keine leeren Versprechungen. Jede Zeile, jeder Block, jede Adresse existiert, um zu beweisen: MoonRise ist reale, sichtbare und überprüfbare Ausführung. Dieser Bereich spiegelt unser Engagement gegenüber denen wider, die mit uns aufbauen. Keine Versprechen. Nur Ergebnisse.",
+
+  "protection": {
+    "summary": "MoonRise schützt die Wirtschaft mit Logik, Code und automatischem Schutz. Jede Operation respektiert Grenzen, wendet Cooldowns an, verhindert Missbrauch und verwandelt jede Aktion in echte Liquidität — nährt das System, blockiert Manipulationen und macht alles in Echtzeit sichtbar.",
+    "internalEconomyTitle": "Intelligente Interne Ökonomie",
+    "internalEconomy": "Jede Bewegung innerhalb des MoonRise-Ökosystems speist automatisch die Liquidität. Nichts ist statisch. Jeder Klick stärkt das System und treibt den Finanzmotor voran, den wir aufbauen — automatisiert, transparent und skalierbar.",
+    "badges": [
+      "Intelligente Liquidität",
+      "Stabilisiertes Chart",
+      "Reales Ökosystem",
+      "Dump-Schutz"
+    ]
+  },
+
+  "dna": [
+    "✅ Open-Source-Code und überprüfbare Verträge — jeder kann alles direkt auf BscScan prüfen. Keine zentrale Kontrolle.",
+    "✅ Jede Bewegung stärkt das Ökosystem — keine Versprechen auf externe Deckung, nur intern überprüfbare Struktur.",
+    "✅ 100 % souverän — ohne Abhängigkeit von Banken, Unternehmen oder Dritten. Die Kontrolle liegt bei uns. Die Ausführung auch.",
+    "✅ Aktive Anti-Whale-Abwehr — das System blockiert verdächtige Bewegungen, um Holder und Chart zu schützen."
+  ],
+
+  "proof_title": "🚀 Reale und Überprüfbare Beweise",
+  "proof_intro": "Wir verlangen kein Vertrauen. Wir liefern Beweise. Alles hier ist in Echtzeit über die Blockchain, Bilder, Verträge und öffentliche Dokumente nachverfolgbar.",
+  "proof": [
+    "🔥 Verbrennung von 1,6 Milliarden Tokens beim Deploy — auf BscScan mit öffentlichem Hash sichtbar.",
+    "🛠️ Öffentliche Infrastruktur sichtbar — Verträge, Gebühren, Wallets und dokumentierte Transaktionen.",
+    "📄 Presale in einem autonomen Vertrag — keine manuelle Kontrolle, feste Regeln im Code.",
+    "🧾 Öffentliche Wallets mit Nachverfolgung — Marketing, Liquidität, Belohnungen. Alles sichtbar, nichts versteckt."
+  ],
+
+  "patrimonio_title": "💠 Wachsende Infrastruktur",
+  "patrimonio_desc": "MoonRise ist nicht nur Krypto. Es ist Code, Netzwerk und reale Infrastruktur, aufgebaut mit Disziplin und strategischer Reinvestition. Jede Gebühr fließt zurück ins System. Jeder Klick nährt das Imperium. Nichts kommt von außen. Alles entsteht von innen heraus.",
+
+  "wallets_title": "Offizielle Projekt-Wallets",
+  "wallets_desc": "Alle untenstehenden Adressen gehören zur öffentlichen Infrastruktur von MoonRise. Sie sind nachvollziehbar, überprüfbar und in Echtzeit auf der Blockchain sichtbar.",
+  "wallets": {
+    "liquidez": "Liquiditäts-Wallet",
+    "desenvolvimento": "Entwicklungs-Wallet",
+    "marketing": "Marketing-Wallet",
+    "ecossistema": "Ökosystem-Wallet",
+    "reserva": "Reserve-Wallet",
+    "fundador": "Gründer-Wallet"
+  },
+
+  "wallets_locked_note": " Wallet für 1 Jahr nach dem Deploy gesperrt",
+
+  "docs_title": "📂 Offizielle Dokumente und Verträge",
+  "docs": {
+    "token": "Token-Vertrag:   0xF46c...1278",
+    "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
+    "termo": "/termo-isencao.pdf"
+  },
+  "governance": {
+    "title": "Temporäre und Transparente Governance",
+    "intro": "Während der Presale-Phase wird der Vertrag von einem sichtbaren und eingeschränkten owner() gesteuert — einzig mit dem Ziel, die Integrität des anfänglichen Betriebs zu schützen.",
+    "can": {
+      "title": "Was der owner tun darf",
+      "items": [
+        "Vertrag im Angriffsfall pausieren und fortsetzen",
+        "Verkaufsgebühr anpassen (bis max. 10%)",
+        "Whitelist-Wallets aktualisieren",
+        "Anti-Whale-Cooldowns konfigurieren"
+      ]
+    },
+    "cannot": {
+      "title": "Was der owner NICHT tun darf",
+      "items": [
+        "Neue Tokens erstellen (keine Mint-Funktion)",
+        "Token-Supply ändern (fixiert beim Deploy)",
+        "Presale-Gelder umleiten",
+        "Vertragsgrenzen umgehen"
+      ]
+    }
+  },
+
+  "release_schedule": {
+    "title": "Token-Freigabeplan"
+  },
+
+  "lock_reason": {
+    "title": "Warum sind Tokens gesperrt?",
+    "paragraph_1": "Tokens für Liquidität, Marketing, Entwicklung und Reserve sind durch automatische Zeitsperren im MasterVault-Vertrag geschützt. Das garantiert, dass keine Mittel vorzeitig verwendet werden, schützt die Projektökonomie und verhindert Missbrauch oder unerlaubte Bewegungen.",
+    "paragraph_2": "Der Vertrag ist öffentlich, überprüfbar und unveränderlich. Du kannst jede Zeile direkt auf der Blockchain einsehen:",
+    "button": "MasterVault-Vertrag auf BscScan ansehen"
+  },
+
+  "moonchain": {
+    "title": "Übergang zu MoonChain",
+    "content": "Die aktuelle Governance ist provisorisch. Nach dem Start von MoonChain wird der MNR-Token auf die native Blockchain migriert und alle zentralen Kontrollfunktionen werden entfernt. Die Kontrolle ist taktisch. Die endgültige Souveränität liegt im Ziel: MoonChain."
+  },
+
+  "docs_links": {
+    "token_explorer": "(auf BscScan ansehen)",
+    "pre_explorer": "(auf BscScan ansehen)",
+    "termo_label": "🔍 Lies das",
+    "termo_link": "Haftungsausschluss",
+    "wallet_button": "Auf BscScan ansehen"
+  }
+}

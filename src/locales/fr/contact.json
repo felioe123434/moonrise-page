@@ -1,0 +1,28 @@
+{
+  "title": "Contactez-nous",
+  "subtitle": "Support institutionnel, partenariats ou questions ? Contactez notre équipe.",
+  "emailLabel": "E-mail officiel :",
+  "socialTitle": "Canaux Officiels :",
+  "documentsTitle": "Documents Institutionnels :",
+  "documentsDropdown": "Voir tous les documents par langue",
+  "whitepaper": "Livre blanc",
+  "responsibility": "Termes de Responsabilité",
+  "whitepaperLabel": "📄 Livre blanc",
+  "responsibilityLabel": "📑 Termes de Responsabilité",
+  "commitmentTitle": "Notre Engagement :",
+  "commitment1": "Support institutionnel du lundi au vendredi, pendant les heures ouvrables.",
+  "commitment2": "Confidentialité totale dans les communications sensibles.",
+  "commitment3": "Priorité aux propositions, partenariats et au support technique de l'écosystème.",
+  "joinCommunity": "Rejoindre la Communauté",
+  "footer": "© MOONRISE TECHNOLOGIES LLC (WY, USA).",
+  "lang": {
+    "pt": "🇧🇷 Portugais",
+    "en": "🇺🇸 Anglais",
+    "es": "🇪🇸 Espagnol",
+    "fr": "🇫🇷 Français",
+    "de": "🇩🇪 Allemand",
+    "zh": "🇨🇳 Chinois",
+    "ru": "🇷🇺 Russe",
+    "hi": "🇮🇳 Hindi"
+  }
+}

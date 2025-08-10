@@ -1,0 +1,15 @@
+{
+  "brand": "MoonRise Technologies",
+  "menu": {
+    "home": "首页",
+    "moonchain": "MoonChain",
+    "products": "AppMoonRise",
+    "about": "关于我们",
+    "contact": "联系"
+  },
+  "closeButton": "关闭",
+  "buttons": {
+    "community": "社区",
+    "presale": "预售"
+  }
+}

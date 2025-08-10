@@ -1,0 +1,35 @@
+{
+  "title": "MoonRise Wallet: El Corazón del Sistema Soberano",
+  "description": "No es solo una cartera. Es un banco descentralizado en tu bolsillo — con saldo en vivo, lectura nativa de blockchain y control total sobre tus activos.",
+  "status": "🚧 App en desarrollo continuo",
+  "status_sub": "en constante evolución",
+  "preview": "📲 Lo que ves es ejecución real: tokens, saldos y red operando en vivo — sin simulaciones ni maquillajes.",
+
+  "visionTitle": "Más que una cartera",
+  "vision1": "MoonRise Wallet es un nodo soberano operando 24/7 directamente sobre la blockchain. Sin APIs externas, sin censura, sin retrasos. Lo que ves es exactamente lo que ve la blockchain — con precisión milimétrica.",
+  "vision2": "Es la columna vertebral de tu imperio digital — soberana, blindada y bajo tu control total.",
+
+  "language_notice": "⚠️ La app mostrada aún está en portugués por ser una versión en desarrollo. MoonRise Wallet tendrá soporte para los principales idiomas del mundo — con traducción completa en cada detalle de la experiencia.",
+
+  "featuresTitle": "Funciones ya activas y en constante evolución",
+  "features": [
+    "✅ Saldo en tiempo real directamente desde la blockchain",
+    "✅ Lectura automática de contratos para importar tokens",
+    "✅ Cotización dinámica en BRL y USD (más pares próximamente)",
+    "✅ Interfaz fluida, responsive y optimizada para móvil",
+    "🚧 Integración con Pix en fase avanzada de pruebas",
+    "🔄 Módulo de swap con soporte total a la liquidez del ecosistema"
+  ],
+
+  "differentialsTitle": "Lo que hace única a MoonRise",
+  "differentials": [
+    "🛰️ Conexión directa con la blockchain — sin intermediarios, sin filtros",
+    "💱 Conversión nativa en múltiples monedas (BRL, USD y más)",
+    "⚡ Interfaz ligera, rápida y hecha para ejecutores reales",
+    "🔗 Pix, swaps y utilidades 100% integradas en la app"
+  ],
+
+  "closing": "MoonRise Wallet no es solo tecnología. Es una herramienta de gobierno. Para quienes nacieron para dominar, multiplicar y dejar legado. La soberanía financiera ahora cabe en tu bolsillo.",
+  "cta": "Seguir Lanzamiento en Telegram",
+  "footer": "Todos los derechos reservados."
+}
