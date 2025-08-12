@@ -5,7 +5,6 @@ import {
   FaInstagram,
   FaTiktok,
   FaTwitter,
-  FaFileAlt,
 } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
@@ -21,6 +20,16 @@ export default function ContactPage() {
             {t('title')}
           </h1>
           <p className="text-gray-300 text-lg mt-4">{t('subtitle')}</p>
+
+          {/* E-mail institucional sem texto extra */}
+          <div className="mt-4">
+            <a
+              href="mailto:contact@moonrise.finance"
+              className="text-purple-300 hover:text-purple-200 text-lg font-medium"
+            >
+              contact@moonrise.finance
+            </a>
+          </div>
         </div>
 
         {/* Redes Sociais */}
