@@ -9,7 +9,7 @@ import PresalePanel from '../components/presalepanel';
 
 const CONTRACT_ADDRESS = '0xeBa712f83323559E8d827302b6C7945343307F00';
 
-export default function presales() {
+export default function Presales() {
   const { t, i18n } = useTranslation('presales');
   const [showPresale, setShowPresale] = useState(false);
   const [currentPhase, setCurrentPhase] = useState<number | null>(null);
@@ -22,10 +22,13 @@ export default function presales() {
 
   const realPrices = [0.0000065959, 0.0000079542, 0.0000086765];
 
+  // Cotação BNB
   useEffect(() => {
     const fetchPrices = async () => {
       try {
-        const res = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl');
+        const res = await fetch(
+          'https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl'
+        );
         const data = await res.json();
         setBnbToBRL(data.binancecoin.brl);
         setBnbToUSD(data.binancecoin.usd);
@@ -35,10 +38,11 @@ export default function presales() {
     };
 
     fetchPrices();
-    const interval = setInterval(fetchPrices, 60000);
+    const interval = setInterval(fetchPrices, 60_000);
     return () => clearInterval(interval);
   }, []);
 
+  // Fase atual
   useEffect(() => {
     const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org');
     const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi, provider);
@@ -53,10 +57,11 @@ export default function presales() {
     };
 
     fetchPhase();
-    const interval = setInterval(fetchPhase, 15000);
+    const interval = setInterval(fetchPhase, 15_000);
     return () => clearInterval(interval);
   }, []);
 
+  // Tokens vendidos
   useEffect(() => {
     const fetchSold = async () => {
       try {
@@ -73,10 +78,11 @@ export default function presales() {
     };
 
     fetchSold();
-    const interval = setInterval(fetchSold, 15000);
+    const interval = setInterval(fetchSold, 15_000);
     return () => clearInterval(interval);
   }, []);
 
+  // Animação contador
   useEffect(() => {
     if (sold !== null) {
       let start = animatedSold;
@@ -97,27 +103,13 @@ export default function presales() {
 
       animate();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sold]);
 
   const fases = [
-    {
-      id: 0,
-      title: t('phases.phase1.title'),
-      supply: t('phases.phase1.supply'),
-      price: t('phases.phase1.price'),
-    },
-    {
-      id: 1,
-      title: t('phases.phase2.title'),
-      supply: t('phases.phase2.supply'),
-      price: t('phases.phase2.price'),
-    },
-    {
-      id: 2,
-      title: t('phases.phase3.title'),
-      supply: t('phases.phase3.supply'),
-      price: t('phases.phase3.price'),
-    },
+    { id: 0, title: t('phases.phase1.title'), supply: t('phases.phase1.supply'), price: t('phases.phase1.price') },
+    { id: 1, title: t('phases.phase2.title'), supply: t('phases.phase2.supply'), price: t('phases.phase2.price') },
+    { id: 2, title: t('phases.phase3.title'), supply: t('phases.phase3.supply'), price: t('phases.phase3.price') },
   ];
 
   return (
@@ -129,7 +121,8 @@ export default function presales() {
           <p className="text-lg text-gray-400 mb-8 max-w-3xl">{t('hero.description')}</p>
           <button
             onClick={() => setShowPresale(true)}
-            className="bg-yellow-500 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-400 transition"
+            className="block mx-auto bg-yellow-500 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-400 transition"
+            aria-label={t('hero.button')}
           >
             {t('hero.button')}
           </button>
@@ -139,30 +132,60 @@ export default function presales() {
         <section className="mb-24 flex justify-center">
           <div className="bg-black border border-yellow-500 rounded-xl px-8 py-6 text-center shadow-md w-full max-w-xs">
             <p className="text-sm text-gray-400 mb-2 font-medium">{t('phases.counterTitle')}</p>
-            <p className="text-4xl font-extrabold text-yellow-400 tracking-wide">
+            <p className="text-4xl font-extrabold text-yellow-400 tracking-wide mb-2">
               {animatedSold.toLocaleString('pt-BR')} MNR
+            </p>
+            {/* Link em texto simples (centralizado) */}
+            <a
+              href="https://t.me/moonbuynotifications"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="mt-2 block text-center text-xs text-gray-400 hover:text-yellow-400 transition underline"
+            >
+              {t('phases.notificationsLink')}
+            </a>
+          </div>
+        </section>
+
+        {/* BOTÕES – Tokenomics / Transparência */}
+        <section className="mb-20">
+          <div className="mx-auto w-full max-w-2xl">
+            <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4">
+              <Link href="/tokenomics" className="w-full sm:w-auto" aria-label={t('buttons.tokenomics')}>
+                <span
+                  className="block w-full text-center px-7 py-4 rounded-2xl 
+                             bg-gradient-to-r from-purple-600 to-fuchsia-500 
+                             text-white font-semibold text-base shadow-lg
+                             hover:opacity-90 active:opacity-80 
+                             focus:outline-none focus:ring-2 focus:ring-purple-400
+                             transition"
+                >
+                  📊 {t('buttons.tokenomics')}
+                </span>
+              </Link>
+
+              <Link href="/transparency" className="w-full sm:w-auto" aria-label={t('buttons.transparency')}>
+                <span
+                  className="block w-full text-center px-7 py-4 rounded-2xl 
+                             border border-yellow-500 text-yellow-400 
+                             font-semibold text-base shadow-lg
+                             hover:bg-yellow-500 hover:text-black active:bg-yellow-400
+                             focus:outline-none focus:ring-2 focus:ring-yellow-400
+                             transition"
+                >
+                  🔎 {t('buttons.transparency')}
+                </span>
+              </Link>
+            </div>
+
+            {/* Observação discreta com respiro */}
+            <p className="mt-4 text-center text-sm text-gray-300">
+              {t('buttons.helper')}
             </p>
           </div>
         </section>
 
-        {/* BOTÕES */}
-        <section className="mb-16">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mx-auto w-full max-w-md">
-            <Link href="/tokenomics">
-              <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 w-full sm:w-auto">
-                {t('buttons.tokenomics')}
-              </button>
-            </Link>
-            <Link href="/transparency">
-              <button className="bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 w-full sm:w-auto">
-                {t('buttons.transparency')}
-              </button>
-            </Link>
-          </div>
-        </section>
-
-
-   {/* REDE */}
+        {/* REDE */}
         <section className="mb-20">
           <h2 className="text-2xl font-semibold mb-2">{t('network.title')}</h2>
           <p className="text-gray-400 max-w-3xl">{t('network.description1')}</p>
@@ -172,7 +195,7 @@ export default function presales() {
         {/* ESTRUTURA */}
         <section className="mb-20">
           <h2 className="text-2xl font-semibold mb-2">{t('structure.title')}</h2>
-          <ul className="list-disc list-inside text-gray-400 space-y-2">
+          <ul className="list-disc list-inside text-gray-400 space-y-2 mb-3">
             <li>{t('structure.token')}</li>
             <li>{t('structure.smart')}</li>
             <li>{t('structure.phases')}</li>
@@ -180,6 +203,18 @@ export default function presales() {
             <li>{t('structure.minimum')}</li>
             <li>{t('structure.network')}</li>
           </ul>
+
+          {/* Link contrato centralizado e visível */}
+          <p className="mt-4 text-center">
+            <a
+              href={`https://bscscan.com/address/${CONTRACT_ADDRESS}`}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-sm text-yellow-400 hover:underline transition"
+            >
+              {t('structure.contractLink')}
+            </a>
+          </p>
         </section>
 
         {/* FASES */}
@@ -188,8 +223,8 @@ export default function presales() {
             {fases.map((fase, index) => {
               const priceBNB = realPrices[index];
               const fiat = isPT
-                ? bnbToBRL ? `R$ ${(priceBNB * bnbToBRL).toFixed(5)}` : ''
-                : bnbToUSD ? `$ ${(priceBNB * bnbToUSD).toFixed(5)}` : '';
+                ? bnbToBRL ? `R$ ${(priceBNB * (bnbToBRL ?? 0)).toFixed(5)}` : ''
+                : bnbToUSD ? `$ ${(priceBNB * (bnbToUSD ?? 0)).toFixed(5)}` : '';
 
               return (
                 <div
@@ -236,26 +271,34 @@ export default function presales() {
         </section>
 
         {/* ROADMAP */}
-        <section className="mb-24">
+        <section className="mb-28">
           <h2 className="text-2xl font-semibold mb-6">{t('roadmap.title')}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 text-center">
-            {[1, 2, 3, 4, 5].map(i => (
-              <div key={i} className="bg-neutral-900 p-4 rounded-xl border border-neutral-700">
-                <p className="font-medium text-white">{t(`roadmap.step${i}`)}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+            {[1, 2, 3, 4, 5].map((i) => (
+              <div
+                key={i}
+                className="p-4 rounded-2xl border border-neutral-700 bg-neutral-900 text-center
+                           hover:border-yellow-500 transition"
+              >
+                <p className="text-sm font-medium text-white leading-snug">
+                  {t(`roadmap.step${i}`)}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
         {/* CHAMADA FINAL */}
-        <section className="mb-32">
+        <section className="mb-24">
           <p className="text-center text-xl font-semibold text-purple-500">{t('call.title')}</p>
           <p className="text-center text-gray-400 mt-4 max-w-3xl mx-auto">{t('call.description')}</p>
         </section>
 
         {/* DISCLAIMER */}
-        <section className="text-sm text-gray-500 border-t border-neutral-800 pt-8 mt-6">
-          {t('legal.disclaimer')}
+        <section className="border-t border-neutral-800 pt-6">
+          <p className="mx-auto max-w-3xl text-center text-sm leading-relaxed text-gray-400">
+            {t('legal.disclaimer')}
+          </p>
         </section>
       </main>
 

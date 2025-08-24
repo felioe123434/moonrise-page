@@ -16,7 +16,8 @@
     "phases": "3 fases com preços fixos e limites definidos",
     "delivery": "Entrega automática dos tokens após compra",
     "minimum": "Valor mínimo por transação: 0.005 BNB",
-    "network": "Rede utilizada: BNB Smart Chain"
+    "network": "Rede utilizada: BNB Smart Chain",
+    "contractLink": "🔎 Ver contrato da pré-venda no BscScan"
   },
   "phases": {
     "title": "Fases da Pré-venda",
@@ -43,7 +44,8 @@
       "awaiting": "Aguardando",
       "finished": "Finalizada"
     },
-    "counterTitle": "Tokens vendidos"
+    "counterTitle": "Tokens vendidos",
+    "notificationsLink": "📢 Entrar no Grupo de Notificações"
   },
   "purpose": {
     "title": "Por que isso existe?",
@@ -90,8 +92,9 @@
   },
   
   "buttons": {
-  "tokenomics": "📊 Ver Tokenomics",
-  "transparency": "🔍 Ver Transparência"
+  "tokenomics": " Ver Tokenomics",
+  "transparency": " Ver Transparência",
+  "helper": "Detalhes do modelo e auditoria social do projeto."
 }
 
 }

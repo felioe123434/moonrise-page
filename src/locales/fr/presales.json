@@ -1,67 +1,69 @@
 {
   "hero": {
-    "title": "La prévente de MoonRise finance l'infrastructure. Pas la spéculation.",
-    "description": "Le token MNR est distribué directement via un contrat intelligent, validé sur un réseau public, avec des phases bien définies et une livraison automatique. Ce n'est pas un pari. C'est une construction.",
+    "title": "La prévente de MoonRise finance l’infrastructure. Pas la spéculation.",
+    "description": "Le jeton MNR est distribué directement via un contrat intelligent, validé sur un réseau public, avec des phases bien définies et une livraison automatique. Ce n’est pas un pari. C’est une construction.",
     "button": "Accéder au panneau de prévente"
   },
   "network": {
     "title": "Pourquoi sommes-nous sur BNB Chain ?",
-    "description1": "MoonRise développe sa propre blockchain — MoonChain. Mais à ce stade, nous utilisons BNB Chain pour une raison claire : sécurité, stabilité et efficacité. Elle garantit des frais faibles, une exécution immédiate et une large compatibilité pour les investisseurs.",
-    "description2": "Dès que MoonChain sera prête, tout l'écosystème sera migré vers notre propre infrastructure."
+    "description1": "MoonRise développe sa propre blockchain — MoonChain. Mais à ce stade, nous utilisons BNB Chain pour une raison claire : sécurité, stabilité et efficacité. Elle garantit des frais bas, une exécution immédiate et une large compatibilité pour les investisseurs.",
+    "description2": "Dès que MoonChain sera terminée, tout l’écosystème migrera vers notre propre infrastructure."
   },
   "structure": {
     "title": "Comment fonctionne la prévente ?",
     "token": "Token : MoonRise (MNR) – standard ERC20",
-    "smart": "100% exécuté via contrat intelligent (sans garde)",
+    "smart": "Exécuté 100 % via contrat intelligent (sans garde)",
     "phases": "3 phases avec prix fixes et limites définies",
-    "delivery": "Livraison automatique des tokens après l'achat",
-    "minimum": "Montant minimum par transaction : 0.005 BNB",
-    "network": "Réseau utilisé : BNB Smart Chain"
+    "delivery": "Livraison automatique des tokens après achat",
+    "minimum": "Valeur minimale par transaction : 0.005 BNB",
+    "network": "Réseau utilisé : BNB Smart Chain",
+    "contractLink": "🔎 Voir le contrat de prévente sur BscScan"
   },
   "phases": {
-    "title": "Phases de la Prévente",
+    "title": "Phases de la prévente",
     "phase1": {
       "title": "Phase 1",
-      "supply": "200.000.000 MNR",
+      "supply": "200 000 000 MNR",
       "price": "Prix : 0.0000065959 BNB",
       "status": "En cours"
     },
     "phase2": {
       "title": "Phase 2",
-      "supply": "550.000.000 MNR",
+      "supply": "550 000 000 MNR",
       "price": "Prix : 0.0000079542 BNB",
-      "status": "À venir"
+      "status": "En attente"
     },
     "phase3": {
       "title": "Phase 3",
-      "supply": "250.000.000 MNR",
-      "price": "Prix :0.0000086765 BNB",
-      "status": "À venir"
+      "supply": "250 000 000 MNR",
+      "price": "Prix : 0.0000086765 BNB",
+      "status": "En attente"
     },
     "status": {
       "active": "Phase actuelle",
-      "awaiting": "À venir",
+      "awaiting": "En attente",
       "finished": "Terminée"
     },
-    "counterTitle": "Tokens vendus"
+    "counterTitle": "Tokens vendus",
+    "notificationsLink": "📢 Rejoindre le groupe de notifications"
   },
   "purpose": {
     "title": "Pourquoi cela existe-t-il ?",
-    "description": "Le MNR n’est pas du hype. C’est une fondation. Il naît comme pierre angulaire de MoonChain — une blockchain propre, légère et souveraine. Participer à la prévente, c’est devenir fondateur de l’écosystème. Ce n’est pas acheter un token, c’est acheter une position."
+    "description": "Le MNR n’est pas du hype. C’est une fondation. Il naît comme pierre angulaire de MoonChain — une blockchain légère et souveraine. Ceux qui participent à la prévente deviennent fondateurs de l’écosystème. Ils n’achètent pas seulement un token, ils achètent une position."
   },
   "utility": {
-    "title": "Utilité du token MNR",
+    "title": "Utilité du jeton MNR",
     "use1": "Monnaie officielle de MoonChain",
     "use2": "Gas pour les transactions (comme le BNB sur BNB Chain)",
-    "use3": "Token de staking, de récompense et de liquidité",
+    "use3": "Token de staking, récompense et liquidité",
     "use4": "Monnaie native des produits MoonRise : MoonWallet, MoonSwap, MoonBank",
     "use5": "Priorité dans les futures distributions et lancements"
   },
   "security": {
     "title": "Sécurité et Transparence",
-    "point1": "Chaque livraison est 100% automatique via contrat intelligent",
-    "point2": "Aucune garde. Aucune promesse",
-    "point3": "Contrat auditable déjà en exécution publique",
+    "point1": "Toute livraison est 100 % automatique via contrat intelligent",
+    "point2": "Sans garde. Sans promesses",
+    "point3": "Contrat vérifiable et déjà en exécution publique",
     "point4": "La liquidité sera ouverte de manière contrôlée pour garantir la stabilité"
   },
   "roadmap": {
@@ -73,7 +75,7 @@
     "step5": "Expansion des produits MoonRise"
   },
   "call": {
-    "title": "Des milliers observeront. Peu fonderont.",
+    "title": "Des milliers regarderont. Peu fonderont.",
     "description": "Si vous lisez ceci, c’est que vous avez été choisi pour construire. C’est l’appel des audacieux : fonder une infrastructure souveraine pour les générations futures."
   },
   "closeButton": "Fermer",
@@ -84,11 +86,11 @@
     "panel": "Panneau officiel"
   },
   "legal": {
-    "disclaimer": "Cette page est informative et ne constitue pas une offre publique enregistrée. La participation à la prévente est volontaire et réalisée directement via un contrat intelligent."
+    "disclaimer": "Cette page est informative et ne représente pas une offre publique enregistrée. La participation à la prévente est volontaire et réalisée directement via contrat intelligent."
   },
   "buttons": {
-  "tokenomics": "📊 Voir les Tokenomics",
-  "transparency": "🔍 Voir la Transparence"
-}
-
+    "tokenomics": "Voir Tokenomics",
+    "transparency": "Voir Transparence",
+    "helper": "Détails du modèle et de l’audit social du projet."
+  }
 }
