@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* === Cores base === */
 :root {
   --background: #000000;
   --foreground: #ededed;
@@ -20,4 +21,18 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* === Fix para modal da Reown/AppKit sempre ficar por cima === */
+:root {
+  --w3m-z-index: 2147483647 !important;
+}
+
+.w3m-modal,
+.w3m-overlay,
+[data-w3m-overlay],
+[data-reown-overlay],
+[class*="w3m-"] {
+  z-index: 2147483647 !important;
+  position: fixed !important;
 }

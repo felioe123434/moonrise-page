@@ -1,40 +1,49 @@
 {
-  "intro_title": "THE PRESALE HAS ALREADY STARTED",
-  "intro_subtitle": "This is your chance to get in before everyone else — and gain more than promises: real participation.",
+  "intro_title": "THE PRESALE HAS STARTED",
+  "intro_subtitle": "This is your chance to join before everyone else — and claim more than promises: real participation.",
+
   "phase": "Phase",
   "price": "Price",
   "sold": "Sold",
   "goal": "Goal",
   "sold_of_goal": "",
   "wallet": "Wallet",
-  "disconnect": "Disconnect",
   "balance": "Balance",
+
+  "connect": "Connect Wallet",
+  "disconnect": "Disconnect",
+
   "input_placeholder": "Amount in BNB",
   "max": "Max",
   "add_token": "Add token",
-  "price_fiat_hint": "Fiat currency conversions are estimates.",
+  "price_fiat_hint": "Conversions in fiat currency are estimates.",
   "receive": "You will receive",
+
+  "loading": "Loading…",
   "processing": "Processing…",
   "confirm": "Confirm purchase",
   "verifying_tx": "Verifying transaction on blockchain…",
+
   "success_title": "Purchase confirmed",
   "success_desc_line1": "Your transaction has been successfully completed.",
-  "success_desc_line2": "MNR will be delivered according to the presale rules.",
+  "success_desc_line2": "MNR will be delivered according to presale rules.",
+  "buy_again": "Make another purchase",
+
   "network": "Network",
   "token": "Token",
   "decimals": "Decimals",
-  "buy_again": "Make another purchase",
-  "loading": "Loading…",
 
   "switch_network": "Switch to BSC",
+
   "error_fetch": "Unable to load presale data.",
   "error_wallet": "Connect your wallet to continue.",
-  "error_connection": "Unable to access the wallet.",
+  "error_connection": "Could not access the wallet.",
   "error_minimum": "Minimum amount: {{min}} BNB.",
   "error_balance": "Insufficient BNB balance.",
   "error_network": "Wrong network. Connect to Binance Smart Chain.",
   "error_unknown": "An unexpected error occurred.",
-  "error_copy": "Unable to copy.",
-  "error_copy_token": "Unable to copy token address.",
+  "error_copy": "Could not copy.",
+  "error_copy_token": "Could not copy token address.",
+
   "copied": "Copied!"
 }

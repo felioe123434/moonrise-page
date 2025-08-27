@@ -1,40 +1,49 @@
 {
   "intro_title": "预售已经开始",
-  "intro_subtitle": "这是您领先一步的机会 — 获得的不仅是承诺，而是真实的参与。",
+  "intro_subtitle": "这是你领先所有人参与的机会 — 获得的不只是承诺，而是真实的参与。",
+
   "phase": "阶段",
   "price": "价格",
   "sold": "已售",
   "goal": "目标",
   "sold_of_goal": "",
   "wallet": "钱包",
-  "disconnect": "断开连接",
   "balance": "余额",
-  "input_placeholder": "金额（BNB）",
+
+  "connect": "连接钱包",
+  "disconnect": "断开连接",
+
+  "input_placeholder": "BNB 数量",
   "max": "最大",
   "add_token": "添加代币",
-  "price_fiat_hint": "法币转换为估算值。",
-  "receive": "您将收到",
+  "price_fiat_hint": "法币转换仅供参考。",
+  "receive": "你将收到",
+
+  "loading": "加载中…",
   "processing": "处理中…",
   "confirm": "确认购买",
-  "verifying_tx": "正在区块链上验证交易…",
-  "success_title": "购买已确认",
-  "success_desc_line1": "您的交易已成功完成。",
-  "success_desc_line2": "MNR 将按照预售规则发放。",
+  "verifying_tx": "正在验证区块链上的交易…",
+
+  "success_title": "购买成功",
+  "success_desc_line1": "你的交易已成功完成。",
+  "success_desc_line2": "MNR 将根据预售规则发放。",
+  "buy_again": "再次购买",
+
   "network": "网络",
   "token": "代币",
   "decimals": "小数位",
-  "buy_again": "再次购买",
-  "loading": "加载中…",
 
   "switch_network": "切换到 BSC",
+
   "error_fetch": "无法加载预售数据。",
-  "error_wallet": "请连接您的钱包以继续。",
+  "error_wallet": "请连接你的钱包以继续。",
   "error_connection": "无法访问钱包。",
-  "error_minimum": "最低金额：{{min}} BNB。",
+  "error_minimum": "最小金额：{{min}} BNB。",
   "error_balance": "BNB 余额不足。",
-  "error_network": "网络错误。请连接 Binance Smart Chain。",
+  "error_network": "网络错误。请连接到 Binance Smart Chain。",
   "error_unknown": "发生了意外错误。",
   "error_copy": "无法复制。",
   "error_copy_token": "无法复制代币地址。",
+
   "copied": "已复制！"
 }

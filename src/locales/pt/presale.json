@@ -1,32 +1,40 @@
 {
   "intro_title": "A PRÉ-VENDA JÁ COMEÇOU",
   "intro_subtitle": "Esta é sua chance de entrar antes de todos — e conquistar mais do que promessas: participação real.",
+
   "phase": "Fase",
   "price": "Preço",
   "sold": "Vendido",
   "goal": "Meta",
   "sold_of_goal": "",
   "wallet": "Carteira",
-  "disconnect": "Desconectar",
   "balance": "Saldo",
+
+  "connect": "Conectar Carteira",
+  "disconnect": "Desconectar",
+
   "input_placeholder": "Valor em BNB",
   "max": "Máx",
   "add_token": "Adicionar token",
   "price_fiat_hint": "Conversões em moeda fiduciária são estimativas.",
   "receive": "Você receberá",
+
+  "loading": "Carregando…",
   "processing": "Processando…",
   "confirm": "Confirmar compra",
   "verifying_tx": "Verificando transação no blockchain…",
+
   "success_title": "Compra confirmada",
   "success_desc_line1": "Sua transação foi concluída com sucesso.",
   "success_desc_line2": "Os MNR serão entregues conforme as regras da pré-venda.",
+  "buy_again": "Fazer nova compra",
+
   "network": "Rede",
   "token": "Token",
   "decimals": "Decimais",
-  "buy_again": "Fazer nova compra",
-  "loading": "Carregando…",
 
   "switch_network": "Trocar para BSC",
+
   "error_fetch": "Não foi possível carregar os dados da pré-venda.",
   "error_wallet": "Conecte sua carteira para continuar.",
   "error_connection": "Não foi possível acessar a carteira.",
@@ -36,5 +44,6 @@
   "error_unknown": "Ocorreu um erro inesperado.",
   "error_copy": "Não foi possível copiar.",
   "error_copy_token": "Não foi possível copiar o endereço do token.",
+
   "copied": "Copiado!"
 }

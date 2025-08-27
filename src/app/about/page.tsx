@@ -30,7 +30,7 @@ export default function AboutCompanyPage() {
   const EMAIL = 'contact@moonrise.finance'
   const EMAIL_HREF = `mailto:${EMAIL}`
   const TELEGRAM_SUPPORT = 'https://t.me/moonrisesupport'
-  const TELEGRAM_COMMUNITY = 'https://t.me/moonrisecomunidadeoficial'
+  const TELEGRAM_COMMUNITY = 'https://t.me/moonriseofficialcommunity'
   const IG_BR = 'https://www.instagram.com/moonriseoficial'
   const IG_EN = 'https://www.instagram.com/moonrise.global'
   const TIKTOK = 'https://www.tiktok.com/@moonriseoficial'

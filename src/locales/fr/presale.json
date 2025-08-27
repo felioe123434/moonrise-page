@@ -1,40 +1,49 @@
 {
-  "intro_title": "LA PRÉVENTE A DÉJÀ COMMENCÉ",
+  "intro_title": "LA PRÉVENTE A COMMENCÉ",
   "intro_subtitle": "C’est votre chance d’entrer avant tout le monde — et d’obtenir plus que des promesses : une participation réelle.",
+
   "phase": "Phase",
   "price": "Prix",
   "sold": "Vendu",
   "goal": "Objectif",
   "sold_of_goal": "",
   "wallet": "Portefeuille",
-  "disconnect": "Déconnecter",
   "balance": "Solde",
+
+  "connect": "Connecter le Portefeuille",
+  "disconnect": "Déconnecter",
+
   "input_placeholder": "Montant en BNB",
   "max": "Max",
-  "add_token": "Ajouter le token",
+  "add_token": "Ajouter un token",
   "price_fiat_hint": "Les conversions en monnaie fiduciaire sont des estimations.",
   "receive": "Vous recevrez",
+
+  "loading": "Chargement…",
   "processing": "Traitement…",
   "confirm": "Confirmer l’achat",
   "verifying_tx": "Vérification de la transaction sur la blockchain…",
+
   "success_title": "Achat confirmé",
-  "success_desc_line1": "Votre transaction a été réalisée avec succès.",
+  "success_desc_line1": "Votre transaction a été effectuée avec succès.",
   "success_desc_line2": "Les MNR seront livrés selon les règles de la prévente.",
+  "buy_again": "Faire un autre achat",
+
   "network": "Réseau",
   "token": "Token",
   "decimals": "Décimales",
-  "buy_again": "Effectuer un nouvel achat",
-  "loading": "Chargement…",
 
   "switch_network": "Passer à BSC",
+
   "error_fetch": "Impossible de charger les données de la prévente.",
   "error_wallet": "Connectez votre portefeuille pour continuer.",
   "error_connection": "Impossible d’accéder au portefeuille.",
   "error_minimum": "Montant minimum : {{min}} BNB.",
   "error_balance": "Solde BNB insuffisant.",
-  "error_network": "Réseau incorrect. Connectez-vous à Binance Smart Chain.",
+  "error_network": "Mauvais réseau. Connectez-vous à Binance Smart Chain.",
   "error_unknown": "Une erreur inattendue est survenue.",
   "error_copy": "Impossible de copier.",
   "error_copy_token": "Impossible de copier l’adresse du token.",
+
   "copied": "Copié !"
 }

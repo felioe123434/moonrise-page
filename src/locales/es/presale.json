@@ -1,40 +1,49 @@
 {
   "intro_title": "LA PREVENTA YA COMENZÓ",
   "intro_subtitle": "Esta es tu oportunidad de entrar antes que todos — y obtener más que promesas: participación real.",
+
   "phase": "Fase",
   "price": "Precio",
   "sold": "Vendido",
   "goal": "Meta",
   "sold_of_goal": "",
-  "wallet": "Cartera",
-  "disconnect": "Desconectar",
+  "wallet": "Billetera",
   "balance": "Saldo",
+
+  "connect": "Conectar Billetera",
+  "disconnect": "Desconectar",
+
   "input_placeholder": "Valor en BNB",
   "max": "Máx",
   "add_token": "Agregar token",
-  "price_fiat_hint": "Las conversiones a moneda fiduciaria son estimaciones.",
+  "price_fiat_hint": "Las conversiones en moneda fiduciaria son estimaciones.",
   "receive": "Recibirás",
+
+  "loading": "Cargando…",
   "processing": "Procesando…",
   "confirm": "Confirmar compra",
   "verifying_tx": "Verificando transacción en blockchain…",
+
   "success_title": "Compra confirmada",
   "success_desc_line1": "Tu transacción se completó con éxito.",
-  "success_desc_line2": "Los MNR serán entregados según las reglas de la preventa.",
+  "success_desc_line2": "Los MNR se entregarán según las reglas de la preventa.",
+  "buy_again": "Hacer otra compra",
+
   "network": "Red",
   "token": "Token",
   "decimals": "Decimales",
-  "buy_again": "Hacer otra compra",
-  "loading": "Cargando…",
 
   "switch_network": "Cambiar a BSC",
+
   "error_fetch": "No se pudieron cargar los datos de la preventa.",
-  "error_wallet": "Conecta tu cartera para continuar.",
-  "error_connection": "No se pudo acceder a la cartera.",
+  "error_wallet": "Conecta tu billetera para continuar.",
+  "error_connection": "No se pudo acceder a la billetera.",
   "error_minimum": "Monto mínimo: {{min}} BNB.",
   "error_balance": "Saldo insuficiente en BNB.",
   "error_network": "Red incorrecta. Conéctate a Binance Smart Chain.",
   "error_unknown": "Ocurrió un error inesperado.",
   "error_copy": "No se pudo copiar.",
   "error_copy_token": "No se pudo copiar la dirección del token.",
+
   "copied": "¡Copiado!"
 }

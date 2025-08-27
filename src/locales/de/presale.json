@@ -1,40 +1,49 @@
 {
-  "intro_title": "DER VORVERKAUF HAT BEREITS BEGONNEN",
-  "intro_subtitle": "Dies ist Ihre Chance, vor allen anderen einzusteigen — und mehr als Versprechen zu erhalten: echte Teilnahme.",
+  "intro_title": "DER VORVERKAUF HAT BEGONNEN",
+  "intro_subtitle": "Dies ist deine Chance, früher als alle anderen einzusteigen — und mehr als nur Versprechen zu erhalten: echte Teilnahme.",
+
   "phase": "Phase",
   "price": "Preis",
   "sold": "Verkauft",
   "goal": "Ziel",
   "sold_of_goal": "",
   "wallet": "Wallet",
-  "disconnect": "Trennen",
   "balance": "Kontostand",
+
+  "connect": "Wallet verbinden",
+  "disconnect": "Trennen",
+
   "input_placeholder": "Betrag in BNB",
   "max": "Max",
   "add_token": "Token hinzufügen",
-  "price_fiat_hint": "Umrechnungen in Fiat-Währung sind Schätzungen.",
-  "receive": "Sie erhalten",
+  "price_fiat_hint": "Umrechnungen in Fiat-Währungen sind Schätzungen.",
+  "receive": "Du erhältst",
+
+  "loading": "Laden…",
   "processing": "Verarbeite…",
   "confirm": "Kauf bestätigen",
-  "verifying_tx": "Transaktion auf Blockchain wird überprüft…",
+  "verifying_tx": "Transaktion auf Blockchain überprüfen…",
+
   "success_title": "Kauf bestätigt",
-  "success_desc_line1": "Ihre Transaktion wurde erfolgreich abgeschlossen.",
-  "success_desc_line2": "Die MNR werden gemäß den Vorverkaufsregeln geliefert.",
+  "success_desc_line1": "Deine Transaktion wurde erfolgreich abgeschlossen.",
+  "success_desc_line2": "MNR werden gemäß den Vorverkaufsregeln geliefert.",
+  "buy_again": "Erneut kaufen",
+
   "network": "Netzwerk",
   "token": "Token",
   "decimals": "Dezimalstellen",
-  "buy_again": "Neuen Kauf tätigen",
-  "loading": "Lade…",
 
   "switch_network": "Zu BSC wechseln",
+
   "error_fetch": "Vorverkaufsdaten konnten nicht geladen werden.",
-  "error_wallet": "Verbinden Sie Ihre Wallet, um fortzufahren.",
-  "error_connection": "Kein Zugriff auf die Wallet möglich.",
+  "error_wallet": "Verbinde deine Wallet, um fortzufahren.",
+  "error_connection": "Zugriff auf Wallet fehlgeschlagen.",
   "error_minimum": "Mindestbetrag: {{min}} BNB.",
   "error_balance": "Unzureichendes BNB-Guthaben.",
   "error_network": "Falsches Netzwerk. Bitte mit Binance Smart Chain verbinden.",
   "error_unknown": "Ein unerwarteter Fehler ist aufgetreten.",
-  "error_copy": "Kopieren nicht möglich.",
+  "error_copy": "Kopieren fehlgeschlagen.",
   "error_copy_token": "Token-Adresse konnte nicht kopiert werden.",
+
   "copied": "Kopiert!"
 }

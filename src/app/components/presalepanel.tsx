@@ -1,9 +1,8 @@
-'use client'
+'use client';
 
-import React, { useEffect, useMemo, useState } from 'react'
-import { ethers } from 'ethers'
-import contractAbi from '../../abi/PresaleABI.json'
-import { ConnectButton } from '@rainbow-me/rainbowkit'
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { ethers } from 'ethers';
+import contractAbi from '../../abi/PresaleABI.json';
 import {
   useAccount,
   useBalance,
@@ -12,226 +11,241 @@ import {
   useWalletClient,
   useReconnect,
   useSwitchChain,
-} from 'wagmi'
-import { useTranslation } from 'react-i18next'
+} from 'wagmi';
+import { useTranslation } from 'react-i18next';
+import { openWalletModal } from '@/app/providers'; // <- abre o modal Reown
 
 /** === Config === */
-const contractAddress = '0xeBa712f83323559E8d827302b6C7945343307F00'
-const tokenAddress    = '0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278'
-const tokenSymbol     = 'MNR'
-const tokenDecimals   = 18
-const minBuy          = 0.005
-const BSC_CHAIN_ID    = 56
+const contractAddress = '0xeBa712f83323559E8d827302b6C7945343307F00';
+const tokenAddress    = '0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278';
+const tokenSymbol     = 'MNR';
+const tokenDecimals   = 18;
+const minBuy          = 0.005;
+const BSC_CHAIN_ID    = 56;
 
 /** === Utils === */
 const sanitizeBnbInput = (v: string) => {
-  let clean = v.replace(',', '.').replace(/[^0-9.]/g, '')
-  const parts = clean.split('.')
-  if (parts.length > 2) clean = parts[0] + '.' + parts.slice(1).join('')
-  return clean
-}
+  let clean = v.replace(',', '.').replace(/[^0-9.]/g, '');
+  const parts = clean.split('.');
+  if (parts.length > 2) clean = parts[0] + '.' + parts.slice(1).join('');
+  return clean;
+};
 const nf = (n: number, d = 2) =>
-  isFinite(n) ? n.toLocaleString(undefined, { maximumFractionDigits: d }) : '0'
+  isFinite(n) ? n.toLocaleString(undefined, { maximumFractionDigits: d }) : '0';
 const fmtFiat = (v: number, c: 'USD'|'BRL', digits?: number) => {
-  const d = digits ?? (v < 1 ? 5 : 2)
+  const d = digits ?? (v < 1 ? 5 : 2);
   return new Intl.NumberFormat(
     c === 'BRL' ? 'pt-BR' : 'en-US',
     { style: 'currency', currency: c, minimumFractionDigits: d, maximumFractionDigits: d }
-  ).format(v)
-}
+  ).format(v);
+};
+const hasEthereum = () =>
+  typeof window !== 'undefined' && typeof (window as any).ethereum !== 'undefined';
 
+/** === Painel === */
 export default function PresalePanel() {
-  const { t, i18n } = useTranslation('presale')
-  const isPT = i18n.language?.toLowerCase().startsWith('pt')
+  const { t, i18n } = useTranslation('presale');
+  const isPT = i18n.language?.toLowerCase().startsWith('pt');
 
-  const { address, isConnected } = useAccount()
-  const { disconnect } = useDisconnect()
-  const { data: balance } = useBalance({ address, chainId: BSC_CHAIN_ID })
-  const chainId = useChainId()
-  const { data: walletClient } = useWalletClient()
-  const { switchChain } = useSwitchChain()
-  useReconnect()
+  const { address, isConnected } = useAccount();
+  const { disconnect } = useDisconnect();
+  const { data: balance } = useBalance({ address, chainId: BSC_CHAIN_ID });
+  const chainId = useChainId();
+  const { data: walletClient } = useWalletClient();
+  const { switchChain } = useSwitchChain();
+  useReconnect();
 
-  const [currentPhase, setCurrentPhase] = useState(0)
-  const [price, setPrice] = useState(0)
-  const [sold, setSold] = useState(0)
-  const [cap, setCap] = useState(1)
-  const [bnbAmount, setBnbAmount] = useState('')
-  const [tokensToReceive, setTokensToReceive] = useState(0)
-  const [loading, setLoading] = useState(true)
-  const [buying, setBuying] = useState(false)
-  const [showSuccess, setShowSuccess] = useState(false)
-  const [copied, setCopied] = useState(false)
-  const [error, setError] = useState('')
-  const [bnbToBRL, setBnbToBRL] = useState<number | null>(null)
-  const [bnbToUSD, setBnbToUSD] = useState<number | null>(null)
-  const [lastTx, setLastTx] = useState<string | null>(null)
+  const [currentPhase, setCurrentPhase] = useState(0);
+  const [price, setPrice] = useState(0);
+  const [sold, setSold] = useState(0);
+  const [cap, setCap] = useState(1);
+  const [bnbAmount, setBnbAmount] = useState('');
+  const [tokensToReceive, setTokensToReceive] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [buying, setBuying] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [error, setError] = useState('');
+  const [bnbToBRL, setBnbToBRL] = useState<number | null>(null);
+  const [bnbToUSD, setBnbToUSD] = useState<number | null>(null);
+  const [lastTx, setLastTx] = useState<string | null>(null);
 
-  const progress = useMemo(() => (cap ? Math.max(0, Math.min(1, sold / cap)) : 0), [sold, cap])
-  const valueBNB = useMemo(() => parseFloat(sanitizeBnbInput(bnbAmount)) || 0, [bnbAmount])
-  const isValid = valueBNB >= minBuy && !Number.isNaN(valueBNB)
+  const progress = useMemo(() => (cap ? Math.max(0, Math.min(1, sold / cap)) : 0), [sold, cap]);
+  const valueBNB = useMemo(() => parseFloat(sanitizeBnbInput(bnbAmount)) || 0, [bnbAmount]);
+  const isValid = valueBNB >= minBuy && !Number.isNaN(valueBNB);
 
-  /** Linha de cotação inline: (~R$ …) em PT, (~$ …) fora de PT */
   const priceFiatInline = useMemo(() => {
-    if (!price) return ''
+    if (!price) return '';
     const v = isPT
       ? (bnbToBRL ? fmtFiat(price * bnbToBRL, 'BRL', 5) : '')
-      : (bnbToUSD ? fmtFiat(price * bnbToUSD, 'USD', 5) : '')
-    return v ? `~${v}` : ''
-  }, [price, bnbToBRL, bnbToUSD, isPT])
+      : (bnbToUSD ? fmtFiat(price * bnbToUSD, 'USD', 5) : '');
+    return v ? `~${v}` : '';
+  }, [price, bnbToBRL, bnbToUSD, isPT]);
 
   /** Cotações BNB */
   useEffect(() => {
+    let alive = true;
     const fetchPrices = async () => {
       try {
-        const r = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl')
-        const d = await r.json()
-        setBnbToBRL(d?.binancecoin?.brl ?? null)
-        setBnbToUSD(d?.binancecoin?.usd ?? null)
+        const r = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl');
+        const d = await r.json();
+        if (!alive) return;
+        setBnbToBRL(d?.binancecoin?.brl ?? null);
+        setBnbToUSD(d?.binancecoin?.usd ?? null);
       } catch {}
-    }
-    fetchPrices()
-    const id = setInterval(fetchPrices, 60_000)
-    return () => clearInterval(id)
-  }, [])
+    };
+    fetchPrices();
+    const id = setInterval(fetchPrices, 60_000);
+    return () => { alive = false; clearInterval(id); };
+  }, []);
 
-  /** Ler hash local (SSR-safe) */
+  /** Ler hash da última tx */
   useEffect(() => {
-    if (typeof window !== 'undefined') setLastTx(localStorage.getItem('moonrise-last-tx'))
-  }, [])
+    if (typeof window !== 'undefined') setLastTx(localStorage.getItem('moonrise-last-tx'));
+  }, []);
 
   /** Checar recibo da última tx */
   useEffect(() => {
-    if (!lastTx) return
-    let alive = true
+    if (!lastTx) return;
+    let alive = true;
     const check = async () => {
       try {
-        const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org')
-        const receipt = await provider.getTransactionReceipt(lastTx)
+        const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org');
+        const receipt = await provider.getTransactionReceipt(lastTx);
         if (alive && receipt?.status === 1) {
-          setShowSuccess(true)
-          if (typeof window !== 'undefined') localStorage.removeItem('moonrise-last-tx')
-          setLastTx(null)
-          fetchPresaleData()
+          setShowSuccess(true);
+          if (typeof window !== 'undefined') localStorage.removeItem('moonrise-last-tx');
+          setLastTx(null);
+          fetchPresaleData();
         }
       } catch {}
-    }
-    check()
-    const id = setInterval(check, 3000)
-    return () => { alive = false; clearInterval(id) }
-  }, [lastTx])
+    };
+    check();
+    const id = setInterval(check, 3000);
+    return () => { alive = false; clearInterval(id); };
+  }, [lastTx]);
 
-  /** Ler dados on-chain */
-  useEffect(() => { fetchPresaleData() }, [])
+  /** Dados on-chain */
+  const retrying = useRef(false);
+  useEffect(() => { fetchPresaleData(); }, []);
   const fetchPresaleData = async () => {
     try {
-      setLoading(true)
-      const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org')
-      const contract = new ethers.Contract(contractAddress, contractAbi, provider)
-      const phase = await contract.currentPhase()
-      const currentPrice = await contract.getCurrentPrice()
-      const info = await contract.getPhaseInfo(phase) // [cap, sold, ...]
-      setCurrentPhase(Number(phase))
-      setPrice(Number(ethers.formatEther(currentPrice)))
-      setSold(Number(ethers.formatUnits(info[1], 18)))
-      setCap(Number(ethers.formatUnits(info[0], 18)))
-      setError('')
+      setLoading(true);
+      const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org');
+      const contract = new ethers.Contract(contractAddress, contractAbi, provider);
+      const phase = await contract.currentPhase();
+      const currentPrice = await contract.getCurrentPrice();
+      const info = await contract.getPhaseInfo(phase);
+      setCurrentPhase(Number(phase)); // ethers v6 => bigint
+      setPrice(Number(ethers.formatEther(currentPrice)));
+      setSold(Number(ethers.formatUnits(info[1], 18)));
+      setCap(Number(ethers.formatUnits(info[0], 18)));
+      setError('');
     } catch {
-      setError(t('error_fetch'))
+      if (!retrying.current) {
+        retrying.current = true;
+        setTimeout(() => { retrying.current = false; fetchPresaleData(); }, 1500);
+      } else {
+        setError(t('error_fetch'));
+      }
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   /** Tokens estimados */
   useEffect(() => {
-    if (bnbAmount && price > 0) setTokensToReceive(Number(((valueBNB / price) || 0).toFixed(2)))
-    else setTokensToReceive(0)
-  }, [bnbAmount, price, valueBNB])
+    if (bnbAmount && price > 0) setTokensToReceive(Number(((valueBNB / price) || 0).toFixed(2)));
+    else setTokensToReceive(0);
+  }, [bnbAmount, price, valueBNB]);
 
-  /** MAX com reserva de gás dinâmica (TypeScript-safe) */
+  /** MAX com reserva de gás dinâmica */
   const setMaxSpend = async () => {
-    if (!isConnected || !balance?.formatted) return
-    const bal = parseFloat(balance.formatted)
-    if (bal <= 0) return
+    if (!isConnected || !balance?.formatted) return;
+    const bal = parseFloat(balance.formatted);
+    if (bal <= 0) return;
 
     try {
-      const provider = new ethers.BrowserProvider((window as any).ethereum)
-      const signer   = await provider.getSigner()
-      const contract = new ethers.Contract(contractAddress, contractAbi as any, signer)
+      if (!hasEthereum()) {
+        setError(t('error_connection') || 'Nenhuma carteira detectada.');
+        return;
+      }
+      const provider = new ethers.BrowserProvider((window as any).ethereum);
+      const signer   = await provider.getSigner();
+      const contract = new ethers.Contract(contractAddress, contractAbi as any, signer);
 
-      let estGas: bigint
+      let estGas: bigint;
       try {
-        const minWei = ethers.parseEther(minBuy.toFixed(6))
-        estGas = await (contract as any).estimateGas['buy']({ value: minWei })
+        const minWei = ethers.parseEther(minBuy.toFixed(6));
+        estGas = await (contract as any).estimateGas['buy']({ value: minWei });
       } catch {
-        estGas = BigInt(130000) // fallback
+        estGas = BigInt(130000);
       }
 
-      const fee = await provider.getFeeData()
+      const fee = await provider.getFeeData();
       const gasPrice =
         (fee.gasPrice as bigint | null) ??
         (fee.maxFeePerGas as bigint | null) ??
-        BigInt(3000000000) // 3 gwei
+        BigInt(3_000_000_000); // 3 gwei
 
-      // 20% buffer: (x * 12) / 10 => 1.2x
-      const weiReserve = (gasPrice * estGas * BigInt(12)) / BigInt(10)
-      const reserve    = Number(ethers.formatEther(weiReserve))
+      const weiReserve = (gasPrice * estGas * BigInt(12)) / BigInt(10);
+      const reserve    = Number(ethers.formatEther(weiReserve));
 
-      const reserveClamped = Math.min(Math.max(reserve, 0.00007), 0.00025)
-      const maxSpend = Math.max(0, bal - reserveClamped)
-      setBnbAmount(maxSpend > 0 ? maxSpend.toFixed(6) : '')
+      const reserveClamped = Math.min(Math.max(reserve, 0.00007), 0.00025);
+      const maxSpend = Math.max(0, bal - reserveClamped);
+      setBnbAmount(maxSpend > 0 ? maxSpend.toFixed(6) : '');
     } catch {
-      const reserve = Math.min(Math.max(bal * 0.0035, 0.00007), 0.00025)
-      const maxSpend = Math.max(0, bal - reserve)
-      setBnbAmount(maxSpend > 0 ? maxSpend.toFixed(6) : '')
+      const reserve = Math.min(Math.max(bal * 0.0035, 0.00007), 0.00025);
+      const maxSpend = Math.max(0, bal - reserve);
+      setBnbAmount(maxSpend > 0 ? maxSpend.toFixed(6) : '');
     }
-  }
+  };
 
   /** Comprar */
   const executeBuy = async () => {
     try {
-      setError('')
-      if (!isConnected) throw new Error(t('error_wallet'))
-      if (!walletClient) throw new Error(t('error_connection'))
-      if (!isValid) throw new Error(t('error_minimum', { min: minBuy }))
-      if (Number(balance?.formatted || 0) < valueBNB) throw new Error(t('error_balance'))
-      if (chainId !== BSC_CHAIN_ID) throw new Error(t('error_network'))
+      setError('');
+      if (!isConnected) throw new Error(t('error_wallet'));
+      if (!walletClient) throw new Error(t('error_connection'));
+      if (!isValid) throw new Error(t('error_minimum', { min: minBuy }));
+      if (Number(balance?.formatted || 0) < valueBNB) throw new Error(t('error_balance'));
+      if (chainId !== BSC_CHAIN_ID) throw new Error(t('error_network'));
+      if (!hasEthereum()) throw new Error(t('error_connection') || 'Nenhuma carteira detectada.');
 
-      setBuying(true)
-      const provider = new ethers.BrowserProvider((window as any).ethereum)
-      const signer = await provider.getSigner()
-      const contract = new ethers.Contract(contractAddress, contractAbi, signer)
+      setBuying(true);
+      const provider = new ethers.BrowserProvider((window as any).ethereum);
+      const signer = await provider.getSigner();
+      const contract = new ethers.Contract(contractAddress, contractAbi, signer);
 
-      const fixed = valueBNB.toFixed(6)
-      const tx = await contract.buy({ value: ethers.parseEther(fixed) })
+      const fixed = valueBNB.toFixed(6);
+      const tx = await contract.buy({ value: ethers.parseEther(fixed) });
 
       if (typeof window !== 'undefined') {
-        localStorage.setItem('moonrise-last-tx', tx.hash)
-        setLastTx(tx.hash)
+        localStorage.setItem('moonrise-last-tx', tx.hash);
+        setLastTx(tx.hash);
       }
 
-      await tx.wait()
-      setShowSuccess(true)
-      setBnbAmount('')
-      await fetchPresaleData()
+      await tx.wait();
+      setShowSuccess(true);
+      setBnbAmount('');
+      await fetchPresaleData();
     } catch (err: any) {
-      setError(err?.message?.toString?.() || t('error_unknown'))
+      setError(err?.message?.toString?.() || t('error_unknown'));
     } finally {
-      setBuying(false)
+      setBuying(false);
     }
-  }
+  };
 
-  /** Utilidades */
+  /** Utils */
   const copyAddr = async (val: string) => {
     try {
-      await navigator.clipboard.writeText(val)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1000)
+      await navigator.clipboard.writeText(val);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1000);
     } catch {
-      setError(t('error_copy'))
+      setError(t('error_copy'));
     }
-  }
+  };
 
   const addTokenToWallet = async () => {
     try {
@@ -240,20 +254,20 @@ export default function PresalePanel() {
         method: 'wallet_watchAsset',
         params: {
           type: 'ERC20',
-          options: { address: tokenAddress, symbol: tokenSymbol, decimals: tokenDecimals }
+          options: { address: tokenAddress, symbol: tokenSymbol, decimals: tokenDecimals },
         },
-      })
+      });
     } catch {
-      setError(t('error_unknown'))
+      setError(t('error_unknown'));
     }
-  }
+  };
 
   /** === UI === */
   return (
     <section className="min-h-screen bg-black text-white flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-xl rounded-2xl border border-purple-700/60 bg-gradient-to-b from-[#0c0c0f] to-[#0a0a0a] p-1 shadow-2xl">
         <div className="rounded-2xl bg-[#0b0b12] p-6 sm:p-8 space-y-5">
-          
+
           {/* Header */}
           <div className="text-center space-y-2">
             <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-yellow-400 to-white tracking-wide uppercase">
@@ -279,11 +293,9 @@ export default function PresalePanel() {
             </div>
           )}
 
-          {/* Métricas (empilhadas) */}
+          {/* Métricas */}
           <div className="space-y-2 text-sm text-gray-300">
             <div><strong>{t('phase')}:</strong> {currentPhase + 1}</div>
-
-            {/* Preço com cotação na frente */}
             <div className="flex items-baseline gap-2">
               <span>
                 <strong>{t('price')}:</strong> {price ? price.toFixed(8) : '...'} BNB
@@ -292,9 +304,8 @@ export default function PresalePanel() {
                 <span className="text-xs text-gray-400">({priceFiatInline})</span>
               )}
             </div>
-
             <div>
-              <strong>{t('sold')}:</strong> {nf(sold, 0)} / {nf(cap, 0)} MNR
+              <strong>{t('sold')}:</strong> {nf(sold, 0)} / {nf(cap, 0)} {tokenSymbol}
             </div>
           </div>
 
@@ -346,13 +357,12 @@ export default function PresalePanel() {
                 {t('max')}
               </button>
             </div>
-
             <div className="text-xs text-gray-400">
               ⚠ {t('error_minimum', { min: minBuy })} • {t('price_fiat_hint') || 'Conversões são estimativas.'}
             </div>
           </div>
 
-          {/* Botão de adicionar token (abaixo do input, só conectado) */}
+          {/* Adicionar token */}
           {isConnected && (
             <div className="flex justify-end">
               <button
@@ -385,7 +395,13 @@ export default function PresalePanel() {
           {/* Ações */}
           {!isConnected ? (
             <div className="w-full flex justify-center">
-              <ConnectButton showBalance={false} chainStatus="icon" />
+              <button
+                type="button"
+                onClick={openWalletModal}  // <- abre o modal Reown
+                className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white font-semibold"
+              >
+                {t('connect') || 'Conectar Carteira'}
+              </button>
             </div>
           ) : (
             <button
@@ -440,5 +456,5 @@ export default function PresalePanel() {
         </div>
       </div>
     </section>
-  )
+  );
 }
