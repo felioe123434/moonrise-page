@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "Pré-operação" },
+  "start": { "target": "Janela alvo: Q1 2026" },
+
+  "hero": {
+    "kicker": "EMPRESA • CORRETAGEM • MOONRISE",
+    "title": { "l1": "Moon+", "l2": "Corretora Imobiliária" },
+    "subtitle": "Corretora imobiliária da MoonRise Technologies. Operações reais, expansão estratégica e geração de valor sustentável para o ecossistema MoonRise.",
+    "badges": { "broker": "Corretora", "auditable": "Transparente", "execution": "Execução real" }
+  },
+
+  "cta": {
+    "support": "Canal de Suporte",
+    "community": "Comunidade Oficial"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "O que entregamos",
+    "cards": [
+      { "t": "Originação qualificada", "d": "Oportunidades filtradas por tese e documentação mínima." },
+      { "t": "Execução responsável", "d": "Diligência jurídica/técnica e fechamento seguro." },
+      { "t": "Transparência estratégica", "d": "Processos claros e comunicação direta com investidores e parceiros." }
+    ]
+  },
+
+  "how": {
+    "title": "Como funciona",
+    "steps": [
+      { "t": "Originação", "d": "Recebemos oportunidades e documentos iniciais." },
+      { "t": "Diligência", "d": "Análise jurídica/técnica e validação de condições." },
+      { "t": "Fechamento", "d": "Proposta, escritura e registro conforme lei." },
+      { "t": "Integração com a MoonRise", "d": "Lucros líquidos da Moon+ reforçam o ecossistema MoonRise." }
+    ],
+    "note": "Sem promessa de rendimento. Modelo de integração pode evoluir conforme estratégia."
+  },
+
+  "flow": {
+    "title": "Fluxo de valor",
+    "desc": "A Moon+ nasce financiada pela pré-venda do MNR, mas passa a se sustentar com receita própria. Parte dos lucros líquidos será direcionada para fortalecer o ecossistema MoonRise, seja aplicando em gráficos, expansão estratégica ou reinvestimento futuro."
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "t": "2025 · H2", "d": "Estruturação jurídica, arquitetura e definição de processos." },
+      { "t": "2026 · Q1", "d": "Operações iniciais, intermediações e pilotos." },
+      { "t": "2026 · Q2–Q3", "d": "Escala, aquisições e relatórios internos." }
+    ]
+  },
+
+  "disclaimer": "Sem promessa de rendimento. Operações sujeitas a requisitos legais, estratégia corporativa e ajustes futuros."
+}

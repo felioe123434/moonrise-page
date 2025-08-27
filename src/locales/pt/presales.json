@@ -1,100 +1,69 @@
 {
   "hero": {
     "title": "A pré-venda da MoonRise financia infraestrutura. Não especulação.",
-    "description": "O token MNR é distribuído diretamente via contrato inteligente, validado em rede pública, com fases bem definidas e entrega automática. Essa não é uma aposta. É uma construção.",
+    "description": "O token MNR é distribuído diretamente via contrato inteligente em rede pública, com fases definidas e entrega automática. Isso não é aposta. É construção.",
     "button": "Acessar o Painel da Pré-venda"
+  },
+  "phases": {
+    "counterTitle": "Tokens vendidos",
+    "notificationsLink": "🔔 Entrar no Grupo de Notificações",
+    "phase1": { "title": "Fase 1", "supply": "200.000.000 MNR", "price": "Preço: 0.0000065959 BNB" },
+    "phase2": { "title": "Fase 2", "supply": "350.000.000 MNR", "price": "Preço: 0.0000079542 BNB" },
+    "phase3": { "title": "Fase 3", "supply": "250.000.000 MNR", "price": "Preço: 0.0000086765 BNB" }
+  },
+  "buttons": {
+    "tokenomics": "Ver Tokenomics",
+    "transparency": "Ver Transparência",
+    "helper": "Detalhes do modelo e auditoria social do projeto."
   },
   "network": {
     "title": "Por que estamos na BNB Chain?",
-    "description1": "A MoonRise está desenvolvendo sua própria blockchain — a MoonChain. Mas neste estágio, usamos a BNB Chain por um motivo claro: segurança, estabilidade e eficiência. Ela garante taxas baixas, execução imediata e ampla compatibilidade para investidores.",
-    "description2": "Assim que a MoonChain estiver concluída, todo o ecossistema será migrado para nossa infraestrutura própria."
+    "description1": "Escolhemos a BNB Chain por segurança, estabilidade e liquidez de mercado. Ela garante taxas baixas, execução imediata e ampla compatibilidade para investidores.",
+    "description2": "Nosso ecossistema roda hoje com confiabilidade e eficiência — simples para entrar, fácil para acompanhar e totalmente verificável em tempo real."
   },
   "structure": {
     "title": "Como funciona a pré-venda?",
-    "token": "Token: MoonRise (MNR) – padrão ERC20",
+    "token": "Token: MoonRise (MNR) — padrão ERC20",
     "smart": "Executado 100% via contrato inteligente (sem custódia)",
-    "phases": "3 fases com preços fixos e limites definidos",
+    "phases": "3 fases com preços e limites definidos",
     "delivery": "Entrega automática dos tokens após compra",
     "minimum": "Valor mínimo por transação: 0.005 BNB",
     "network": "Rede utilizada: BNB Smart Chain",
-    "contractLink": "🔎 Ver contrato da pré-venda no BscScan"
-  },
-  "phases": {
-    "title": "Fases da Pré-venda",
-    "phase1": {
-      "title": "Fase 1",
-      "supply": "200.000.000 MNR",
-      "price": "Preço: 0.0000065959 BNB",
-      "status": "Em andamento"
-    },
-    "phase2": {
-      "title": "Fase 2",
-      "supply": "550.000.000 MNR",
-      "price": "Preço: 0.0000079542  BNB",
-      "status": "Aguardando"
-    },
-    "phase3": {
-      "title": "Fase 3",
-      "supply": "250.000.000 MNR",
-      "price": "Preço:  0.0000086765 BNB",
-      "status": "Aguardando"
-    },
-    "status": {
-      "active": "Fase Atual",
-      "awaiting": "Aguardando",
-      "finished": "Finalizada"
-    },
-    "counterTitle": "Tokens vendidos",
-    "notificationsLink": "📢 Entrar no Grupo de Notificações"
+    "contractLink": "Ver contrato da pré-venda no BscScan"
   },
   "purpose": {
     "title": "Por que isso existe?",
-    "description": "O MNR não é hype. É fundação. Ele nasce como pedra angular da MoonChain — uma blockchain própria, leve e soberana. Quem participa da pré-venda entra como fundador do ecossistema. Não compra um token, compra uma posição."
+    "description": "O MNR é fundação de um ecossistema financeiro real. Quem participa da pré-venda entra como fundador do sistema — não compra hype, compra posição. O objetivo é financiar infraestrutura, liquidez e produtos que geram valor de longo prazo."
   },
   "utility": {
     "title": "Utilidade do token MNR",
-    "use1": "Moeda oficial da MoonChain",
-    "use2": "Gas para transações (como o BNB na BNB Chain)",
-    "use3": "Token de staking, recompensa e liquidez",
-    "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonSwap, MoonBank",
-    "use5": "Prioridade em futuras distribuições e lançamentos"
+    "use1": "Moeda oficial do ecossistema MoonRise",
+    "use2": "Gas para transações internas e operações do app",
+    "use3": "Token de staking, recompensas e liquidez",
+    "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonSwap, MoonBank, MoonBuy",
+    "use5": "Base para integrações com ativos reais (RWA) via Moon+"
   },
   "security": {
-    "title": "Segurança e Transparência",
+    "title": "Segurança & Transparência",
     "point1": "Toda entrega é 100% automática via contrato inteligente",
-    "point2": "Sem custódia. Sem promessas",
+    "point2": "Sem custódia. Sem promessas manuais",
     "point3": "Contrato auditável e já em execução pública",
     "point4": "Liquidez será aberta de forma controlada para garantir estabilidade"
   },
   "roadmap": {
     "title": "Roadmap",
     "step1": "Pré-venda aberta",
-    "step2": "Construção da MoonChain",
-    "step3": "Liquidez inicial",
-    "step4": "Lançamento oficial da MoonChain",
-    "step5": "Expansão dos produtos MoonRise"
+    "step2": "Liquidez inicial",
+    "step3": "Expansão de produtos MoonRise",
+    "step4": "Integração com Moon+ (RWA)",
+    "step5": "Escala global do ecossistema"
   },
   "call": {
     "title": "Milhares vão assistir. Poucos vão fundar.",
-    "description": "Se você lê isso, é porque foi separado pra construir. Esse é o chamado dos ousados: fundar uma infraestrutura soberana para as próximas gerações."
-  },
-  
-"closeButton": "Fechar",
-
-  "contracts": {
-    "title": "Contratos Públicos",
-    "token": "Token MNR",
-    "wallet": "Carteira Master",
-    "panel": "Painel Oficial"
+    "description": "Se você leu isso, é porque foi separado para construir. Esse é o chamado dos ousados: financiar e fundar uma infraestrutura soberana para as próximas gerações."
   },
   "legal": {
     "disclaimer": "Esta página é informativa e não representa uma oferta pública registrada. A participação na pré-venda é voluntária e realizada diretamente via contrato inteligente."
   },
-  
-  "buttons": {
-  "tokenomics": " Ver Tokenomics",
-  "transparency": " Ver Transparência",
-  "helper": "Detalhes do modelo e auditoria social do projeto."
-}
-
+  "closeButton": "Fechar"
 }

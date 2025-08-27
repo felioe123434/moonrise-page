@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "Pre-operación" },
+  "start": { "target": "Ventana objetivo: Q1 2026" },
+
+  "hero": {
+    "kicker": "EMPRESA • CORRETAJE • MOONRISE",
+    "title": { "l1": "Moon+", "l2": "Corredora Inmobiliaria" },
+    "subtitle": "Corredora inmobiliaria de MoonRise Technologies. Operaciones reales, expansión estratégica y generación de valor sostenible para el ecosistema MoonRise.",
+    "badges": { "broker": "Corredora", "auditable": "Transparente", "execution": "Ejecución real" }
+  },
+
+  "cta": {
+    "support": "Canal de Soporte",
+    "community": "Comunidad Oficial"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "Lo que entregamos",
+    "cards": [
+      { "t": "Originación calificada", "d": "Oportunidades filtradas por tesis y documentación mínima." },
+      { "t": "Ejecución responsable", "d": "Diligencia legal/técnica y cierre seguro." },
+      { "t": "Transparencia estratégica", "d": "Procesos claros y comunicación directa con inversionistas y socios." }
+    ]
+  },
+
+  "how": {
+    "title": "Cómo funciona",
+    "steps": [
+      { "t": "Originación", "d": "Recibimos oportunidades y documentos iniciales." },
+      { "t": "Diligencia", "d": "Análisis legal/técnico y validación de condiciones." },
+      { "t": "Cierre", "d": "Propuesta, escritura y registro conforme a la ley." },
+      { "t": "Integración con MoonRise", "d": "Las utilidades netas de Moon+ refuerzan el ecosistema MoonRise." }
+    ],
+    "note": "Sin promesa de rentabilidad. El modelo de integración puede evolucionar conforme a la estrategia."
+  },
+
+  "flow": {
+    "title": "Flujo de valor",
+    "desc": "Moon+ nace financiada por la preventa de MNR, pero luego se sostiene con ingresos propios. Parte de las utilidades netas se destinará a fortalecer el ecosistema MoonRise, ya sea aplicando en gráficos, expansión estratégica o reinversión futura."
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "t": "2025 · H2", "d": "Estructuración legal, arquitectura y definición de procesos." },
+      { "t": "2026 · Q1", "d": "Operaciones iniciales, intermediaciones y pilotos." },
+      { "t": "2026 · Q2–Q3", "d": "Escala, adquisiciones e informes internos." }
+    ]
+  },
+
+  "disclaimer": "Sin promesa de rentabilidad. Operaciones sujetas a requisitos legales, estrategia corporativa y ajustes futuros."
+}

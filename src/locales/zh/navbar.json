@@ -2,14 +2,23 @@
   "brand": "MoonRise Technologies",
   "menu": {
     "home": "首页",
-    "moonchain": "MoonChain",
-    "products": "AppMoonRise",
+    "moonplus": "Moon+",
+    "wallet": "MoonRise 应用",
+    "tokenomics": "代币经济",
+    "transparency": "透明度",
+    "institutional": "机构",
     "about": "关于我们",
-    "contact": "联系"
+    "contact": "联系",
+    "documents": "文件"
   },
-  "closeButton": "关闭",
   "buttons": {
     "community": "社区",
     "presale": "预售"
+  },
+  "closeButton": "关闭",
+  "aria": {
+    "language": "切换语言",
+    "menu": "打开菜单",
+    "close": "关闭预售面板"
   }
 }

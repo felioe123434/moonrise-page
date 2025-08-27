@@ -1,64 +1,61 @@
 {
-  "title": "MoonRise 代币经济模型",
-  "intro": "MoonRise 以确保平衡、透明和可持续增长的结构设计而成。没有任何代币是免费分发的 —— 一切都经过有目的的规划、战略布局和长期愿景的指导。",
-
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise 旨在通过结构设计确保平衡、透明和可持续增长。没有任何代币被免费分发 —— 一切都经过有目的的规划、战略和长期愿景。",
   "supplyLabels": {
     "name": "名称",
     "symbol": "符号",
     "network": "网络",
-    "total": "总代币量",
+    "total": "总代码量",
     "burned": "已销毁代币",
-    "circulating": "流通供应量",
-    "contract": "官方合约地址"
+    "circulating": "流通供应量"
   },
-
   "supply": {
     "name": "MoonRise",
     "symbol": "MNR",
-    "network": "BNB 智能链（BEP-20）",
+    "network": "BNB Smart Chain (BEP-20)",
     "total": "7,500,000,000",
     "burned": "1,600,000,000",
     "circulating": "5,900,000,000"
   },
-
-  "distributionNote": "每一部分代币分配都具有明确目的。没有多余，没有偶然 —— 只有战略与执行。",
-
+  "buttons": {
+    "transparency": "透明度",
+    "contract": "BscScan 合约"
+  },
   "distributionTitle": "代币分配",
+  "distributionNote": "供应的每一部分都带有目的地分配。没有剩余，没有偶然 —— 只有战略与执行。",
+  "warnings": {
+    "totalNot100": "总分配为 {{total}}。"
+  },
   "distribution": [
-    { "label": "53.33%", "title": "流动性" },
-    { "label": "6.67%", "title": "开发" },
-    { "label": "21.33%", "title": "已销毁代币" },
-    { "label": "10.00%", "title": "市场营销" },
-    { "label": "5.33%", "title": "MoonRise 生态系统" },
-    { "label": "3.33%", "title": "战略储备" },
-    { "label": "0.0067%", "title": "创始人（锁仓）" }
+    { "title": "流动性", "value": 53.3333333333, "label": "53.33 %" },
+    { "title": "开发", "value": 6.6666666667, "label": "6.67 %" },
+    { "title": "已销毁代币", "value": 21.3333333333, "label": "21.33 %" },
+    { "title": "营销", "value": 10, "label": "10.00 %" },
+    { "title": "MoonRise 生态系统", "value": 5.3266666667, "label": "5.33 %" },
+    { "title": "战略储备", "value": 3.3333333333, "label": "3.33 %" },
+    { "title": "创始人（锁定）", "value": 0.0066666667, "label": "0.0067 %" }
   ],
-
-  "fundsTitle": "募集资金用途",
-  "fundsText": "所有募集资金都将以透明且可追踪的方式分配。我们的优先事项是创造价值、保持稳定，并推动生态系统的持续增长。",
-
+  "fundsTitle": "募集资金的用途",
+  "fundsText": "所有募集资金都以透明、可追踪的方式分配。首要任务是创造价值、确保稳定并推动生态系统的增长。",
   "funds": [
     {
       "title": "MoonRise 生态系统",
-      "desc": "自动再投资于基础设施、流动性、验证和生态拓展。每一笔交易都在为帝国注入能量。"
+      "desc": "持续再投资于基础设施、产品（Wallet、MoonSwap、Bank）和扩展。每笔交易都强化帝国。"
     },
     {
-      "title": "稳定性储备",
-      "desc": "用于维持流动性并在市场高度波动时支撑价格的保护基金。"
+      "title": "稳定储备",
+      "desc": "保护基金，用于在高波动和市场事件期间保持流动性并支持价格。"
     },
     {
       "title": "市场流动性",
-      "desc": "确保代币交易顺畅，并持续支持价格图表。"
+      "desc": "确保深度和流畅度，保证健康的代币交易。"
     },
     {
-      "title": "回馈持有者",
-      "desc": "部分收益将被再投资，用以奖励忠实的持币用户。"
+      "title": "持有者价值",
+      "desc": "部分利润和战略执行以直接和间接收益的形式回馈忠实持有者。"
     }
   ],
-
   "closing": {
-    "phrase": "MoonRise 构建于执行力、数据洞察与长期愿景之上。系统本身的使用推动着增长，费用将被再投入流动性与可持续价值中。"
-  },
-
-  "footer": "版权所有。"
+    "phrase": "MoonRise 建立在执行、数据和长期愿景之上。无空投，无额外增发。公开透明且可审计的锁仓。"
+  }
 }

@@ -1,13 +1,18 @@
 {
   "tagline": "EIN VOLLSTÄNDIGES FINANZÖKOSYSTEM.",
   "title": "Das <1>Ökosystem</1><br /> von <3>MoonRise</3> verwandelt Technologie in Unabhängigkeit.",
-  "description": "Jedes Produkt wurde mit einem klaren Zweck entwickelt: echte Infrastruktur, direkte Kontrolle und finanzielle Freiheit zu bieten. Alles ist miteinander verbunden – ohne Abhängigkeit von Dritten.",
+  "description": "Jedes Produkt wurde mit einem Ziel entwickelt: reale Infrastruktur, direkte Kontrolle und finanzielle Freiheit zu bieten. Alles miteinander verbunden, ohne von Dritten abhängig zu sein.",
 
-  "moonchain": "Eigene Blockchain. Leichtgewichtig, schnell und ausschließlich auf Finanzanwendungen ausgerichtet. Ultrageringe Kosten, feste Blockzeit und antifraudulente Validierung.",
-  "moonwallet": "Multi-Chain-Wallet mit nativer Integration in MoonChain. Automatischer Import, optimierte Gebühren und fortschrittliche Token-Verwaltung.",
-  "moonbuy": "Direktes MNR-Kaufsystem, verbunden mit dem Vorverkauf und strategischen Kampagnen. Keine Bürokratie, direkt zur Sache.",
-  "moonswap": "Dezentrale Börse, integriert in das Ökosystem. Schneller Tausch, intelligente Liquidität und direkte Verbindung zur MoonWallet.",
-  "moonbank": "Digitales Konto, integriert mit MNR-Staking und Tools zur Finanzkontrolle. Einfaches Design, robuste Struktur.",
-  "moonplus": "Infrastruktur für Tokenisierung, Handel und Verwahrung von realen Vermögenswerten. Immobilienkauf und -verkauf, Integration mit regulierten Maklern und On-Chain-Liquidität über MNR.",
-  "mnr": "Der native Token von MoonRise. Grundlage der gesamten Infrastruktur und Ökonomie – mit Verbrennungsmechanismen, Missbrauchsschutz und strategisch kontrollierter Verteilung."
+  "moonwallet": "Selbstverwahrende Multi-Chain-Wallet (wie MetaMask). Automatischer MNR-Import, Senden/Empfangen, dApp-Verbindung und Echtzeitsaldo. Integrierter „Krypto kaufen“-Button (über MoonBuy).",
+  "moonbank": "Einfache Zahlungen, Geld in Bewegung. Digitalkonto mit Karte und Kryptokäufen (MoonBuy) direkt in die MoonWallet.",
+  "moonbuy": "Krypto-Checkout & Launchpad. Kaufen Sie MNR und die wichtigsten Assets mit Pix/Karte und nehmen Sie an ausgewählten Presales teil. Derselbe Motor treibt MoonWallet und MoonBank an, mit seriöser Auswahl.",
+  "transparency": "Prüfungen, Sperren, offizielle Wallets und MasterVault-Transfers in Echtzeit veröffentlicht.",
+  "moonplus": "Infrastruktur für die Tokenisierung und den Handel mit realen Vermögenswerten. Immobilien, Verträge und regulierte Integrationen mit On-Chain-Liquidität über MNR.",
+  "mnr": "Nativ-Token des MoonRise-Ökosystems. Grundlage der gesamten Infrastruktur und Wirtschaft — mit Burn-Mechanismen, Schutz vor Manipulationen und strategisch kontrollierter Verteilung.",
+  "cta": {
+    "subtitle": "Die gesamte MoonRise-Infrastruktur entwickelt sich in einem Zyklus von Ausführung und Reinvestition.",
+    "presale": "An der Vorverkauf teilnehmen",
+    "transparency": "Transparenz anzeigen"
+  }
 }
+

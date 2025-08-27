@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "预运营" },
+  "start": { "target": "目标时间：2026年第一季度" },
+
+  "hero": {
+    "kicker": "公司 • 经纪 • MoonRise",
+    "title": { "l1": "Moon+", "l2": "房地产经纪" },
+    "subtitle": "MoonRise Technologies 的房地产经纪业务。真实运营、战略扩张，为 MoonRise 生态系统创造可持续价值。",
+    "badges": { "broker": "经纪", "auditable": "透明", "execution": "真实执行" }
+  },
+
+  "cta": {
+    "support": "支持渠道",
+    "community": "官方社区"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "我们的交付内容",
+    "cards": [
+      { "t": "合格的项目发起", "d": "按论证和最低文件筛选的机会。" },
+      { "t": "负责任的执行", "d": "法律/技术尽职调查与安全交割。" },
+      { "t": "战略透明度", "d": "清晰流程，与投资者和合作伙伴直接沟通。" }
+    ]
+  },
+
+  "how": {
+    "title": "运作方式",
+    "steps": [
+      { "t": "项目发起", "d": "我们接收机会和初始文件。" },
+      { "t": "尽职调查", "d": "法律/技术分析和条件验证。" },
+      { "t": "交割", "d": "提案、契约和依法登记。" },
+      { "t": "与 MoonRise 集成", "d": "Moon+ 的净利润强化 MoonRise 生态系统。" }
+    ],
+    "note": "无收益承诺。集成模式可能会根据战略发展。"
+  },
+
+  "flow": {
+    "title": "价值流动",
+    "desc": "Moon+ 由 MNR 预售资助，但随后通过自身收入实现自我维持。部分净利润将用于加强 MoonRise 生态系统，无论是图表支持、战略扩张还是未来再投资。"
+  },
+
+  "roadmap": {
+    "title": "路线图",
+    "items": [
+      { "t": "2025 · H2", "d": "法律架构、架构设计和流程定义。" },
+      { "t": "2026 · Q1", "d": "初始运营、中介和试点项目。" },
+      { "t": "2026 · Q2–Q3", "d": "规模化、收购和内部报告。" }
+    ]
+  },
+
+  "disclaimer": "无收益承诺。运营受法律要求、公司战略和未来调整的约束。"
+}

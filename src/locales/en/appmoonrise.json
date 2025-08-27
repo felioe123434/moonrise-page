@@ -1,35 +1,45 @@
 {
-  "title": "MoonRise Wallet: The Heart of the Sovereign System",
-  "description": "This isn’t just a wallet. It’s a decentralized bank in your pocket — with live balances, native blockchain reading, and total control over your assets.",
-  "status": "🚧 App under continuous development",
-  "status_sub": "constantly evolving",
-  "preview": "📲 What you see is real execution: tokens, balances, and the network operating live — no simulation, no disguise.",
-
+  "title": "MoonRise Wallet",
+  "subtitle": "direct control over your assets",
+  "badge": "APP • EXECUTION • ON-CHAIN",
+  "description": "On-chain reading, non-custodial and without intermediaries. Precision and speed over what is yours.",
+  "proofs": [
+    "Non-custodial",
+    "Real-time on-chain reading",
+    "Multi-chain EVM",
+    "Smart token import",
+    "BRL / USD quotes",
+    "Fluid mobile interface"
+  ],
+  "evolving": "App in continuous evolution — versioning, measurement, and improvement.",
   "visionTitle": "More than a wallet",
-  "vision1": "MoonRise Wallet is a sovereign node operating 24/7 directly on the blockchain. No external APIs, no censorship, no delays. What you see is what the blockchain sees — with millimetric precision.",
-  "vision2": "It is the backbone of your digital empire — sovereign, shielded, and fully under your command.",
-
-  "language_notice": "⚠️ The app shown is still in Portuguese as it’s an in-development version. MoonRise Wallet will support all major global languages — with full translation in every detail of the experience.",
-
-  "featuresTitle": "Features already live and evolving",
+  "vision1": "Real 24/7 operation directly on the blockchain. What you see is what the network sees.",
+  "vision2": "Built for executors: simple, fast, and precise.",
+  "featuresTitle": "Features already live",
   "features": [
-    "✅ Real-time balance directly from the blockchain",
-    "✅ Automatic contract reading for token import",
-    "✅ Dynamic pricing in BRL and USD (more pairs coming soon)",
-    "✅ Responsive, fluid interface optimized for mobile",
-    "🚧 Pix integration in advanced testing phase",
-    "🔄 Swap module with full ecosystem liquidity support"
+    "Real-time balance and history directly from the blockchain",
+    "Smart token import (contract reading)",
+    "Multi-chain EVM with configurable networks (BNB by default)",
+    "Optimized fee/gas estimation",
+    "Quotes in multiple currencies (BRL, USD, and others)",
+    "Fluid and responsive mobile interface"
   ],
-
-  "differentialsTitle": "What makes MoonRise unique",
+  "differentialsTitle": "Why it’s different",
   "differentials": [
-    "🛰️ Direct connection to the blockchain — no middlemen, no filters",
-    "💱 Native conversion in multiple currencies (BRL, USD, and more)",
-    "⚡ Lightweight, fast interface built for real executors",
-    "🔗 Pix, swaps, and utilities fully integrated inside the app"
+    "Non-custodial — your keys, your assets",
+    "Native on-chain reading — no third-party filters",
+    "Native multi-language — clean and objective experience",
+    "Integration with the MoonRise ecosystem — connected operations"
   ],
-
-  "closing": "MoonRise Wallet is not just technology. It’s a tool of governance. For those born to rule, multiply, and leave a legacy. Financial sovereignty now fits in your pocket.",
-  "cta": "Follow Launch on Telegram",
-  "footer": "All rights reserved."
+  "statusTitle": "Development status",
+  "status": {
+    "readyTitle": "Ready",
+    "progressTitle": "In progress",
+    "nextTitle": "Next",
+    "ready": ["On-chain reading", "Token import", "Multi-currency", "Mobile UI"],
+    "progress": ["Integrated swap module", "Gas optimizations"],
+    "next": ["Session security", "Advanced transaction shortcuts"]
+  },
+  "cta": "Follow launch on Telegram",
+  "disclaimer": "What you see is real execution: tokens, balances, and live network — no simulation."
 }

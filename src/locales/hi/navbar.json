@@ -1,15 +1,24 @@
 {
   "brand": "MoonRise Technologies",
   "menu": {
-    "home": "मुखपृष्ठ",
-    "moonchain": "MoonChain",
-    "products": "AppMoonRise",
-    "about": "परिचय",
-    "contact": "संपर्क"
+    "home": "होम",
+    "moonplus": "Moon+",
+    "wallet": "MoonRise ऐप",
+    "tokenomics": "टोकनोमिक्स",
+    "transparency": "पारदर्शिता",
+    "institutional": "संस्थागत",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क",
+    "documents": "दस्तावेज़"
   },
-  "closeButton": "बंद करें",
   "buttons": {
     "community": "समुदाय",
-    "presale": "प्रीसेल"
+    "presale": "प्री-सेल"
+  },
+  "closeButton": "बंद करें",
+  "aria": {
+    "language": "भाषा बदलें",
+    "menu": "मेन्यू खोलें",
+    "close": "प्री-सेल पैनल बंद करें"
   }
 }

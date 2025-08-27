@@ -2,14 +2,23 @@
   "brand": "MoonRise Technologies",
   "menu": {
     "home": "Главная",
-    "moonchain": "MoonChain",
-    "products": "AppMoonRise",
-    "about": "О проекте",
-    "contact": "Контакты"
+    "moonplus": "Moon+",
+    "wallet": "Приложение MoonRise",
+    "tokenomics": "Токеномика",
+    "transparency": "Прозрачность",
+    "institutional": "Институциональное",
+    "about": "О нас",
+    "contact": "Контакт",
+    "documents": "Документы"
   },
-  "closeButton": "Закрыть",
   "buttons": {
     "community": "Сообщество",
     "presale": "Предпродажа"
+  },
+  "closeButton": "Закрыть",
+  "aria": {
+    "language": "Сменить язык",
+    "menu": "Открыть меню",
+    "close": "Закрыть панель предпродажи"
   }
 }

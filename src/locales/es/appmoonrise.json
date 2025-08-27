@@ -1,35 +1,45 @@
 {
-  "title": "MoonRise Wallet: El Corazón del Sistema Soberano",
-  "description": "No es solo una cartera. Es un banco descentralizado en tu bolsillo — con saldo en vivo, lectura nativa de blockchain y control total sobre tus activos.",
-  "status": "🚧 App en desarrollo continuo",
-  "status_sub": "en constante evolución",
-  "preview": "📲 Lo que ves es ejecución real: tokens, saldos y red operando en vivo — sin simulaciones ni maquillajes.",
-
-  "visionTitle": "Más que una cartera",
-  "vision1": "MoonRise Wallet es un nodo soberano operando 24/7 directamente sobre la blockchain. Sin APIs externas, sin censura, sin retrasos. Lo que ves es exactamente lo que ve la blockchain — con precisión milimétrica.",
-  "vision2": "Es la columna vertebral de tu imperio digital — soberana, blindada y bajo tu control total.",
-
-  "language_notice": "⚠️ La app mostrada aún está en portugués por ser una versión en desarrollo. MoonRise Wallet tendrá soporte para los principales idiomas del mundo — con traducción completa en cada detalle de la experiencia.",
-
-  "featuresTitle": "Funciones ya activas y en constante evolución",
+  "title": "MoonRise Wallet",
+  "subtitle": "control directo sobre tus activos",
+  "badge": "APP • EJECUCIÓN • ON-CHAIN",
+  "description": "Lectura on-chain, sin custodia y sin intermediarios. Precisión y velocidad sobre lo que es tuyo.",
+  "proofs": [
+    "No-custodial",
+    "Lectura on-chain en tiempo real",
+    "Multi-chain EVM",
+    "Importación inteligente de tokens",
+    "Cotizaciones BRL / USD",
+    "Interfaz fluida para móvil"
+  ],
+  "evolving": "App en evolución continua — versionado, medición y mejora.",
+  "visionTitle": "Más que una billetera",
+  "vision1": "Operación real 24/7 directamente en la blockchain. Lo que ves es lo que la red percibe.",
+  "vision2": "Construida para ejecutores: simple, rápida y precisa.",
+  "featuresTitle": "Funcionalidades ya en ejecución",
   "features": [
-    "✅ Saldo en tiempo real directamente desde la blockchain",
-    "✅ Lectura automática de contratos para importar tokens",
-    "✅ Cotización dinámica en BRL y USD (más pares próximamente)",
-    "✅ Interfaz fluida, responsive y optimizada para móvil",
-    "🚧 Integración con Pix en fase avanzada de pruebas",
-    "🔄 Módulo de swap con soporte total a la liquidez del ecosistema"
+    "Saldo e historial en tiempo real directamente desde la blockchain",
+    "Importación inteligente de tokens (lectura de contratos)",
+    "Multi-chain EVM con redes configurables (BNB por defecto)",
+    "Estimación optimizada de tarifas/gas",
+    "Cotizaciones en múltiples monedas (BRL, USD y otras)",
+    "Interfaz fluida y responsiva para móvil"
   ],
-
-  "differentialsTitle": "Lo que hace única a MoonRise",
+  "differentialsTitle": "Por qué es diferente",
   "differentials": [
-    "🛰️ Conexión directa con la blockchain — sin intermediarios, sin filtros",
-    "💱 Conversión nativa en múltiples monedas (BRL, USD y más)",
-    "⚡ Interfaz ligera, rápida y hecha para ejecutores reales",
-    "🔗 Pix, swaps y utilidades 100% integradas en la app"
+    "No-custodial — tus llaves, tus activos",
+    "Lectura on-chain nativa — sin filtros de terceros",
+    "Multi-idioma nativo — experiencia limpia y objetiva",
+    "Integración con el ecosistema MoonRise — operaciones conectadas"
   ],
-
-  "closing": "MoonRise Wallet no es solo tecnología. Es una herramienta de gobierno. Para quienes nacieron para dominar, multiplicar y dejar legado. La soberanía financiera ahora cabe en tu bolsillo.",
-  "cta": "Seguir Lanzamiento en Telegram",
-  "footer": "Todos los derechos reservados."
+  "statusTitle": "Estado de desarrollo",
+  "status": {
+    "readyTitle": "Listo",
+    "progressTitle": "En progreso",
+    "nextTitle": "Próximo",
+    "ready": ["Lectura on-chain", "Importación de tokens", "Multi-moneda", "UI móvil"],
+    "progress": ["Módulo de swap integrado", "Optimizaciones de gas"],
+    "next": ["Seguridad de sesión", "Atajos avanzados de transacción"]
+  },
+  "cta": "Seguir lanzamiento en Telegram",
+  "disclaimer": "Lo que ves es ejecución real: tokens, saldos y red en vivo — sin simulación."
 }

@@ -1,13 +1,18 @@
 {
   "tagline": "A COMPLETE FINANCIAL ECOSYSTEM.",
   "title": "The <1>ecosystem</1><br /> of <3>MoonRise</3> turns technology into independence.",
-  "description": "Each product was created with a purpose: to offer real infrastructure, direct control, and financial freedom. Everything interconnected, without relying on third parties.",
+  "description": "Each product was created with purpose: to provide real infrastructure, direct control, and financial freedom. All interconnected, without relying on third parties.",
 
-  "moonchain": "Proprietary blockchain. Lightweight, fast, and focused exclusively on financial applications. Ultra-low costs, fixed block time, and anti-fraud validation.",
-  "moonwallet": "Multi-chain wallet with native integration to MoonChain. Automatic import, optimized fees, and advanced token control.",
-  "moonbuy": "Direct MNR purchase system, connected to the pre-sale and strategic campaigns. No bureaucracy, straight to the point.",
-  "moonswap": "Decentralized exchange integrated into the ecosystem. Fast swaps, smart liquidity, and direct connection to MoonWallet.",
-  "moonbank": "Digital account integrated with MNR staking and financial control tools. Simple design, robust structure.",
-  "moonplus": "Infrastructure for tokenization, trading, and custody of real-world assets. Buy and sell real estate, integrate with regulated brokers, and enjoy on-chain liquidity via MNR.",
-  "mnr": "MoonRise's native token. The foundation of the entire infrastructure and economy — with burn mechanisms, abuse protection, and strategically controlled distribution."
+  "moonwallet": "Self-custody multi-chain wallet (like MetaMask). Automatic MNR import, send/receive, dApp connection, and real-time balance. Integrated \"Buy crypto\" button (via MoonBuy).",
+  "moonbank": "Simple payments, money in motion. Digital account with card and crypto purchases (MoonBuy) directly into MoonWallet.",
+  "moonbuy": "Crypto checkout & Launchpad. Buy MNR and major assets with Pix/Card and participate in selected presales. The same engine powers MoonWallet and MoonBank, with serious curation.",
+  "transparency": "Audits, locks, official wallets, and MasterVault transfers published in real time.",
+  "moonplus": "Infrastructure for tokenization and trading of real assets. Real estate, contracts, and regulated integrations with on-chain liquidity via MNR.",
+  "mnr": "Native token of the MoonRise ecosystem. The foundation of the entire infrastructure and economy — with burn mechanisms, protection against manipulation, and strategically controlled distribution.", 
+  "cta": {
+    "subtitle": "The entire MoonRise infrastructure evolves in a cycle of execution and reinvestment.",
+    "presale": "Join the Presale",
+    "transparency": "View Transparency"
+  }
 }
+

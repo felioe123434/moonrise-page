@@ -1,0 +1,107 @@
+{
+  "disclaimer": {
+    "trigger": "See the Disclaimer Terms",
+    "title": "Disclaimer — MoonRise",
+    "updated": "Last updated:",
+    "updatedDate": "2025-08-26",
+    "alertTitle": "Important Notice:",
+    "alertText": "This document describes risks, limitations, and transparency commitments of our products and communications. Read carefully. Nothing here constitutes investment, legal, accounting, or tax advice. Purchase decisions are personal and voluntary.",
+    "sections": [
+      {
+        "heading": "1) Scope and Nature of Information",
+        "items": [
+          "Whitepapers, institutional pages, and marketing materials are informative and educational in nature.",
+          "Information may be updated without prior notice; newer versions replace older ones.",
+          "Materials do not constitute promises of profitability, performance guarantees, or personalized advice."
+        ]
+      },
+      {
+        "heading": "2) User Profile and Suitability",
+        "items": [
+          "Products involving cryptoassets are intended for users over 18 with risk tolerance.",
+          "You are responsible for evaluating objectives, investment horizon, and financial suitability.",
+          "We recommend seeking independent advice when necessary."
+        ]
+      },
+      {
+        "heading": "3) Market Risks",
+        "items": [
+          "High volatility: prices may fluctuate significantly and result in total loss of capital.",
+          "Variable liquidity: buying and selling may be limited at certain times.",
+          "Counterparty risk, systemic market risk, and external shocks may affect value."
+        ]
+      },
+      {
+        "heading": "4) Operational and Technological Risks",
+        "items": [
+          "Software, networks, wallets, integrators, or third-party providers may fail, causing downtime or losses.",
+          "Attacks, bugs, hard forks, and protocol changes may impact usability and token value.",
+          "Security measures are applied under best practices, without total risk elimination."
+        ]
+      },
+      {
+        "heading": "5) Compliance and Regulation",
+        "items": [
+          "We operate under the legislation applicable to our activities (e.g., Law 14.478/2022 and related rules).",
+          "If any product is qualified as a security, rules from the competent authority will be observed.",
+          "Users are responsible for complying with local laws, including tax obligations, in their country of residence."
+        ]
+      },
+      {
+        "heading": "6) Transparency and Controls",
+        "items": [
+          "Official wallets, locks, and schedules are disclosed in the Transparency section of the website.",
+          "Liquidity and market defense policies are public and may be adjusted with justification.",
+          "Audits and on-chain proofs are prioritized to strengthen ecosystem trust."
+        ]
+      },
+      {
+        "heading": "7) Data and Privacy",
+        "items": [
+          "Personal data is processed in accordance with the Privacy Policy and applicable legislation.",
+          "We adopt technical and organizational measures to protect data, respecting user rights.",
+          "Logs and metrics may be collected for security, fraud prevention, and service improvement."
+        ]
+      },
+      {
+        "heading": "8) Liability Limitations",
+        "items": [
+          "To the extent permitted by law, liability is excluded for indirect damages, lost profits, and lost opportunities.",
+          "Nothing in this document waives consumer rights provided by law or unavoidable legal responsibilities.",
+          "Continuous service availability is not guaranteed; downtime may occur."
+        ]
+      },
+      {
+        "heading": "9) Intellectual Property",
+        "items": [
+          "Brands, names, content, and software are protected by intellectual property rights.",
+          "Copying, reverse engineering, unauthorized commercial exploitation, or misuse of materials is prohibited."
+        ]
+      },
+      {
+        "heading": "10) Languages and Prevalence",
+        "items": [
+          "We provide translations for user convenience.",
+          "In case of discrepancies, the English version prevails.",
+          "In Brazil, ambiguities are interpreted in favor of the consumer, under applicable law."
+        ]
+      },
+      {
+        "heading": "11) Official Communications",
+        "items": [
+          "Official channels are published on the Institutional page; distrust unlisted contacts.",
+          "We never request private keys, 2FA codes, or value transfers without confirmation in official channels."
+        ]
+      },
+      {
+        "heading": "12) Acceptance",
+        "items": [
+          "By continuing to browse and/or use our products, you declare that you have read, understood, and accepted these terms.",
+          "We recommend saving/recording the reading date for your reference."
+        ]
+      }
+    ],
+    "footer": "MoonRise Commitment: transparency, security, and responsible execution, with long-term focus and respect for the user.",
+    "actions": { "close": "Close", "gotIt": "Got it" }
+  }
+}

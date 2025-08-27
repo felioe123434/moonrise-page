@@ -7,11 +7,11 @@ import heroPT from '@/locales/pt/hero.json';
 import presalePT from '@/locales/pt/presale.json';
 import aboutPT from '@/locales/pt/about.json';
 import presalesPT from '@/locales/pt/presales.json';
-import moonchainPT from '@/locales/pt/moonchain.json';
+import moonplusPT from '@/locales/pt/moonplus.json';
 import tokenomicsPT from '@/locales/pt/tokenomics.json';
 import transparenciaPT from '@/locales/pt/transparencia.json';
 import appmoonrisePT from '@/locales/pt/appmoonrise.json';
-import contactPT from '@/locales/pt/contact.json';
+import legalPT from '@/locales/pt/legal.json';
 import ecosystemPT from '@/locales/pt/ecosystem.json';
 
 import navbarEN from '@/locales/en/navbar.json';
@@ -19,11 +19,11 @@ import heroEN from '@/locales/en/hero.json';
 import presaleEN from '@/locales/en/presale.json';
 import aboutEN from '@/locales/en/about.json';
 import presalesEN from '@/locales/en/presales.json';
-import moonchainEN from '@/locales/en/moonchain.json';
+import moonplusEN from '@/locales/en/moonplus.json';
 import tokenomicsEN from '@/locales/en/tokenomics.json';
 import transparenciaEN from '@/locales/en/transparencia.json';
 import appmoonriseEN from '@/locales/en/appmoonrise.json';
-import contactEN from '@/locales/en/contact.json';
+import legalEN from '@/locales/en/legal.json';
 import ecosystemEN from '@/locales/en/ecosystem.json';
 
 // Idiomas adicionais suportados (com require dinâmico)
@@ -31,7 +31,7 @@ const extraLangs = ['es', 'fr', 'de', 'zh', 'ru', 'hi'];
 
 const namespaces = [
   'navbar', 'hero', 'presale', 'about', 'presales',
-  'moonchain', 'tokenomics', 'transparencia', 'appmoonrise', 'contact', 'ecosystem' // <- certo
+  'moon+', 'tokenomics', 'transparencia', 'appmoonrise', 'legal', 'ecosystem' // <- certo
 ];
 
 
@@ -44,11 +44,11 @@ const resources: any = {
     presale: presalePT,
     about: aboutPT,
     presales: presalesPT,
-    moonchain: moonchainPT,
+    moonplus: moonplusPT,
     tokenomics: tokenomicsPT,
     transparencia: transparenciaPT,
     appmoonrise: appmoonrisePT,
-    contact: contactPT,
+    legal: legalPT,
    ecosystem: ecosystemPT
   },
   en: {
@@ -57,11 +57,11 @@ const resources: any = {
     presale: presaleEN,
     about: aboutEN,
     presales: presalesEN,
-    moonchain: moonchainEN,
+    moonplus: moonplusEN,
     tokenomics: tokenomicsEN,
     transparencia: transparenciaEN,
     appmoonrise: appmoonriseEN,
-    contact: contactEN,
+    legal: legalEN,
     ecosystem: ecosystemEN
 
   }

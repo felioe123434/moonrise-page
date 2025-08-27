@@ -2,14 +2,23 @@
   "brand": "MoonRise Technologies",
   "menu": {
     "home": "Home",
-    "moonchain": "MoonChain",
-    "products": "AppMoonRise",
+    "moonplus": "Moon+",
+    "wallet": "MoonRise App",
+    "tokenomics": "Tokenomics",
+    "transparency": "Transparency",
+    "institutional": "Institutional",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "documents": "Documents"
   },
-  "closeButton": "Close",
   "buttons": {
     "community": "Community",
     "presale": "Presale"
+  },
+  "closeButton": "Close",
+  "aria": {
+    "language": "Change language",
+    "menu": "Open menu",
+    "close": "Close presale panel"
   }
 }

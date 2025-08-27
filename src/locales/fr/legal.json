@@ -1,0 +1,107 @@
+{
+  "disclaimer": {
+    "trigger": "Consultez les Termes de Non-Responsabilité",
+    "title": "Termes de Non-Responsabilité — MoonRise",
+    "updated": "Dernière mise à jour :",
+    "updatedDate": "2025-08-26",
+    "alertTitle": "Avis Important :",
+    "alertText": "Ce document décrit les risques, limites et engagements de transparence de nos produits et communications. Lisez attentivement. Rien ici ne constitue une recommandation d’investissement, juridique, comptable ou fiscale. Les décisions d’achat sont personnelles et volontaires.",
+    "sections": [
+      {
+        "heading": "1) Portée et Nature de l’Information",
+        "items": [
+          "Les whitepapers, pages institutionnelles et documents marketing sont de nature informative et éducative.",
+          "Les informations peuvent être mises à jour sans préavis ; les versions les plus récentes remplacent les précédentes.",
+          "Ces documents ne constituent pas une promesse de rentabilité, une garantie de performance ni un conseil personnalisé."
+        ]
+      },
+      {
+        "heading": "2) Profil de l’Utilisateur et Adéquation",
+        "items": [
+          "Les produits liés aux crypto-actifs sont destinés aux utilisateurs de plus de 18 ans et tolérants au risque.",
+          "Vous êtes responsable d’évaluer vos objectifs, horizon d’investissement et adéquation financière.",
+          "Nous recommandons de solliciter un conseil indépendant si nécessaire."
+        ]
+      },
+      {
+        "heading": "3) Risques de Marché",
+        "items": [
+          "Forte volatilité : les prix peuvent fluctuer de manière significative et entraîner une perte totale du capital.",
+          "Liquidité variable : la possibilité d’acheter ou de vendre peut être limitée à certains moments.",
+          "Les risques de contrepartie, le risque systémique de marché et les chocs externes peuvent affecter la valeur."
+        ]
+      },
+      {
+        "heading": "4) Risques Opérationnels et Technologiques",
+        "items": [
+          "Les défaillances de logiciels, réseaux, portefeuilles, intégrateurs ou prestataires tiers peuvent entraîner une indisponibilité temporaire ou des pertes.",
+          "Les attaques, bugs, hard forks et changements de protocole peuvent affecter l’utilisabilité et la valeur des tokens.",
+          "Des mesures de sécurité sont appliquées selon les meilleures pratiques, sans élimination totale du risque."
+        ]
+      },
+      {
+        "heading": "5) Conformité et Régulation",
+        "items": [
+          "Nous opérons sous la législation applicable à nos activités (ex. : Loi 14.478/2022 et normes connexes).",
+          "Si un produit est qualifié de valeur mobilière, les règles de l’autorité compétente seront respectées.",
+          "L’utilisateur est responsable du respect des lois locales, y compris fiscales, dans son pays de résidence."
+        ]
+      },
+      {
+        "heading": "6) Transparence et Contrôles",
+        "items": [
+          "Les portefeuilles officiels, verrous et calendriers sont divulgués dans la section Transparence du site.",
+          "Les politiques de liquidité et de défense de marché sont publiques et peuvent être ajustées avec justification.",
+          "Les audits et preuves on-chain sont priorisés afin de renforcer la confiance dans l’écosystème."
+        ]
+      },
+      {
+        "heading": "7) Données et Confidentialité",
+        "items": [
+          "Les données personnelles sont traitées conformément à la Politique de Confidentialité et à la législation applicable.",
+          "Nous adoptons des mesures techniques et organisationnelles pour protéger les données, en respectant les droits des utilisateurs.",
+          "Des logs et métriques peuvent être collectés pour la sécurité, la prévention des fraudes et l’amélioration des services."
+        ]
+      },
+      {
+        "heading": "8) Limitations de Responsabilité",
+        "items": [
+          "Dans la mesure permise par la loi, la responsabilité est exclue pour les dommages indirects, pertes de profits et pertes d’opportunité.",
+          "Rien dans ce document ne supprime les droits des consommateurs prévus par la loi ou les responsabilités légales incontournables.",
+          "La disponibilité continue du service n’est pas garantie ; des indisponibilités peuvent survenir."
+        ]
+      },
+      {
+        "heading": "9) Propriété Intellectuelle",
+        "items": [
+          "Les marques, noms, contenus et logiciels sont protégés par des droits de propriété intellectuelle.",
+          "La copie, l’ingénierie inverse, l’exploitation commerciale non autorisée ou l’utilisation abusive des matériaux est interdite."
+        ]
+      },
+      {
+        "heading": "10) Langues et Prévalence",
+        "items": [
+          "Nous fournissons des traductions pour la commodité de l’utilisateur.",
+          "En cas de divergence entre versions, la version anglaise prévaut.",
+          "Au Brésil, les ambiguïtés sont interprétées en faveur du consommateur, selon la législation applicable."
+        ]
+      },
+      {
+        "heading": "11) Communications Officielles",
+        "items": [
+          "Les canaux officiels sont publiés sur la page Institutionnelle ; méfiez-vous des contacts non listés.",
+          "Nous ne demandons jamais de clés privées, codes 2FA ou envoi de fonds sans confirmation via les canaux officiels."
+        ]
+      },
+      {
+        "heading": "12) Acceptation",
+        "items": [
+          "En continuant à naviguer et/ou utiliser nos produits, vous déclarez avoir lu, compris et accepté ces termes.",
+          "Nous recommandons d’enregistrer la date de lecture pour référence."
+        ]
+      }
+    ],
+    "footer": "Engagement MoonRise : transparence, sécurité et exécution responsable, avec une vision à long terme et respect de l’utilisateur.",
+    "actions": { "close": "Fermer", "gotIt": "J’ai compris" }
+  }
+}

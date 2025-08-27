@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "Pre-operation" },
+  "start": { "target": "Target window: Q1 2026" },
+
+  "hero": {
+    "kicker": "COMPANY • BROKERAGE • MOONRISE",
+    "title": { "l1": "Moon+", "l2": "Real Estate Brokerage" },
+    "subtitle": "MoonRise Technologies’ real estate brokerage. Real operations, strategic expansion, and sustainable value generation for the MoonRise ecosystem.",
+    "badges": { "broker": "Brokerage", "auditable": "Transparent", "execution": "Real execution" }
+  },
+
+  "cta": {
+    "support": "Support Channel",
+    "community": "Official Community"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "What we deliver",
+    "cards": [
+      { "t": "Qualified origination", "d": "Opportunities filtered by thesis and minimum documentation." },
+      { "t": "Responsible execution", "d": "Legal/technical due diligence and secure closing." },
+      { "t": "Strategic transparency", "d": "Clear processes and direct communication with investors and partners." }
+    ]
+  },
+
+  "how": {
+    "title": "How it works",
+    "steps": [
+      { "t": "Origination", "d": "We receive opportunities and initial documents." },
+      { "t": "Due diligence", "d": "Legal/technical analysis and condition validation." },
+      { "t": "Closing", "d": "Proposal, deed, and registration according to law." },
+      { "t": "Integration with MoonRise", "d": "Moon+ net profits strengthen the MoonRise ecosystem." }
+    ],
+    "note": "No promise of returns. Integration model may evolve according to strategy."
+  },
+
+  "flow": {
+    "title": "Value flow",
+    "desc": "Moon+ is born funded by the MNR presale, but it becomes self-sustaining with its own revenue. Part of the net profits will be directed to strengthen the MoonRise ecosystem, either by supporting charts, strategic expansion, or future reinvestment."
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "t": "2025 · H2", "d": "Legal structuring, architecture, and process definition." },
+      { "t": "2026 · Q1", "d": "Initial operations, intermediations, and pilots." },
+      { "t": "2026 · Q2–Q3", "d": "Scaling, acquisitions, and internal reporting." }
+    ]
+  },
+
+  "disclaimer": "No promise of returns. Operations subject to legal requirements, corporate strategy, and future adjustments."
+}

@@ -52,51 +52,59 @@
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
   },
+
   "governance": {
-  "title": "Governança Temporária e Transparente",
-  "intro": "Durante a fase de pré-venda, o contrato é controlado por um owner() visível e limitado — com o único objetivo de proteger a integridade da operação inicial.",
-  "can": {
-    "title": "O que o owner pode fazer",
-    "items": [
-      "Pausar e retomar o contrato em caso de ataque",
-      "Ajustar a taxa de venda (limite de 10%)",
-      "Atualizar carteiras whitelistadas",
-      "Modificar parâmetros de cooldowns anti-whale"
-    ]
+    "title": "Governança Temporária e Transparente",
+    "intro": "Durante a fase de pré-venda, o contrato é controlado por um owner visível e limitado — com o único objetivo de proteger a integridade da operação inicial.",
+    "can": {
+      "title": "O que o owner pode fazer",
+      "items": [
+        "Pausar e retomar o contrato em caso de ataque",
+        "Ajustar a taxa de venda (limite de 10%)",
+        "Atualizar carteiras whitelistadas",
+        "Modificar parâmetros de cooldowns anti-whale"
+      ]
+    },
+    "cannot": {
+      "title": "O que o owner NÃO pode fazer",
+      "items": [
+        "Criar novos tokens (sem função mint)",
+        "Alterar o supply (fixado no deploy)",
+        "Redirecionar fundos da pré-venda",
+        "Bypassar limites definidos no contrato"
+      ]
+    }
   },
-  "cannot": {
-    "title": "O que o owner NÃO pode fazer",
-    "items": [
-      "Criar novos tokens (sem função mint)",
-      "Alterar o supply (fixado no deploy)",
-      "Redirecionar fundos da pré-venda",
-      "Bypassar limites definidos no contrato"
-    ]
-  }
-},
 
-"release_schedule": {
-  "title": "Calendário de Liberação de Tokens"
-},
+  "release_schedule": {
+    "title": "Calendário de Liberação de Tokens"
+  },
 
-"lock_reason": {
+  "lock_reason": {
     "title": "Por que os tokens estão travados?",
     "paragraph_1": "Os tokens de liquidez, marketing, desenvolvimento e reserva estão protegidos por travas de tempo automatizadas via contrato MasterVault. Isso garante que nenhum fundo será utilizado antes da hora, protegendo a economia do projeto e impedindo qualquer abuso, desvio ou movimentação antecipada.",
     "paragraph_2": "O contrato é público, auditável e imutável. Você pode verificar cada linha diretamente no blockchain:",
     "button": "Ver contrato MasterVault no BscScan"
   },
 
+  "ops": {
+    "title": "Operação MoonRise",
+    "body": "Nossa infraestrutura é pública e auditável: contratos abertos, carteiras oficiais e regras de execução visíveis em tempo real. Não dependemos de custódia de terceiros nem de controles manuais. Toda movimentação relevante deixa rastro on-chain."
+  },
 
-
-"moonchain": {
-  "title": "Transição para MoonChain",
-  "content": "A governança atual é provisória. Após o lançamento da MoonChain, o token MNR será migrado para a blockchain nativa e todas as funções de controle centralizado serão eliminadas. O controle é tático. A soberania definitiva está no destino: MoonChain."
-},
+  "liquidity": {
+    "title": "Política de Liquidez & Defesa de Mercado",
+    "items": [
+      "Liquidez aberta de forma controlada, seguindo calendário e regras pré-definidas.",
+      "Mecanismos anti-baleia e anti-dump no contrato para proteger holders e o gráfico.",
+      "Taxas e operações do ecossistema registradas on-chain (BscScan) com transparência.",
+      "Fundo de estabilidade e travas automatizadas via MasterVault."
+    ]
+  },
 
   "docs_links": {
     "token_explorer": "(ver no BscScan)",
     "pre_explorer": "(ver no BscScan)",
-    "termo_label": "🔍 Consulte o",
     "termo_link": "Termo de Isenção de Responsabilidade",
     "wallet_button": "Ver no BscScan"
   }

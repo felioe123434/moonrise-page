@@ -1,0 +1,107 @@
+{
+  "disclaimer": {
+    "trigger": "Haftungsausschluss einsehen",
+    "title": "Haftungsausschluss — MoonRise",
+    "updated": "Letzte Aktualisierung:",
+    "updatedDate": "2025-08-26",
+    "alertTitle": "Wichtiger Hinweis:",
+    "alertText": "Dieses Dokument beschreibt Risiken, Einschränkungen und Transparenzverpflichtungen unserer Produkte und Mitteilungen. Bitte sorgfältig lesen. Nichts hierin stellt eine Investitions-, Rechts-, Buchhaltungs- oder Steuerberatung dar. Kaufentscheidungen sind persönlich und freiwillig.",
+    "sections": [
+      {
+        "heading": "1) Umfang und Art der Informationen",
+        "items": [
+          "Whitepapers, institutionelle Seiten und Marketingmaterialien dienen nur Informations- und Bildungszwecken.",
+          "Informationen können ohne Vorankündigung aktualisiert werden; neuere Versionen ersetzen ältere.",
+          "Materialien stellen keine Rentabilitätsversprechen, Leistungszusagen oder individuelle Beratung dar."
+        ]
+      },
+      {
+        "heading": "2) Benutzerprofil und Eignung",
+        "items": [
+          "Produkte mit Krypto-Assets sind für Benutzer über 18 Jahre mit Risikobereitschaft bestimmt.",
+          "Sie sind verantwortlich für die Bewertung Ihrer Ziele, Ihres Anlagehorizonts und Ihrer finanziellen Eignung.",
+          "Wir empfehlen, bei Bedarf unabhängige Beratung einzuholen."
+        ]
+      },
+      {
+        "heading": "3) Marktrisiken",
+        "items": [
+          "Hohe Volatilität: Preise können stark schwanken und zu einem Totalverlust des Kapitals führen.",
+          "Variable Liquidität: Kauf und Verkauf können zu bestimmten Zeiten eingeschränkt sein.",
+          "Kontrahentenrisiko, systemische Marktrisiken und externe Schocks können den Wert beeinflussen."
+        ]
+      },
+      {
+        "heading": "4) Betriebs- und Technologierisiken",
+        "items": [
+          "Fehler in Software, Netzwerken, Wallets, Integratoren oder Drittanbietern können zu Ausfällen oder Verlusten führen.",
+          "Angriffe, Bugs, Hard Forks und Protokolländerungen können die Nutzbarkeit und den Wert von Tokens beeinträchtigen.",
+          "Sicherheitsmaßnahmen werden nach Best Practices angewendet, ohne vollständige Risikobeseitigung."
+        ]
+      },
+      {
+        "heading": "5) Compliance und Regulierung",
+        "items": [
+          "Wir handeln gemäß der für unsere Aktivitäten geltenden Gesetzgebung (z. B. Gesetz 14.478/2022 und verwandte Normen).",
+          "Wenn ein Produkt als Wertpapier eingestuft wird, gelten die Regeln der zuständigen Behörde.",
+          "Der Nutzer ist verantwortlich für die Einhaltung lokaler Gesetze, einschließlich Steuervorschriften, in seinem Wohnsitzland."
+        ]
+      },
+      {
+        "heading": "6) Transparenz und Kontrollen",
+        "items": [
+          "Offizielle Wallets, Sperren und Zeitpläne werden im Transparenzbereich der Website veröffentlicht.",
+          "Liquiditäts- und Marktverteidigungspolitiken sind öffentlich und können mit Begründung angepasst werden.",
+          "Audits und On-Chain-Nachweise haben Priorität, um das Vertrauen ins Ökosystem zu stärken."
+        ]
+      },
+      {
+        "heading": "7) Daten und Datenschutz",
+        "items": [
+          "Personenbezogene Daten werden gemäß der Datenschutzrichtlinie und der geltenden Gesetzgebung verarbeitet.",
+          "Wir ergreifen technische und organisatorische Maßnahmen zum Schutz der Daten unter Wahrung der Rechte der Nutzer.",
+          "Logs und Metriken können zur Sicherheit, Betrugsprävention und Verbesserung der Dienste gesammelt werden."
+        ]
+      },
+      {
+        "heading": "8) Haftungsbeschränkungen",
+        "items": [
+          "Soweit gesetzlich zulässig, wird die Haftung für indirekte Schäden, entgangene Gewinne und entgangene Chancen ausgeschlossen.",
+          "Nichts in diesem Dokument beseitigt gesetzlich vorgesehene Verbraucherrechte oder unvermeidbare rechtliche Verantwortlichkeiten.",
+          "Eine kontinuierliche Verfügbarkeit des Dienstes wird nicht garantiert; Ausfälle können auftreten."
+        ]
+      },
+      {
+        "heading": "9) Geistiges Eigentum",
+        "items": [
+          "Marken, Namen, Inhalte und Software sind durch geistige Eigentumsrechte geschützt.",
+          "Kopieren, Reverse Engineering, unautorisierte kommerzielle Nutzung oder Missbrauch der Materialien ist verboten."
+        ]
+      },
+      {
+        "heading": "10) Sprachen und Vorrang",
+        "items": [
+          "Übersetzungen werden zur Benutzerfreundlichkeit bereitgestellt.",
+          "Bei Abweichungen hat die englische Version Vorrang.",
+          "In Brasilien werden Unklarheiten zugunsten der Verbraucher ausgelegt, gemäß geltendem Recht."
+        ]
+      },
+      {
+        "heading": "11) Offizielle Mitteilungen",
+        "items": [
+          "Offizielle Kanäle werden auf der institutionellen Seite veröffentlicht; seien Sie misstrauisch bei nicht aufgeführten Kontakten.",
+          "Wir fordern niemals private Schlüssel, 2FA-Codes oder Überweisungen ohne Bestätigung über offizielle Kanäle an."
+        ]
+      },
+      {
+        "heading": "12) Zustimmung",
+        "items": [
+          "Durch die weitere Nutzung unserer Produkte erklären Sie, dass Sie diese Bedingungen gelesen, verstanden und akzeptiert haben.",
+          "Wir empfehlen, das Datum der Lektüre zu speichern/aufzuzeichnen."
+        ]
+      }
+    ],
+    "footer": "MoonRise-Verpflichtung: Transparenz, Sicherheit und verantwortungsvolle Ausführung mit langfristigem Fokus und Respekt für den Nutzer.",
+    "actions": { "close": "Schließen", "gotIt": "Verstanden" }
+  }
+}

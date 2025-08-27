@@ -1,64 +1,61 @@
 {
-  "title": "Tokenomics de MoonRise",
-  "intro": "MoonRise fue diseñado con una estructura para garantizar equilibrio, transparencia y crecimiento sostenible. Ningún token fue distribuido gratuitamente — todo fue planeado con propósito, estrategia y visión a largo plazo.",
-
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise fue diseñado con estructura para garantizar equilibrio, transparencia y crecimiento sostenible. Ningún token fue distribuido gratuitamente — todo fue planeado con propósito, estrategia y visión de largo plazo.",
   "supplyLabels": {
     "name": "Nombre",
     "symbol": "Símbolo",
     "network": "Red",
     "total": "Supply Total",
     "burned": "Tokens Quemados",
-    "circulating": "Supply en Circulación",
-    "contract": "Contrato Oficial"
+    "circulating": "Supply en Circulación"
   },
-
   "supply": {
     "name": "MoonRise",
     "symbol": "MNR",
     "network": "BNB Smart Chain (BEP-20)",
-    "total": "7.500.000.000",
-    "burned": "1.600.000.000",
-    "circulating": "5.900.000.000"
+    "total": "7,500,000,000",
+    "burned": "1,600,000,000",
+    "circulating": "5,900,000,000"
   },
-
-  "distributionNote": "Cada fracción del supply fue asignada con propósito. No hay sobras, no hay casualidades — solo estrategia y ejecución.",
-
+  "buttons": {
+    "transparency": "Transparencia",
+    "contract": "Contrato en BscScan"
+  },
   "distributionTitle": "Distribución de Tokens",
+  "distributionNote": "Cada fracción del supply fue asignada con propósito. No existe sobra, no existe azar — solo estrategia y ejecución.",
+  "warnings": {
+    "totalNot100": "La distribución totaliza {{total}}."
+  },
   "distribution": [
-    { "label": "53.33 %", "title": "Liquidez" },
-    { "label": "6.67 %", "title": "Desarrollo" },
-    { "label": "21.33 %", "title": "Tokens Quemados" },
-    { "label": "10.00 %", "title": "Marketing" },
-    { "label": "5.33 %", "title": "Ecosistema MoonRise" },
-    { "label": "3.33 %", "title": "Reserva Estratégica" },
-    { "label": "0.0067 %", "title": "Fundador (Bloqueado)" }
+    { "title": "Liquidez", "value": 53.3333333333, "label": "53,33 %" },
+    { "title": "Desarrollo", "value": 6.6666666667, "label": "6,67 %" },
+    { "title": "Tokens Quemados", "value": 21.3333333333, "label": "21,33 %" },
+    { "title": "Marketing", "value": 10, "label": "10,00 %" },
+    { "title": "Ecosistema MoonRise", "value": 5.3266666667, "label": "5,33 %" },
+    { "title": "Reserva Estratégica", "value": 3.3333333333, "label": "3,33 %" },
+    { "title": "Fundador (Bloqueado)", "value": 0.0066666667, "label": "0,0067 %" }
   ],
-
   "fundsTitle": "Uso de los Fondos Recaudados",
-  "fundsText": "Todos los fondos recaudados se asignan de manera transparente y rastreable. La prioridad es generar valor, garantizar estabilidad e impulsar el crecimiento del ecosistema.",
-
+  "fundsText": "Todos los fondos recaudados se asignan de forma transparente y rastreable. La prioridad es generar valor, garantizar estabilidad e impulsar el crecimiento del ecosistema.",
   "funds": [
     {
       "title": "Ecosistema MoonRise",
-      "desc": "Reinversión automática en infraestructura, liquidez, validación y expansión del ecosistema. Cada transacción alimenta la máquina que sostiene el imperio."
+      "desc": "Reinversión continua en infraestructura, productos (Wallet, MoonSwap, Banco) y expansión. Cada transacción fortalece el imperio."
     },
     {
       "title": "Reservas de Estabilidad",
-      "desc": "Fondo de protección para mantener la liquidez y apoyar el precio durante alta volatilidad."
+      "desc": "Fondo de protección para mantener la liquidez y apoyar el precio durante alta volatilidad y eventos de mercado."
     },
     {
       "title": "Liquidez de Mercado",
-      "desc": "Garantiza un movimiento fluido y soporte continuo al gráfico del token."
+      "desc": "Garantía de profundidad y movimiento fluido para transacciones saludables del token."
     },
     {
-      "title": "Valoración de Holders",
-      "desc": "Parte de las ganancias se reinvierte para beneficiar a los holders fieles."
+      "title": "Valorización de Holders",
+      "desc": "Parte de las ganancias y de la ejecución estratégica regresa en beneficios directos e indirectos a los holders fieles."
     }
   ],
-
   "closing": {
-    "phrase": "MoonRise fue construido sobre ejecución, datos y visión a largo plazo. El propio uso del sistema impulsa el crecimiento, con tasas reinvertidas en liquidez y valor sostenible."
-  },
-
-  "footer": "Todos los derechos reservados."
+    "phrase": "MoonRise fue construido sobre ejecución, datos y visión de largo plazo. Sin airdrops, sin mint adicional. Transparencia pública y bloqueos auditables."
+  }
 }

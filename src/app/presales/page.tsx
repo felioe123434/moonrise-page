@@ -7,6 +7,7 @@ import { ethers } from 'ethers';
 import contractAbi from '../../abi/PresaleABI.json';
 import PresalePanel from '../components/presalepanel';
 
+
 const CONTRACT_ADDRESS = '0xeBa712f83323559E8d827302b6C7945343307F00';
 
 export default function Presales() {
@@ -16,7 +17,7 @@ export default function Presales() {
   const [sold, setSold] = useState<number | null>(null);
   const [animatedSold, setAnimatedSold] = useState(0);
 
-  const isPT = i18n.language.startsWith('pt');
+  const isPT = i18n.language?.startsWith('pt');
   const [bnbToBRL, setBnbToBRL] = useState<number | null>(null);
   const [bnbToUSD, setBnbToUSD] = useState<number | null>(null);
 
@@ -30,8 +31,8 @@ export default function Presales() {
           'https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl'
         );
         const data = await res.json();
-        setBnbToBRL(data.binancecoin.brl);
-        setBnbToUSD(data.binancecoin.usd);
+        setBnbToBRL(data?.binancecoin?.brl ?? null);
+        setBnbToUSD(data?.binancecoin?.usd ?? null);
       } catch (err) {
         console.error('Erro ao buscar cotação BNB:', err);
       }
@@ -82,7 +83,7 @@ export default function Presales() {
     return () => clearInterval(interval);
   }, []);
 
-  // Animação contador
+  // Animação do contador
   useEffect(() => {
     if (sold !== null) {
       let start = animatedSold;
@@ -133,9 +134,8 @@ export default function Presales() {
           <div className="bg-black border border-yellow-500 rounded-xl px-8 py-6 text-center shadow-md w-full max-w-xs">
             <p className="text-sm text-gray-400 mb-2 font-medium">{t('phases.counterTitle')}</p>
             <p className="text-4xl font-extrabold text-yellow-400 tracking-wide mb-2">
-              {animatedSold.toLocaleString('pt-BR')} MNR
+              {(isPT ? animatedSold.toLocaleString('pt-BR') : animatedSold.toLocaleString('en-US'))} MNR
             </p>
-            {/* Link em texto simples (centralizado) */}
             <a
               href="https://t.me/moonbuynotifications"
               target="_blank"
@@ -152,40 +152,25 @@ export default function Presales() {
           <div className="mx-auto w-full max-w-2xl">
             <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4">
               <Link href="/tokenomics" className="w-full sm:w-auto" aria-label={t('buttons.tokenomics')}>
-                <span
-                  className="block w-full text-center px-7 py-4 rounded-2xl 
-                             bg-gradient-to-r from-purple-600 to-fuchsia-500 
-                             text-white font-semibold text-base shadow-lg
-                             hover:opacity-90 active:opacity-80 
-                             focus:outline-none focus:ring-2 focus:ring-purple-400
-                             transition"
-                >
+                <span className="block w-full text-center px-7 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-fuchsia-500 text-white font-semibold text-base shadow-lg hover:opacity-90 active:opacity-80 focus:outline-none focus:ring-2 focus:ring-purple-400 transition">
                   📊 {t('buttons.tokenomics')}
                 </span>
               </Link>
 
               <Link href="/transparency" className="w-full sm:w-auto" aria-label={t('buttons.transparency')}>
-                <span
-                  className="block w-full text-center px-7 py-4 rounded-2xl 
-                             border border-yellow-500 text-yellow-400 
-                             font-semibold text-base shadow-lg
-                             hover:bg-yellow-500 hover:text-black active:bg-yellow-400
-                             focus:outline-none focus:ring-2 focus:ring-yellow-400
-                             transition"
-                >
+                <span className="block w-full text-center px-7 py-4 rounded-2xl border border-yellow-500 text-yellow-400 font-semibold text-base shadow-lg hover:bg-yellow-500 hover:text-black active:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition">
                   🔎 {t('buttons.transparency')}
                 </span>
               </Link>
             </div>
 
-            {/* Observação discreta com respiro */}
             <p className="mt-4 text-center text-sm text-gray-300">
               {t('buttons.helper')}
             </p>
           </div>
         </section>
 
-        {/* REDE */}
+        {/* REDE (BNB) */}
         <section className="mb-20">
           <h2 className="text-2xl font-semibold mb-2">{t('network.title')}</h2>
           <p className="text-gray-400 max-w-3xl">{t('network.description1')}</p>
@@ -204,7 +189,6 @@ export default function Presales() {
             <li>{t('structure.network')}</li>
           </ul>
 
-          {/* Link contrato centralizado e visível */}
           <p className="mt-4 text-center">
             <a
               href={`https://bscscan.com/address/${CONTRACT_ADDRESS}`}
@@ -277,8 +261,7 @@ export default function Presales() {
             {[1, 2, 3, 4, 5].map((i) => (
               <div
                 key={i}
-                className="p-4 rounded-2xl border border-neutral-700 bg-neutral-900 text-center
-                           hover:border-yellow-500 transition"
+                className="p-4 rounded-2xl border border-neutral-700 bg-neutral-900 text-center hover:border-yellow-500 transition"
               >
                 <p className="text-sm font-medium text-white leading-snug">
                   {t(`roadmap.step${i}`)}
@@ -312,6 +295,11 @@ export default function Presales() {
           >
             {t('closeButton')}
           </button>
+
+        <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
+        {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+      </footer>
+      
         </div>
       )}
     </>

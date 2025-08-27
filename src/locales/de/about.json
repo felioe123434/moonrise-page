@@ -1,10 +1,54 @@
 {
-  "title": "MoonRise Holdings",
-  "subtitle": "Eingetragene Holding in den Vereinigten Staaten. Eigene Infrastruktur. Open-Source-Code. Unabhängiger Betrieb.",
-  "manifesto": {
-    "0": "MoonRise Technologies LLC",
-    "1": "Registriert in Wyoming, USA —ID #2025-00169-WY",
-    "2": "Holding verantwortlich für MoonChain, MoonWallet und MoonBank."
+  "title": "MoonRise",
+  "hero": {
+    "tag": "UNTERNEHMEN • STRUKTUR • AUSFÜHRUNG",
+    "lead": "Holding mit Sitz in den USA. Unternehmensstruktur, klare Governance und absoluter Fokus auf Ausführung und langfristige Strategie."
   },
-  "seal": "Wir bauen im Stillen. Wir führen mit Präzision aus. Wir herrschen mit Souveränität."
+  "who": {
+    "title": "Wer Wir Sind",
+    "paragraphs": [
+      "MoonRise Holdings LLC ist ein technologie- und finanzbasiertes Unternehmen. Unsere Aufgabe ist es, reale Infrastruktur mit Prozessen, Sicherheit und Skalierbarkeit aufzubauen.",
+      "Wir arbeiten nach internationalen Standards, mit definierten internen Kontrollen und klarer Kommunikation. Keine Versprechen. Nur Ergebnisse."
+    ]
+  },
+  "purpose": {
+    "title": "Unser Zweck",
+    "items": [
+      "Entwicklung kritischer Technologien für moderne Finanzoperationen.",
+      "Prozesse standardisieren, Risiken reduzieren und Geschwindigkeit der Ausführung erhöhen.",
+      "Partner und Investoren mit einer seriösen und prüfbaren Operation verbinden."
+    ]
+  },
+  "values": {
+    "title": "Unsere Säulen",
+    "items": ["Transparenz", "Exzellenz", "Innovation", "Geschwindigkeit", "Konsistenz"]
+  },
+  "experience": {
+    "title": "Unsere Erfahrung",
+    "items": [
+      "Systemarchitektur und prüfbare Verträge mit Fokus auf Sicherheit.",
+      "Schlanke Unternehmensführung, klare Prozesse und datenbasierte Entscheidungen.",
+      "Kontinuierliche Lieferung: Planung, Versionierung, Messung und Verbesserung."
+    ]
+  },
+  "stats": [
+    { "value": "Global", "label": "Präsenz" },
+    { "value": "Registriert in den USA", "label": "Rechtsgrundlage" },
+    { "value": "Prozess", "label": "Ausführungsmethode" },
+    { "value": "Transparent", "label": "Management" }
+  ],
+  "legal": {
+    "title": "Rechtliche Registrierung",
+    "company": "MoonRise Technologies LLC",
+    "place": "Wyoming, USA",
+    "id": "ID #2025-00169-WY"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "summary": "Institutioneller Support, Partnerschaften oder Fragen? Kontaktieren Sie unser Team.",
+    "hours": "Unternehmensservice: Mo–Fr, 9–18 Uhr (BRT)"
+  },
+  "cta": {
+    "contact": "Mit dem Team sprechen"
+  }
 }

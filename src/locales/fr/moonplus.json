@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "Pré-opération" },
+  "start": { "target": "Fenêtre cible : T1 2026" },
+
+  "hero": {
+    "kicker": "ENTREPRISE • COURTAGE • MOONRISE",
+    "title": { "l1": "Moon+", "l2": "Agence Immobilière" },
+    "subtitle": "Agence immobilière de MoonRise Technologies. Opérations réelles, expansion stratégique et création de valeur durable pour l’écosystème MoonRise.",
+    "badges": { "broker": "Courtage", "auditable": "Transparent", "execution": "Exécution réelle" }
+  },
+
+  "cta": {
+    "support": "Canal de Support",
+    "community": "Communauté Officielle"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "Ce que nous livrons",
+    "cards": [
+      { "t": "Origination qualifiée", "d": "Opportunités filtrées par thèse et documentation minimale." },
+      { "t": "Exécution responsable", "d": "Diligence juridique/technique et clôture sécurisée." },
+      { "t": "Transparence stratégique", "d": "Processus clairs et communication directe avec investisseurs et partenaires." }
+    ]
+  },
+
+  "how": {
+    "title": "Comment ça marche",
+    "steps": [
+      { "t": "Origination", "d": "Nous recevons les opportunités et les documents initiaux." },
+      { "t": "Diligence", "d": "Analyse juridique/technique et validation des conditions." },
+      { "t": "Clôture", "d": "Proposition, acte et enregistrement conforme à la loi." },
+      { "t": "Intégration avec MoonRise", "d": "Les bénéfices nets de Moon+ renforcent l’écosystème MoonRise." }
+    ],
+    "note": "Aucune promesse de rendement. Le modèle d’intégration peut évoluer selon la stratégie."
+  },
+
+  "flow": {
+    "title": "Flux de valeur",
+    "desc": "Moon+ naît financée par la prévente de MNR, mais devient autosuffisante grâce à ses propres revenus. Une partie des bénéfices nets sera dirigée vers le renforcement de l’écosystème MoonRise, que ce soit par les graphiques, l’expansion stratégique ou le réinvestissement futur."
+  },
+
+  "roadmap": {
+    "title": "Feuille de route",
+    "items": [
+      { "t": "2025 · S2", "d": "Structuration juridique, architecture et définition des processus." },
+      { "t": "2026 · T1", "d": "Opérations initiales, intermédiaires et pilotes." },
+      { "t": "2026 · T2–T3", "d": "Montée en échelle, acquisitions et rapports internes." }
+    ]
+  },
+
+  "disclaimer": "Aucune promesse de rendement. Opérations soumises aux exigences légales, à la stratégie d’entreprise et à des ajustements futurs."
+}

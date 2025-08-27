@@ -1,50 +1,50 @@
 {
   "title": "Transparence MoonRise",
-  "intro": "Ici, pas de discours creux. Chaque ligne, chaque bloc, chaque adresse existe pour prouver : MoonRise, c’est de l’exécution réelle, visible et vérifiable. Cet onglet est le miroir de notre engagement envers ceux qui construisent avec nous. Aucune promesse. Seulement des livraisons concrètes.",
+  "intro": "Ici, pas de discours creux. Chaque ligne, chaque bloc, chaque adresse existe pour prouver : MoonRise est une exécution réelle, visible et vérifiable. Cet onglet est le miroir de notre engagement envers ceux qui construisent avec nous. Aucune promesse. Seulement des résultats.",
 
   "protection": {
-    "summary": "MoonRise protège l’économie avec logique, code et blindage automatisé. Chaque opération respecte des limites, applique un délai de sécurité (cooldown), évite les abus et transforme chaque action en liquidité réelle — alimentant le système, bloquant les manipulations et rendant tout visible en temps réel.",
+    "summary": "MoonRise protège l’économie avec logique, code et blindage automatisé. Chaque opération respecte des limites, applique des cooldowns, évite les abus et transforme chaque action en liquidité réelle — alimentant le système, bloquant les manipulations et rendant tout visible en temps réel.",
     "internalEconomyTitle": "Économie Interne Intelligente",
-    "internalEconomy": "Chaque mouvement dans l’écosystème MoonRise alimente automatiquement la liquidité. Rien n’est statique. Chaque clic renforce le système et alimente le moteur financier que nous construisons — de manière automatisée, transparente et évolutive.",
+    "internalEconomy": "Chaque mouvement dans l’écosystème MoonRise alimente automatiquement la liquidité. Rien n’est statique. Chaque clic renforce le système et alimente le moteur financier que nous construisons — automatisé, transparent et évolutif.",
     "badges": [
       "Liquidité Intelligente",
       "Graphique Stabilisé",
       "Écosystème Réel",
-      "Blocage de Dump"
+      "Blocage des Dumps"
     ]
   },
 
   "dna": [
-    "✅ Code source ouvert et contrats vérifiables — tout le monde peut tout vérifier directement sur BscScan. Aucun contrôle centralisé.",
-    "✅ Chaque mouvement alimente l’écosystème — sans promesses de garantie externe, seulement une structure interne vérifiable.",
-    "✅ 100% souverain — sans dépendre de banques, d’entreprises ou de tiers. Le contrôle est le nôtre. L’exécution aussi.",
-    "✅ Défense anti-baleine active — le système bloque les mouvements suspects pour protéger les détenteurs et le graphique."
+    "✅ Code open source et contrats vérifiables — tout le monde peut tout vérifier directement sur BscScan. Zéro contrôle centralisé.",
+    "✅ Chaque mouvement alimente l’écosystème — sans promesse de garantie externe, uniquement une structure interne vérifiable.",
+    "✅ 100% souverain — sans dépendance aux banques, entreprises ou tiers. Le contrôle est à nous. L’exécution aussi.",
+    "✅ Défense anti-baleine active — le système bloque les mouvements suspects pour protéger les holders et le graphique."
   ],
 
   "proof_title": "🚀 Preuves Réelles et Vérifiables",
-  "proof_intro": "Nous ne demandons pas la confiance. Nous montrons l’exécution. Tout ici peut être tracé en temps réel via la blockchain, des images, des contrats et des documents publics.",
+  "proof_intro": "Nous ne demandons pas de confiance. Nous montrons l’exécution. Tout ici peut être suivi en temps réel via blockchain, images, contrats et documents publics.",
   "proof": [
-    "🔥 Brûlure de 1,6 milliard de tokens au déploiement — visible sur BscScan avec hash public.",
-    "🛠️ Infrastructure publique visible — contrats, frais, portefeuilles et opérations documentées.",
-    "📄 Prévente dans un contrat autonome — aucun contrôle manuel, règles fixes dans le code.",
-    "🧾 Portefeuilles publics avec suivi — marketing, liquidité, récompenses. Tout est visible, rien n’est caché."
+    "🔥 Brûlage de 1,6 milliard de tokens au déploiement — visible sur BscScan avec hash public.",
+    "🛠️ Infrastructure publique visible — contrats, frais, wallets et opérations documentées.",
+    "📄 Prévente dans un contrat autonome — aucun contrôle manuel, règles fixées dans le code.",
+    "🧾 Wallets publics avec suivi — marketing, liquidité, récompenses. Tout est visible, rien de caché."
   ],
 
   "patrimonio_title": "💠 Écosystème en Expansion",
-  "patrimonio_desc": "MoonRise n’est pas seulement une crypto. C’est du code, un réseau, une infrastructure réelle construite avec discipline et réinvestissement stratégique. Chaque frais retourne dans le système. Chaque clic alimente l’empire. Rien ne vient de l’extérieur. Tout naît de l’intérieur.",
+  "patrimonio_desc": "MoonRise n’est pas seulement de la crypto. C’est du code, du réseau, une infrastructure réelle construite avec discipline et réinvestissement stratégique. Chaque frais revient dans le système. Chaque clic alimente l’empire. Rien ne vient de l’extérieur. Tout naît de l’intérieur.",
 
-  "wallets_title": "Portefeuilles Officiels du Projet",
+  "wallets_title": "Wallets Officiels du Projet",
   "wallets_desc": "Toutes les adresses ci-dessous font partie de l’infrastructure publique de MoonRise. Elles sont traçables, vérifiables et visibles en temps réel sur la blockchain.",
   "wallets": {
-    "liquidez": "Portefeuille de Liquidité",
-    "desenvolvimento": "Portefeuille de Développement",
-    "marketing": "Portefeuille Marketing",
-    "ecossistema": "Portefeuille de l’Écosystème",
-    "reserva": "Portefeuille de Réserve",
-    "fundador": "Portefeuille du Fondateur"
+    "liquidez": "Wallet de Liquidité",
+    "desenvolvimento": "Wallet de Développement",
+    "marketing": "Wallet de Marketing",
+    "ecossistema": "Wallet de l’Écosystème",
+    "reserva": "Wallet de Réserve",
+    "fundador": "Wallet du Fondateur"
   },
 
-  "wallets_locked_note": " Portefeuille verrouillé pendant 1 an après le déploiement",
+  "wallets_locked_note": " Wallet bloqué pendant 1 an après le déploiement",
 
   "docs_title": "📂 Documents Officiels et Contrats",
   "docs": {
@@ -52,23 +52,24 @@
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
   },
+
   "governance": {
     "title": "Gouvernance Temporaire et Transparente",
-    "intro": "Pendant la phase de prévente, le contrat est contrôlé par un owner() visible et limité — avec pour seul objectif de protéger l’intégrité de l’opération initiale.",
+    "intro": "Pendant la phase de prévente, le contrat est contrôlé par un owner visible et limité — avec pour seul objectif de protéger l’intégrité de l’opération initiale.",
     "can": {
-      "title": "Ce que le owner peut faire",
+      "title": "Ce que l’owner PEUT faire",
       "items": [
-        "Mettre le contrat en pause et le relancer en cas d’attaque",
+        "Mettre en pause et reprendre le contrat en cas d’attaque",
         "Ajuster la taxe de vente (limite de 10%)",
-        "Mettre à jour les portefeuilles whitelistés",
-        "Modifier les paramètres de cooldowns anti-baleine"
+        "Mettre à jour les wallets whitelistés",
+        "Modifier les paramètres de cooldown anti-baleine"
       ]
     },
     "cannot": {
-      "title": "Ce que le owner NE peut pas faire",
+      "title": "Ce que l’owner NE PEUT PAS faire",
       "items": [
-        "Créer de nouveaux tokens (pas de fonction mint)",
-        "Modifier le supply (fixé lors du déploiement)",
+        "Créer de nouveaux tokens (aucune fonction de mint)",
+        "Modifier le supply (fixé au déploiement)",
         "Rediriger les fonds de la prévente",
         "Contourner les limites définies dans le contrat"
       ]
@@ -80,22 +81,31 @@
   },
 
   "lock_reason": {
-    "title": "Pourquoi les tokens sont-ils verrouillés ?",
-    "paragraph_1": "Les tokens de liquidité, marketing, développement et réserve sont protégés par des verrous temporels automatisés via le contrat MasterVault. Cela garantit qu’aucun fonds ne sera utilisé avant l’heure, protégeant ainsi l’économie du projet et empêchant tout abus, détournement ou mouvement anticipé.",
+    "title": "Pourquoi les tokens sont-ils bloqués ?",
+    "paragraph_1": "Les tokens de liquidité, marketing, développement et réserve sont protégés par des time-locks automatisés via le contrat MasterVault. Cela garantit qu’aucun fonds ne sera utilisé avant l’heure, protégeant l’économie du projet et empêchant tout abus ou détournement.",
     "paragraph_2": "Le contrat est public, vérifiable et immuable. Vous pouvez vérifier chaque ligne directement sur la blockchain :",
     "button": "Voir le contrat MasterVault sur BscScan"
   },
 
-  "moonchain": {
-    "title": "Transition vers MoonChain",
-    "content": "La gouvernance actuelle est provisoire. Après le lancement de MoonChain, le token MNR sera migré vers la blockchain native et toutes les fonctions de contrôle centralisé seront éliminées. Le contrôle est tactique. La souveraineté définitive est dans la destination : MoonChain."
+  "ops": {
+    "title": "Opération MoonRise",
+    "body": "Notre infrastructure est publique et vérifiable : contrats ouverts, wallets officiels et règles d’exécution visibles en temps réel. Nous ne dépendons pas de garde tierce ni de contrôles manuels. Chaque mouvement pertinent laisse une trace on-chain."
+  },
+
+  "liquidity": {
+    "title": "Politique de Liquidité & Défense de Marché",
+    "items": [
+      "Liquidité ouverte de manière contrôlée, suivant calendrier et règles prédéfinies.",
+      "Mécanismes anti-baleine et anti-dump dans le contrat pour protéger les holders et le graphique.",
+      "Frais et opérations de l’écosystème enregistrés on-chain (BscScan) avec transparence.",
+      "Fonds de stabilité et verrous automatisés via MasterVault."
+    ]
   },
 
   "docs_links": {
     "token_explorer": "(voir sur BscScan)",
     "pre_explorer": "(voir sur BscScan)",
-    "termo_label": "🔍 Consultez le",
-    "termo_link": "Disclaimer de Responsabilité",
+    "termo_link": "Termes de Non-Responsabilité",
     "wallet_button": "Voir sur BscScan"
   }
 }

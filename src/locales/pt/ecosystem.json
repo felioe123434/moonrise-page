@@ -3,11 +3,18 @@
   "title": "O <1>ecossistema</1><br /> da <3>MoonRise</3> transforma tecnologia em independência.",
   "description": "Cada produto foi criado com propósito: oferecer infraestrutura real, controle direto e liberdade financeira. Tudo interligado, sem depender de terceiros.",
 
-  "moonchain": "Blockchain própria. Leve, rápida e com foco exclusivo em aplicações financeiras. Custos ultrabaixos, tempo de bloco fixo e validação antifraude.",
-  "moonwallet": "Carteira multi-chain com integração nativa à MoonChain. Importação automática, taxa otimizada e controle avançado de tokens.",
-  "moonbuy": "Sistema de compra direta de MNR, conectado à pré-venda e campanhas estratégicas. Sem burocracia, direto ao ponto.",
-  "moonswap": "Corretora descentralizada integrada ao ecossistema. Trocas rápidas, liquidez inteligente e conexão direta à MoonWallet.",
-  "moonbank": "Conta digital integrada ao staking de MNR e ferramentas de controle financeiro. Design simples, estrutura robusta.",
-  "moonplus": "Infraestrutura para tokenização, negociação e custódia de ativos do mundo real. Compra e venda de imóveis, integração com corretoras reguladas e liquidez on-chain via MNR.",
-  "mnr": "Token nativo da MoonRise. Base de toda a infraestrutura e economia — com mecanismos de queima, proteção contra abuso e distribuição estratégica controlada."
+"moonwallet": "Carteira autocustódia multi-chain (como MetaMask). Importação automática do MNR, envio/recebimento, conexão com dApps e saldo em tempo real. Botão \"Comprar cripto\" integrado (via MoonBuy).",
+  "moonbank": "Pagamentos simples, dinheiro em movimento. Conta digital com cartão e compras de cripto integradas (MoonBuy) direto para a MoonWallet.",
+  "moonbuy": "Checkout cripto & Launchpad. Compre MNR e principais ativos com Pix/Cartão e participe de pré-vendas selecionadas. O mesmo motor atende a MoonWallet e a MoonBank, com curadoria séria.",
+  "transparency": "Auditorias, travas, carteiras oficiais e repasses do MasterVault publicados em tempo real.",
+  "moonplus": "Infraestrutura para tokenização e negociação de ativos reais. Imóveis, contratos e integrações reguladas com liquidez on-chain via MNR.",
+  "mnr": "Token nativo do ecossistema MoonRise. Base de toda a infraestrutura e da economia — com mecanismos de queima, proteção contra manipulações e distribuição estratégica controlada.",
+
+
+  "cta": {
+    "subtitle": "Toda a infraestrutura MoonRise evolui em ciclo de execução e reinvestimento.",
+    "presale": "Entrar na Pré-venda",
+    "transparency": "Ver Transparência"
+  }
 }
+

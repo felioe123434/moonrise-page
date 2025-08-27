@@ -1,0 +1,57 @@
+{
+  "notice": { "preop": "Vorbereitung" },
+  "start": { "target": "Zielzeitraum: Q1 2026" },
+
+  "hero": {
+    "kicker": "UNTERNEHMEN • MAKLER • MOONRISE",
+    "title": { "l1": "Moon+", "l2": "Immobilienmakler" },
+    "subtitle": "Immobilienmakler von MoonRise Technologies. Reale Geschäfte, strategische Expansion und nachhaltige Wertschöpfung für das MoonRise-Ökosystem.",
+    "badges": { "broker": "Makler", "auditable": "Transparent", "execution": "Reale Ausführung" }
+  },
+
+  "cta": {
+    "support": "Support-Kanal",
+    "community": "Offizielle Community"
+  },
+
+  "links": {
+    "support_url": "https://t.me/moonrisesupport",
+    "community_url": "https://t.me/moonriseofficialcommunity"
+  },
+
+  "value": {
+    "title": "Was wir liefern",
+    "cards": [
+      { "t": "Qualifizierte Origination", "d": "Chancen gefiltert nach These und Mindestdokumentation." },
+      { "t": "Verantwortungsvolle Ausführung", "d": "Juristische/technische Due Diligence und sicheres Closing." },
+      { "t": "Strategische Transparenz", "d": "Klare Prozesse und direkte Kommunikation mit Investoren und Partnern." }
+    ]
+  },
+
+  "how": {
+    "title": "Wie es funktioniert",
+    "steps": [
+      { "t": "Origination", "d": "Wir erhalten Chancen und erste Dokumente." },
+      { "t": "Due Diligence", "d": "Juristische/technische Analyse und Validierung der Bedingungen." },
+      { "t": "Abschluss", "d": "Vorschlag, Urkunde und Eintragung gemäß Gesetz." },
+      { "t": "Integration mit MoonRise", "d": "Die Nettogewinne von Moon+ stärken das MoonRise-Ökosystem." }
+    ],
+    "note": "Keine Renditeversprechen. Das Integrationsmodell kann sich je nach Strategie entwickeln."
+  },
+
+  "flow": {
+    "title": "Wertfluss",
+    "desc": "Moon+ wird durch den MNR-Vorverkauf finanziert, trägt sich jedoch später durch eigene Einnahmen. Ein Teil der Nettogewinne wird zur Stärkung des MoonRise-Ökosystems verwendet — sei es durch Charts, strategische Expansion oder zukünftige Reinvestitionen."
+  },
+
+  "roadmap": {
+    "title": "Fahrplan",
+    "items": [
+      { "t": "2025 · H2", "d": "Juristische Strukturierung, Architektur und Prozessdefinition." },
+      { "t": "2026 · Q1", "d": "Erste Geschäfte, Vermittlungen und Pilotprojekte." },
+      { "t": "2026 · Q2–Q3", "d": "Skalierung, Akquisitionen und interne Berichte." }
+    ]
+  },
+
+  "disclaimer": "Kein Renditeversprechen. Geschäfte unterliegen rechtlichen Anforderungen, Unternehmensstrategie und zukünftigen Anpassungen."
+}
