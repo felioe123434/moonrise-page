@@ -435,7 +435,7 @@ export default function PresalePanel() {
 
           {/* Rodapé */}
           <p className="text-[11px] text-center text-gray-500">
-            {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+            © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
           </p>
         </div>
       </div>
