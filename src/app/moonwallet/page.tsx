@@ -32,7 +32,7 @@ export default function MoonWallet() {
   const progress = arr('status.progress')
   const next = arr('status.next')
 
-  const TELEGRAM_UPDATES = 'https://t.me/moonrisecomunidadeoficial'
+  const TELEGRAM_UPDATES = 'https://t.me/moonriseofficialcommunity'
 
   const fadeUp = (i = 0) => ({
     initial: { opacity: 0, y: 18 },
