@@ -22,7 +22,7 @@ import presalesEN from '@/locales/en/presales.json';
 import moonplusEN from '@/locales/en/moonplus.json';
 import tokenomicsEN from '@/locales/en/tokenomics.json';
 import transparenciaEN from '@/locales/en/transparencia.json';
-import moonwalletEN from '@/locales/en/MoonWallet.json';
+import moonwalletEN from '@/locales/en/moonwallet.json';
 import legalEN from '@/locales/en/legal.json';
 import ecosystemEN from '@/locales/en/ecosystem.json';
 
