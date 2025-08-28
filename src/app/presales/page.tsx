@@ -1,12 +1,12 @@
+// SPDX-License-Identifier: MIT
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { ethers } from 'ethers';
 import contractAbi from '../../abi/PresaleABI.json';
 import PresalePanel from '../components/presalepanel';
-
 
 const CONTRACT_ADDRESS = '0xeBa712f83323559E8d827302b6C7945343307F00';
 
@@ -21,16 +21,19 @@ export default function Presales() {
   const [bnbToBRL, setBnbToBRL] = useState<number | null>(null);
   const [bnbToUSD, setBnbToUSD] = useState<number | null>(null);
 
+  // preços reais por fase (BNB)
   const realPrices = [0.0000065959, 0.0000079542, 0.0000086765];
 
-  // Cotação BNB
+  /* --------- Cotações --------- */
   useEffect(() => {
+    let mounted = true;
     const fetchPrices = async () => {
       try {
         const res = await fetch(
           'https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd,brl'
         );
         const data = await res.json();
+        if (!mounted) return;
         setBnbToBRL(data?.binancecoin?.brl ?? null);
         setBnbToUSD(data?.binancecoin?.usd ?? null);
       } catch (err) {
@@ -40,10 +43,13 @@ export default function Presales() {
 
     fetchPrices();
     const interval = setInterval(fetchPrices, 60_000);
-    return () => clearInterval(interval);
+    return () => {
+      mounted = false;
+      clearInterval(interval);
+    };
   }, []);
 
-  // Fase atual
+  /* --------- Fase atual --------- */
   useEffect(() => {
     const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org');
     const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi, provider);
@@ -51,7 +57,7 @@ export default function Presales() {
     const fetchPhase = async () => {
       try {
         const phase = await contract.currentPhase();
-        setCurrentPhase(phase.toNumber());
+        setCurrentPhase(Number(phase));
       } catch (error) {
         console.error('Erro ao buscar fase atual:', error);
       }
@@ -62,8 +68,9 @@ export default function Presales() {
     return () => clearInterval(interval);
   }, []);
 
-  // Tokens vendidos
+  /* --------- Tokens vendidos --------- */
   useEffect(() => {
+    let mounted = true;
     const fetchSold = async () => {
       try {
         const provider = new ethers.JsonRpcProvider('https://bsc-dataseed.binance.org/');
@@ -71,39 +78,42 @@ export default function Presales() {
         const phase = await contract.currentPhase();
         const info = await contract.getPhaseInfo(phase);
         const soldAmount = Math.floor(Number(ethers.formatUnits(info[1], 18)));
+        if (!mounted) return;
         setSold(soldAmount);
       } catch (err) {
         console.error('Erro ao buscar tokens vendidos:', err);
-        setSold(0);
+        if (mounted) setSold(0);
       }
     };
 
     fetchSold();
     const interval = setInterval(fetchSold, 15_000);
-    return () => clearInterval(interval);
+    return () => {
+      mounted = false;
+      clearInterval(interval);
+    };
   }, []);
 
-  // Animação do contador
+  /* --------- Animação do contador --------- */
+  const rafRef = useRef<number | null>(null);
   useEffect(() => {
-    if (sold !== null) {
-      let start = animatedSold;
-      const end = sold;
-      const duration = 500;
-      const step = (end - start) / (duration / 16);
-      let current = start;
+    if (sold === null) return;
+    const start = animatedSold;
+    const end = sold;
+    const duration = 500;
+    const startTs = performance.now();
 
-      const animate = () => {
-        current += step;
-        if ((step > 0 && current >= end) || (step < 0 && current <= end)) {
-          setAnimatedSold(end);
-          return;
-        }
-        setAnimatedSold(Math.floor(current));
-        requestAnimationFrame(animate);
-      };
+    const animate = (ts: number) => {
+      const p = Math.min(1, (ts - startTs) / duration);
+      const value = Math.round(start + (end - start) * p);
+      setAnimatedSold(value);
+      if (p < 1) rafRef.current = requestAnimationFrame(animate);
+    };
 
-      animate();
-    }
+    rafRef.current = requestAnimationFrame(animate);
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sold]);
 
@@ -115,9 +125,10 @@ export default function Presales() {
 
   return (
     <>
-      <main className="min-h-screen bg-black text-white px-6 py-20 md:py-24 max-w-5xl mx-auto">
+      {/* MAIN – com padding extra no fim pra nunca encostar no rodapé */}
+      <main className="min-h-screen bg-black text-white px-6 pt-20 md:pt-24 pb-16 max-w-5xl mx-auto">
         {/* HERO */}
-        <section className="mb-20">
+        <section className="mb-16 md:mb-20">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">{t('hero.title')}</h1>
           <p className="text-lg text-gray-400 mb-8 max-w-3xl">{t('hero.description')}</p>
           <button
@@ -130,10 +141,14 @@ export default function Presales() {
         </section>
 
         {/* CONTADOR */}
-        <section className="mb-24 flex justify-center">
+        <section className="mb-20 flex justify-center">
           <div className="bg-black border border-yellow-500 rounded-xl px-8 py-6 text-center shadow-md w-full max-w-xs">
             <p className="text-sm text-gray-400 mb-2 font-medium">{t('phases.counterTitle')}</p>
-            <p className="text-4xl font-extrabold text-yellow-400 tracking-wide mb-2">
+            <p
+              className="text-4xl font-extrabold text-yellow-400 tracking-wide mb-2"
+              aria-live="polite"
+              aria-atomic="true"
+            >
               {(isPT ? animatedSold.toLocaleString('pt-BR') : animatedSold.toLocaleString('en-US'))} MNR
             </p>
             <a
@@ -148,7 +163,7 @@ export default function Presales() {
         </section>
 
         {/* BOTÕES – Tokenomics / Transparência */}
-        <section className="mb-20">
+        <section className="mb-16">
           <div className="mx-auto w-full max-w-2xl">
             <div className="flex flex-col sm:flex-row justify-center items-stretch gap-4">
               <Link href="/tokenomics" className="w-full sm:w-auto" aria-label={t('buttons.tokenomics')}>
@@ -164,21 +179,19 @@ export default function Presales() {
               </Link>
             </div>
 
-            <p className="mt-4 text-center text-sm text-gray-300">
-              {t('buttons.helper')}
-            </p>
+            <p className="mt-4 text-center text-sm text-gray-300">{t('buttons.helper')}</p>
           </div>
         </section>
 
         {/* REDE (BNB) */}
-        <section className="mb-20">
+        <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-2">{t('network.title')}</h2>
           <p className="text-gray-400 max-w-3xl">{t('network.description1')}</p>
           <p className="text-gray-400 mt-4">{t('network.description2')}</p>
         </section>
 
         {/* ESTRUTURA */}
-        <section className="mb-20">
+        <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-2">{t('structure.title')}</h2>
           <ul className="list-disc list-inside text-gray-400 space-y-2 mb-3">
             <li>{t('structure.token')}</li>
@@ -202,7 +215,7 @@ export default function Presales() {
         </section>
 
         {/* FASES */}
-        <section className="mb-24">
+        <section className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {fases.map((fase, index) => {
               const priceBNB = realPrices[index];
@@ -210,10 +223,16 @@ export default function Presales() {
                 ? bnbToBRL ? `R$ ${(priceBNB * (bnbToBRL ?? 0)).toFixed(5)}` : ''
                 : bnbToUSD ? `$ ${(priceBNB * (bnbToUSD ?? 0)).toFixed(5)}` : '';
 
+              const isActive = currentPhase === index;
               return (
                 <div
                   key={fase.id}
-                  className="bg-neutral-900 p-6 rounded-xl border border-neutral-700 transition-all duration-300 hover:border-yellow-500 hover:shadow-lg"
+                  className={[
+                    'bg-neutral-900 p-6 rounded-xl border transition-all duration-300',
+                    'hover:border-yellow-500 hover:shadow-lg',
+                    isActive ? 'border-yellow-500 shadow-[0_0_0_3px_rgba(234,179,8,0.15)]' : 'border-neutral-700',
+                  ].join(' ')}
+                  aria-current={isActive ? 'step' : undefined}
                 >
                   <h3 className="text-xl font-bold mb-2">{fase.title}</h3>
                   <p className="text-gray-400 text-sm">{fase.supply}</p>
@@ -226,13 +245,13 @@ export default function Presales() {
         </section>
 
         {/* PROPÓSITO */}
-        <section className="mb-20">
+        <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-2">{t('purpose.title')}</h2>
           <p className="text-gray-400 max-w-3xl">{t('purpose.description')}</p>
         </section>
 
         {/* UTILIDADE */}
-        <section className="mb-20">
+        <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-2">{t('utility.title')}</h2>
           <ul className="list-disc list-inside text-gray-400 space-y-2">
             <li>{t('utility.use1')}</li>
@@ -244,7 +263,7 @@ export default function Presales() {
         </section>
 
         {/* SEGURANÇA */}
-        <section className="mb-20">
+        <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-2">{t('security.title')}</h2>
           <ul className="list-disc list-inside text-gray-400 space-y-2">
             <li>{t('security.point1')}</li>
@@ -255,7 +274,7 @@ export default function Presales() {
         </section>
 
         {/* ROADMAP */}
-        <section className="mb-28">
+        <section className="mb-24">
           <h2 className="text-2xl font-semibold mb-6">{t('roadmap.title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
             {[1, 2, 3, 4, 5].map((i) => (
@@ -263,31 +282,36 @@ export default function Presales() {
                 key={i}
                 className="p-4 rounded-2xl border border-neutral-700 bg-neutral-900 text-center hover:border-yellow-500 transition"
               >
-                <p className="text-sm font-medium text-white leading-snug">
-                  {t(`roadmap.step${i}`)}
-                </p>
+                <p className="text-sm font-medium text-white leading-snug">{t(`roadmap.step${i}`)}</p>
               </div>
             ))}
           </div>
         </section>
 
         {/* CHAMADA FINAL */}
-        <section className="mb-24">
+        <section className="mb-16">
           <p className="text-center text-xl font-semibold text-purple-500">{t('call.title')}</p>
           <p className="text-center text-gray-400 mt-4 max-w-3xl mx-auto">{t('call.description')}</p>
         </section>
 
-        {/* DISCLAIMER */}
-        <section className="border-t border-neutral-800 pt-6">
+        {/* DISCLAIMER – separado do footer */}
+        <section className="border-t border-neutral-800 pt-6 pb-8">
           <p className="mx-auto max-w-3xl text-center text-sm leading-relaxed text-gray-400">
             {t('legal.disclaimer')}
           </p>
         </section>
       </main>
 
+      {/* FOOTER REAL – sempre separado, com espaçamento próprio */}
+      <footer className="bg-black">
+        <div className="max-w-6xl mx-auto px-6 py-10 text-center text-sm text-gray-500">
+          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+        </div>
+      </footer>
+
       {/* MODAL DE PRÉ-VENDA */}
       {showPresale && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 px-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 px-4">
           <PresalePanel />
           <button
             onClick={() => setShowPresale(false)}
@@ -295,7 +319,6 @@ export default function Presales() {
           >
             {t('closeButton')}
           </button>
-      
         </div>
       )}
     </>

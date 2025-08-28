@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 'use client'
 
 import React, { useMemo } from 'react'
@@ -21,12 +22,9 @@ export default function TokenomicsPage() {
   // --- helpers
   const parsePercent = (v: string | number): number => {
     if (typeof v === 'number') return v
-    // remove tudo que não for dígito, vírgula, ponto, sinal; trata milhar/decimal PT e EN
-    const clean = v
-      .toString()
-      .trim()
+    const clean = v.toString().trim()
       .replace(/[^\d.,-]/g, '')
-      .replace(/\.(?=\d{3}(?:\D|$))/g, '') // remove pontos de milhar
+      .replace(/\.(?=\d{3}(?:\D|$))/g, '')
       .replace(',', '.')
     const n = Number(clean)
     return Number.isFinite(n) ? n : 0
@@ -36,11 +34,7 @@ export default function TokenomicsPage() {
     `${new Intl.NumberFormat(i18n.language, { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(n)}%`
 
   const chartData = useMemo(
-    () =>
-      (distribution ?? []).map((d) => ({
-        name: d.title,
-        value: parsePercent(d.label),
-      })),
+    () => (distribution ?? []).map(d => ({ name: d.title, value: parsePercent(d.label) })),
     [distribution]
   )
 
@@ -49,8 +43,25 @@ export default function TokenomicsPage() {
     [chartData]
   )
 
+  // micro motion (sem lib extra)
+  const cardBase = 'relative rounded-xl bg-white/3 border border-white/10 backdrop-blur-[1px]'
+
   return (
-    <main className="bg-black text-white">
+    <main className="relative bg-black text-white overflow-hidden">
+      {/* BACKDROP premium (coeso com MoonWallet) */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+        <div
+          className="absolute -top-40 -left-40 h-[720px] w-[720px] rounded-full blur-3xl"
+          style={{ background: 'radial-gradient(closest-side,#a855f7 0%,transparent 70%)', opacity: .18 }}
+        />
+        <div
+          className="absolute -bottom-64 -right-40 h-[640px] w-[640px] rounded-full blur-3xl"
+          style={{ background: 'radial-gradient(closest-side,#f59e0b 0%,transparent 70%)', opacity: .14 }}
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:64px_64px] opacity-10" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.25)_60%,rgba(0,0,0,0.65)_100%)]" />
+      </div>
+
       <div className="mx-auto w-full max-w-7xl px-6 py-16 space-y-20">
         {/* TITULO */}
         <section className="text-center">
@@ -62,8 +73,9 @@ export default function TokenomicsPage() {
           </p>
         </section>
 
-        {/* SUPPLY */}
-        <section className="mx-auto w-full max-w-5xl bg-[#0e162a] p-6 md:p-8 rounded-2xl border border-purple-700/80 shadow-xl text-sm">
+        {/* SUPPLY (painel leve com “linha” superior) */}
+        <section className={`${cardBase} mx-auto w-full max-w-5xl p-6 md:p-8 text-sm`}>
+          <span className="absolute inset-x-0 -top-px h-[2px] bg-gradient-to-r from-purple-500 via-amber-400 to-purple-500 opacity-80 rounded-t-xl" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <p><strong>🧱 {t('supplyLabels.name')}:</strong> {t('supply.name')}</p>
             <p><strong>🪙 {t('supplyLabels.symbol')}:</strong> {t('supply.symbol')}</p>
@@ -73,11 +85,14 @@ export default function TokenomicsPage() {
             <p><strong>🔄 {t('supplyLabels.circulating')}:</strong> {t('supply.circulating')}</p>
           </div>
 
-          {/* CTAs de confiança */}
+          {/* CTAs de confiança (chips) */}
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <a href="/transparency" className="inline-flex items-center justify-center rounded-xl border border-purple-500/70 px-4 py-2 text-sm hover:bg-purple-500/10 transition">🔎 {t('buttons.transparency')}</a>
-          
-            <a href="https://bscscan.com/token/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278" className="inline-flex items-center justify-center rounded-xl border border-purple-500/70 px-4 py-2 text-sm hover:bg-purple-500/10 transition" target="_blank" rel="noreferrer">🧾 {t('buttons.contract')}</a>
+            <a href="/transparency" className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 transition">
+              🔎 {t('buttons.transparency')}
+            </a>
+            <a href="https://bscscan.com/token/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278" className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 transition" target="_blank" rel="noreferrer">
+              🧾 {t('buttons.contract')}
+            </a>
           </div>
         </section>
 
@@ -88,15 +103,24 @@ export default function TokenomicsPage() {
           <div className="mx-auto" style={{ width: '100%', maxWidth: 640, height: 420 }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart role="img" aria-label={t('distributionTitle')}>
+                <defs>
+                  {/* leve shadow para o donut */}
+                  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="6" stdDeviation="6" floodOpacity="0.25" />
+                  </filter>
+                </defs>
                 <Pie
                   data={chartData}
                   cx="50%"
                   cy="50%"
-                  innerRadius={90}
-                  outerRadius={130}
+                  innerRadius={92}
+                  outerRadius={132}
                   paddingAngle={2}
                   dataKey="value"
                   isAnimationActive
+                  stroke="#0b0b0f"
+                  strokeWidth={2}
+                  filter="url(#shadow)"
                 >
                   {chartData.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
@@ -110,7 +134,7 @@ export default function TokenomicsPage() {
                     borderRadius: 8,
                     border: '1px solid #a855f7',
                     color: '#fff',
-                    fontSize: 14,
+                    fontSize: 14
                   }}
                   labelStyle={{ color: '#a855f7' }}
                 />
@@ -125,20 +149,19 @@ export default function TokenomicsPage() {
             <p className="text-amber-300 text-xs">⚠️ {t('warnings.totalNot100', { total: formatPercent(totalPercent) })}</p>
           )}
 
-          {/* Cards */}
+          {/* Cards leves com “linha” inferior (sem blocos pesados) */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-sm font-bold max-w-5xl mx-auto">
             {distribution[0] && (
-              <div className="col-span-1 md:col-span-3 bg-[#1a1f3b] px-5 py-6 rounded-xl border border-purple-800 hover:scale-105 hover:shadow-lg transition duration-300 ease-in-out">
+              <div className={`${cardBase} col-span-1 md:col-span-3 px-5 py-6 hover:scale-[1.015] transition`}>
+                <span className="pointer-events-none absolute left-0 right-0 -bottom-px h-[2px] bg-gradient-to-r from-purple-500 via-amber-400 to-purple-500 opacity-80 rounded-b-xl" />
                 <p className="text-purple-300 text-lg">{formatPercent(parsePercent(distribution[0].label))}</p>
                 <p className="text-gray-200 mt-1 text-sm">{distribution[0].title}</p>
               </div>
             )}
 
             {distribution.slice(1).map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-[#1a1f3b] px-5 py-6 rounded-xl border border-purple-800 hover:scale-105 hover:shadow-lg transition duration-300 ease-in-out"
-              >
+              <div key={idx} className={`${cardBase} px-5 py-6 hover:scale-[1.015] transition`}>
+                <span className="pointer-events-none absolute left-0 right-0 -bottom-px h-[2px] bg-gradient-to-r from-purple-500 via-amber-400 to-purple-500 opacity-80 rounded-b-xl" />
                 <p className="text-purple-300 text-lg">{formatPercent(parsePercent(item.label))}</p>
                 <p className="text-gray-200 mt-1 text-sm">{item.title}</p>
               </div>
@@ -146,17 +169,14 @@ export default function TokenomicsPage() {
           </div>
         </section>
 
-        {/* USO DOS FUNDOS */}
+        {/* USO DOS FUNDOS (cards com borda sutil) */}
         <section className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6 text-purple-400 tracking-tight">{t('fundsTitle')}</h2>
           <p className="text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed text-base">{t('fundsText')}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {[FaHome, FaPiggyBank, FaProjectDiagram, FaChartPie].map((Icon, idx) => (
-              <div
-                key={idx}
-                className="bg-[#111827] p-6 rounded-xl border border-purple-500/70 hover:shadow-xl hover:-translate-y-1 transition duration-300 ease-in-out"
-              >
-                <Icon className="text-purple-400 text-4xl mb-4 mx-auto" aria-hidden="true" />
+              <div key={idx} className={`${cardBase} p-6 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(168,85,247,0.12)] transition`}>
+                <Icon className="text-purple-300 text-4xl mb-4 mx-auto" aria-hidden="true" />
                 <h3 className="text-base font-semibold mb-2">{funds[idx]?.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{funds[idx]?.desc}</p>
               </div>
@@ -171,10 +191,9 @@ export default function TokenomicsPage() {
           </p>
         </section>
 
-         <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
-        {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
-      </footer>
-      
+        <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
+          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+        </footer>
       </div>
     </main>
   )

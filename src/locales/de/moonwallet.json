@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "direkte Kontrolle über deine Vermögenswerte",
+  "badge": "APP • AUSFÜHRUNG • ON-CHAIN",
+  "description": "On-Chain-Lesung, keine Verwahrung und keine Zwischenhändler. Präzision und Geschwindigkeit bei dem, was dir gehört.",
+  "proofs": [
+    "Nicht-custodial",
+    "Echtzeit On-Chain-Lesung",
+    "Multi-Chain EVM",
+    "Intelligenter Token-Import",
+    "Kurse in BRL / USD",
+    "Flüssige mobile Oberfläche"
+  ],
+  "evolving": "App in kontinuierlicher Entwicklung — Versionierung, Messung und Verbesserung.",
+  "visionTitle": "Mehr als nur eine Wallet",
+  "vision1": "Realer 24/7 Betrieb direkt auf der Blockchain. Was du siehst, ist das, was das Netzwerk sieht.",
+  "vision2": "Gebaut für Macher: einfach, schnell und präzise.",
+  "featuresTitle": "Bereits verfügbare Funktionen",
+  "features": [
+    "Echtzeit-Saldo und -Historie direkt von der Blockchain",
+    "Intelligenter Token-Import (Contract-Lesung)",
+    "Multi-Chain EVM mit konfigurierbaren Netzwerken (BNB als Standard)",
+    "Optimierte Gebühren-/Gas-Schätzung",
+    "Kurse in mehreren Währungen (BRL, USD und andere)",
+    "Flüssige und reaktionsschnelle mobile Oberfläche"
+  ],
+  "differentialsTitle": "Warum es anders ist",
+  "differentials": [
+    "Nicht-custodial — deine Schlüssel, deine Vermögenswerte",
+    "Native On-Chain-Lesung — keine Drittanbieterfilter",
+    "Native Mehrsprachigkeit — saubere und objektive Erfahrung",
+    "Integration mit dem MoonRise-Ökosystem — verbundene Operationen"
+  ],
+  "statusTitle": "Entwicklungsstatus",
+  "status": {
+    "readyTitle": "Fertig",
+    "progressTitle": "In Arbeit",
+    "nextTitle": "Als Nächstes",
+    "ready": ["On-Chain-Lesung", "Token-Import", "Multi-Währung", "Mobile UI"],
+    "progress": ["EVM-Netzwerkerweiterung (Auto-Erkennung)", "Gas-Optimierungen"],
+    "next": ["Sitzungssicherheit", "Erweiterte Transaktions-Shortcuts"]
+  },
+  "cta": "Verfolge den Launch auf Telegram",
+  "disclaimer": "Was du siehst, ist echte Ausführung: Tokens, Salden und Live-Netzwerk — keine Simulation."
+}

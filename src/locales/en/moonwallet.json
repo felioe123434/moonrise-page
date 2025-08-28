@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "direct control over your assets",
+  "badge": "APP • EXECUTION • ON-CHAIN",
+  "description": "On-chain reading, no custody and no intermediaries. Precision and speed over what is yours.",
+  "proofs": [
+    "Non-custodial",
+    "Real-time on-chain reading",
+    "Multi-chain EVM",
+    "Smart token import",
+    "Quotes in BRL / USD",
+    "Fluid mobile interface"
+  ],
+  "evolving": "App in continuous evolution — versioning, measurement, and improvement.",
+  "visionTitle": "More than a wallet",
+  "vision1": "Real 24/7 operation directly on the blockchain. What you see is what the network sees.",
+  "vision2": "Built for executors: simple, fast, and precise.",
+  "featuresTitle": "Features already running",
+  "features": [
+    "Real-time balance and history directly from the blockchain",
+    "Smart token import (contract reading)",
+    "Multi-chain EVM with configurable networks (BNB by default)",
+    "Optimized fee/gas estimation",
+    "Quotes in multiple currencies (BRL, USD, and others)",
+    "Fluid and responsive mobile interface"
+  ],
+  "differentialsTitle": "Why it’s different",
+  "differentials": [
+    "Non-custodial — your keys, your assets",
+    "Native on-chain reading — no third-party filters",
+    "Native multi-language — clean and objective experience",
+    "Integration with the MoonRise ecosystem — connected operations"
+  ],
+  "statusTitle": "Development status",
+  "status": {
+    "readyTitle": "Ready",
+    "progressTitle": "In progress",
+    "nextTitle": "Next",
+    "ready": ["On-chain reading", "Token import", "Multi-currency", "Mobile UI"],
+    "progress": ["EVM network expansion (auto-detection)", "Gas optimizations"],
+    "next": ["Session security", "Advanced transaction shortcuts"]
+  },
+  "cta": "Follow the launch on Telegram",
+  "disclaimer": "What you see is real execution: tokens, balances, and live network — no simulation."
+}

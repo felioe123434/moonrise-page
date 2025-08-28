@@ -1,18 +1,18 @@
 {
   "tagline": "EIN VOLLSTÄNDIGES FINANZÖKOSYSTEM.",
   "title": "Das <1>Ökosystem</1><br /> von <3>MoonRise</3> verwandelt Technologie in Unabhängigkeit.",
-  "description": "Jedes Produkt wurde mit einem Ziel entwickelt: reale Infrastruktur, direkte Kontrolle und finanzielle Freiheit zu bieten. Alles miteinander verbunden, ohne von Dritten abhängig zu sein.",
+  "description": "Jedes Produkt wurde mit einem Ziel geschaffen: reale Infrastruktur, direkte Kontrolle und finanzielle Freiheit zu bieten. Alles ist miteinander verbunden, ohne von Dritten abhängig zu sein.",
 
-  "moonwallet": "Selbstverwahrende Multi-Chain-Wallet (wie MetaMask). Automatischer MNR-Import, Senden/Empfangen, dApp-Verbindung und Echtzeitsaldo. Integrierter „Krypto kaufen“-Button (über MoonBuy).",
-  "moonbank": "Einfache Zahlungen, Geld in Bewegung. Digitalkonto mit Karte und Kryptokäufen (MoonBuy) direkt in die MoonWallet.",
-  "moonbuy": "Krypto-Checkout & Launchpad. Kaufen Sie MNR und die wichtigsten Assets mit Pix/Karte und nehmen Sie an ausgewählten Presales teil. Derselbe Motor treibt MoonWallet und MoonBank an, mit seriöser Auswahl.",
-  "transparency": "Prüfungen, Sperren, offizielle Wallets und MasterVault-Transfers in Echtzeit veröffentlicht.",
-  "moonplus": "Infrastruktur für die Tokenisierung und den Handel mit realen Vermögenswerten. Immobilien, Verträge und regulierte Integrationen mit On-Chain-Liquidität über MNR.",
-  "mnr": "Nativ-Token des MoonRise-Ökosystems. Grundlage der gesamten Infrastruktur und Wirtschaft — mit Burn-Mechanismen, Schutz vor Manipulationen und strategisch kontrollierter Verteilung.",
+  "moonplus": "Dedizierte Infrastruktur zur Tokenisierung und zum Handel mit realen Vermögenswerten. Immobilien, Verträge und regulierte Integrationen mit On-Chain-Liquidität über MNR. Entwickelt, um physisches Kapital mit digitalen Assets unter institutioneller Sicherheit zu vereinen.",
+  "mnr": "Der native Token des MoonRise-Ökosystems. Grundlage der gesamten Infrastruktur und Wirtschaft — mit Verbrennungsmechanismen, Schutz vor Manipulationen und kontrollierter strategischer Verteilung. Es ist die souveräne Währung, die jede Operation des Imperiums trägt.",
+   "transparencyTitle": "Transparenz & MasterVault",
+  "transparency": "Volle Transparenz in Echtzeit: unabhängige Audits, intelligente Sperren und offizielle Wallets, die on-chain sichtbar sind. Alle MasterVault-Überweisungen sind öffentlich, unveränderlich und prüfbar. Nichts bleibt verborgen, alles ist überprüfbar.",
+  "moonwallet": "Selbstverwahrungs-Multi-Chain-Wallet für Ausführende. Automatischer MNR-Import, Senden/Empfangen und nahtlose Echtzeit-Verbindung mit dApps. Einfache, aber leistungsstarke Oberfläche mit integriertem Kaufbutton für mühelose Bedienung.",
+  "moonbank": "Digitalbank, verbunden mit dem MoonRise-Ökosystem. Schnelle Zahlungen, Konto mit Karte und native Krypto-Integration in wenigen Klicks. Jede Transaktion stärkt den Liquiditätskreislauf und bringt dem Nutzer Geschwindigkeit und Autonomie.",
+
   "cta": {
     "subtitle": "Die gesamte MoonRise-Infrastruktur entwickelt sich in einem Zyklus von Ausführung und Reinvestition.",
-    "presale": "An der Vorverkauf teilnehmen",
-    "transparency": "Transparenz anzeigen"
+    "presale": "Am Vorverkauf teilnehmen",
+    "transparency": "Transparenz ansehen"
   }
 }
-

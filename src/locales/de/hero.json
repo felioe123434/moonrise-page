@@ -1,7 +1,28 @@
 {
-  "tagline": "TECHNOLOGIE, INFRASTRUKTUR UND AUSFÜHRUNG.",
-  "title": "<1>MoonRise</1><br /> baut ein <3>vollständiges</3> Ökosystem.<br />Eigene Technologie. Volle Integration. Langfristige Vision.",
-  "description": "MoonRise ist ein Infrastrukturanbieter, der auf Finanzlösungen auf Blockchain-Basis spezialisiert ist. Wir entwickeln vernetzte Produkte – von unserem eigenen Netzwerk bis hin zu Wallet, Börse und Apps – mit technischer Grundlage, direkter Kontrolle und einer einzigen Mission: echten Wert mit Autonomie schaffen.",
-  "ecosystemBtn": "Ökosystem anzeigen",
-  "presaleBtn": "Die Vorverkaufsphase verstehen"
+  "eyebrow": "TECHNOLOGIE • INFRASTRUKTUR • AUSFÜHRUNG",
+  "trustBadge": "In Echtzeit auditierbarer Betrieb",
+  "headline": "<1>MoonRise</1> baut ein <3>vollständiges</3> Ökosystem.<br/>Eigene Technologie.<br/>Totale Integration.<br/>Langfristige Vision.",
+  "slogan": "Technologische Kraft für das reale Finanzsystem. Kein Hype. Keine Ausreden.",
+  "subhead": "Infrastrukturunternehmen auf Blockchain. Vernetzte Produkte — Netzwerk, Wallet, Börse und Module — mit technischer Grundlage, direkter Kontrolle und klarer Mission: echten Wert mit Autonomie schaffen.",
+  "institutionalLine": "Öffentliche Transparenz, offene Verträge und On-Chain-Tracking rund um die Uhr.",
+  "kpis": [
+    {
+      "label": "des Supply gesperrt",
+      "countTo": 76.27,
+      "suffix": "%",
+      "decimals": 2
+    },
+    {
+      "label": "Reale Vermögenswerte tokenisiert (Moon+)",
+      "value": "RWA"
+    },
+    {
+      "label": "MoonRise Technologies · WY",
+      "value": "LLC USA"
+    }
+  ],
+  "cta": {
+    "ecosystem": "Ökosystem erkunden",
+    "presale": "Am Vorverkauf teilnehmen"
+  }
 }

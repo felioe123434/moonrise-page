@@ -1,6 +1,6 @@
 {
   "title": "MoonRise Tokenomics",
-  "intro": "MoonRise was designed with structure to ensure balance, transparency, and sustainable growth. No token was given away for free — everything was planned with purpose, strategy, and long-term vision.",
+  "intro": "MoonRise was designed with a structure to ensure balance, transparency, and sustainable growth. No tokens were distributed for free — everything was planned with purpose, strategy, and long-term vision.",
   "supplyLabels": {
     "name": "Name",
     "symbol": "Symbol",
@@ -22,7 +22,7 @@
     "contract": "Contract on BscScan"
   },
   "distributionTitle": "Token Distribution",
-  "distributionNote": "Every fraction of the supply was allocated with purpose. No leftovers, no chance — only strategy and execution.",
+  "distributionNote": "Every fraction of the supply was allocated with purpose. There is no leftover, no chance — only strategy and execution.",
   "warnings": {
     "totalNot100": "The distribution totals {{total}}."
   },
@@ -36,11 +36,11 @@
     { "title": "Founder (Locked)", "value": 0.0066666667, "label": "0.0067 %" }
   ],
   "fundsTitle": "Use of Raised Funds",
-  "fundsText": "All raised funds are allocated transparently and traceably. The priority is to generate value, ensure stability, and drive the growth of the ecosystem.",
+  "fundsText": "All raised funds are allocated transparently and traceably. The priority is to generate value, ensure stability, and drive ecosystem growth.",
   "funds": [
     {
       "title": "MoonRise Ecosystem",
-      "desc": "Continuous reinvestment in infrastructure, products (Wallet, MoonSwap, Bank), and expansion. Every transaction strengthens the empire."
+      "desc": "Continuous reinvestment in infrastructure, products (Wallet, Bank, Moon+), and expansion. Every transaction strengthens the empire."
     },
     {
       "title": "Stability Reserves",
@@ -48,11 +48,11 @@
     },
     {
       "title": "Market Liquidity",
-      "desc": "Guaranteeing depth and fluid movement for healthy token trading."
+      "desc": "Ensures depth and smooth movement for healthy token trading."
     },
     {
-      "title": "Holder Appreciation",
-      "desc": "Part of the profits and strategic execution return as direct and indirect benefits to loyal holders."
+      "title": "Holders’ Appreciation",
+      "desc": "Part of the profits and strategic execution returns in direct and indirect benefits to loyal holders."
     }
   ],
   "closing": {

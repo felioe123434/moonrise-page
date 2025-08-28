@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "contrôle direct sur vos actifs",
+  "badge": "APP • EXÉCUTION • ON-CHAIN",
+  "description": "Lecture on-chain, sans garde et sans intermédiaires. Précision et rapidité sur ce qui vous appartient.",
+  "proofs": [
+    "Non-custodial",
+    "Lecture on-chain en temps réel",
+    "Multi-chain EVM",
+    "Importation intelligente de tokens",
+    "Cotations BRL / USD",
+    "Interface fluide pour mobile"
+  ],
+  "evolving": "Application en évolution continue — version, mesure et amélioration.",
+  "visionTitle": "Plus qu’un portefeuille",
+  "vision1": "Opération réelle 24/7 directement sur la blockchain. Ce que vous voyez est ce que le réseau voit.",
+  "vision2": "Construite pour les exécutants : simple, rapide et précise.",
+  "featuresTitle": "Fonctionnalités déjà en cours d’exécution",
+  "features": [
+    "Solde et historique en temps réel directement depuis la blockchain",
+    "Importation intelligente de tokens (lecture de contrats)",
+    "Multi-chain EVM avec réseaux configurables (BNB par défaut)",
+    "Estimation optimisée des frais/gas",
+    "Cotations en plusieurs devises (BRL, USD et autres)",
+    "Interface fluide et réactive pour mobile"
+  ],
+  "differentialsTitle": "Pourquoi c’est différent",
+  "differentials": [
+    "Non-custodial — vos clés, vos actifs",
+    "Lecture on-chain native — sans filtres tiers",
+    "Multi-langue natif — expérience claire et objective",
+    "Intégration avec l’écosystème MoonRise — opérations connectées"
+  ],
+  "statusTitle": "Statut de développement",
+  "status": {
+    "readyTitle": "Prêt",
+    "progressTitle": "En cours",
+    "nextTitle": "À venir",
+    "ready": ["Lecture on-chain", "Importation de tokens", "Multi-devise", "UI mobile"],
+    "progress": ["Expansion des réseaux EVM (auto-détection)", "Optimisations du gas"],
+    "next": ["Sécurité de session", "Raccourcis avancés de transaction"]
+  },
+  "cta": "Suivre le lancement sur Telegram",
+  "disclaimer": "Ce que vous voyez est une exécution réelle : tokens, soldes et réseau en direct — sans simulation."
+}

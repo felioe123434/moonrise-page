@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "controle direto sobre seus ativos",
+  "badge": "APP • EXECUÇÃO • ON-CHAIN",
+  "description": "Leitura on-chain, sem custódia e sem intermediários. Precisão e velocidade no que é seu.",
+  "proofs": [
+    "Não-custodial",
+    "Leitura on-chain em tempo real",
+    "Multi-chain EVM",
+    "Importação inteligente de tokens",
+    "Cotações BRL / USD",
+    "Interface fluida para mobile"
+  ],
+  "evolving": "App em evolução contínua — versão, medição e melhoria.",
+  "visionTitle": "Mais que uma carteira",
+  "vision1": "Operação real 24/7 direto na blockchain. O que você vê é o que a rede enxerga.",
+  "vision2": "Construída para executores: simples, rápida e precisa.",
+  "featuresTitle": "Funcionalidades já em execução",
+  "features": [
+    "Saldo e histórico em tempo real direto da blockchain",
+    "Importação inteligente de tokens (leitura de contratos)",
+    "Multi-chain EVM com redes configuráveis (BNB por padrão)",
+    "Estimativa de taxas/gas otimizada",
+    "Cotações em múltiplas moedas (BRL, USD e outras)",
+    "Interface fluida e responsiva para mobile"
+  ],
+  "differentialsTitle": "Por que é diferente",
+  "differentials": [
+    "Não-custodial — suas chaves, seus ativos",
+    "Leitura on-chain nativa — sem filtros de terceiros",
+    "Multi-idioma nativo — experiência limpa e objetiva",
+    "Integração com o ecossistema MoonRise — operações conectadas"
+  ],
+  "statusTitle": "Status de desenvolvimento",
+  "status": {
+    "readyTitle": "Pronto",
+    "progressTitle": "Em progresso",
+    "nextTitle": "Próximo",
+    "ready": ["Leitura on-chain", "Import de tokens", "Multi-moeda", "UI mobile"],
+    "progress": ["Expansão de redes EVM (auto-detecção)", "Otimizações de gas"],
+    "next": ["Segurança de sessão", "Atalhos avançados de transação"]
+  },
+  "cta": "Acompanhar lançamento no Telegram",
+  "disclaimer": "O que você vê é execução real: tokens, saldos e rede ao vivo — sem simulação."
+}

@@ -1,6 +1,6 @@
 {
-  "title": "MoonRise Tokenomics",
-  "intro": "MoonRise a été conçu avec une structure pour garantir l’équilibre, la transparence et une croissance durable. Aucun token n’a été distribué gratuitement — tout a été planifié avec un but, une stratégie et une vision à long terme.",
+  "title": "Tokenomics de MoonRise",
+  "intro": "MoonRise a été conçu avec une structure garantissant équilibre, transparence et croissance durable. Aucun token n’a été distribué gratuitement — tout a été planifié avec but, stratégie et vision à long terme.",
   "supplyLabels": {
     "name": "Nom",
     "symbol": "Symbole",
@@ -22,7 +22,7 @@
     "contract": "Contrat sur BscScan"
   },
   "distributionTitle": "Répartition des Tokens",
-  "distributionNote": "Chaque fraction de l’offre a été allouée avec un but. Pas de surplus, pas de hasard — uniquement stratégie et exécution.",
+  "distributionNote": "Chaque fraction de l’offre a été allouée avec un objectif. Aucun surplus, aucun hasard — seulement stratégie et exécution.",
   "warnings": {
     "totalNot100": "La répartition totalise {{total}}."
   },
@@ -35,24 +35,24 @@
     { "title": "Réserve Stratégique", "value": 3.3333333333, "label": "3,33 %" },
     { "title": "Fondateur (Bloqué)", "value": 0.0066666667, "label": "0,0067 %" }
   ],
-  "fundsTitle": "Utilisation des Fonds Levés",
-  "fundsText": "Tous les fonds levés sont alloués de manière transparente et traçable. La priorité est de créer de la valeur, garantir la stabilité et stimuler la croissance de l’écosystème.",
+  "fundsTitle": "Utilisation des Fonds Collectés",
+  "fundsText": "Tous les fonds collectés sont alloués de manière transparente et traçable. La priorité est de générer de la valeur, de garantir la stabilité et de stimuler la croissance de l’écosystème.",
   "funds": [
     {
       "title": "Écosystème MoonRise",
-      "desc": "Réinvestissement continu dans l’infrastructure, les produits (Wallet, MoonSwap, Banque) et l’expansion. Chaque transaction renforce l’empire."
+      "desc": "Réinvestissement continu dans l’infrastructure, les produits (Wallet, Bank, Moon+) et l’expansion. Chaque transaction renforce l’empire."
     },
     {
       "title": "Réserves de Stabilité",
-      "desc": "Fonds de protection pour maintenir la liquidité et soutenir le prix en période de forte volatilité et d’événements de marché."
+      "desc": "Fonds de protection pour maintenir la liquidité et soutenir le prix lors de fortes volatilités et d’événements de marché."
     },
     {
-      "title": "Liquidité du Marché",
-      "desc": "Garantie de profondeur et de mouvement fluide pour des échanges sains du token."
+      "title": "Liquidité de Marché",
+      "desc": "Assure profondeur et fluidité des mouvements pour un échange sain du token."
     },
     {
       "title": "Valorisation des Holders",
-      "desc": "Une partie des bénéfices et de l’exécution stratégique revient sous forme d’avantages directs et indirects aux holders fidèles."
+      "desc": "Une partie des bénéfices et de l’exécution stratégique revient en avantages directs et indirects pour les holders fidèles."
     }
   ],
   "closing": {

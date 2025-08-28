@@ -85,7 +85,7 @@ export default function Navbar() {
   const desktopLinks = useMemo(() => ([
     { href: '/',             label: t('menu.home') },
     { href: '/moonplus',     label: t('menu.moonplus') },
-    { href: '/appmoonrise',  label: t('menu.wallet') },
+    { href: '/moonwallet',  label: t('menu.wallet') },
     { href: '/tokenomics',   label: t('menu.tokenomics') },
     { href: '/transparency',label: t('menu.transparency') },
     { href: '/about',        label: t('menu.about') }, // <= novo link direto

@@ -34,23 +34,64 @@
   "patrimonio_desc": "MoonRise não é só cripto. É código, é rede, é infraestrutura real construída com disciplina e reinvestimento estratégico. Cada taxa volta para o sistema. Cada clique alimenta o império. Nada vem de fora. Tudo nasce de dentro.",
 
   "wallets_title": "Carteiras Oficiais do Projeto",
-  "wallets_desc": "Todos os endereços abaixo fazem parte da infraestrutura pública do MoonRise. São rastreáveis, verificáveis e estão visíveis em tempo real no blockchain.",
+  "wallets_lead": "Todos os endereços abaixo fazem parte da infraestrutura pública do MoonRise. São rastreáveis, verificáveis e estão visíveis em tempo real no blockchain.",
+
   "wallets": {
     "liquidez": "Carteira de Liquidez",
     "desenvolvimento": "Carteira de Desenvolvimento",
     "marketing": "Carteira de Marketing",
     "ecossistema": "Carteira do Ecossistema",
     "reserva": "Carteira de Reserva",
-    "fundador": "Carteira do Fundador"
+    "fundador": "Carteira do Fundador",
+    "admin": "Carteira Administrativa (Owner)",
+    "presale": "Carteira da Pré-venda",
+    "view_on_explorer": "Ver no BscScan"
   },
 
-  "wallets_locked_note": " Carteira bloqueada por 1 ano após o deploy",
+  "wallets_badges": {
+    "liquidez": "LIQUIDEZ",
+    "desenvolvimento": "DEV",
+    "marketing": "MARKETING",
+    "ecossistema": "ECOSSISTEMA",
+    "reserva": "RESERVA",
+    "fundador": "FUNDADOR",
+    "admin": "ADMIN / OWNER",
+    "presale": "PRÉ-VENDA"
+  },
+
+  "wallets_desc": {
+    "liquidez": "Provisão e abertura controlada de liquidez conforme calendário.",
+    "desenvolvimento": "Financia produtos, segurança e módulos estratégicos.",
+    "marketing": "Ações institucionais e crescimento de marca.",
+    "ecossistema": "Operações internas do ecossistema MoonRise.",
+    "reserva": "Fundo estratégico para estabilidade e expansão.",
+    "presale": "Recebe BNB do contrato de pré-venda — rastreável em tempo real.",
+    "admin": "Endereço de governança temporária com limites definidos no código.",
+    "fundador": "Tokens bloqueados por 1 ano após o deploy (time-lock)."
+  },
+
+  "disclaimer": {
+    "trigger": "Consultar o Termo de Isenção de Responsabilidade"
+  },
+
+  "wallets_notes": {
+    "admin": "Recomendado: multi-sig + timelock; privilégios sensíveis auditáveis."
+  },
+
+  "wallets_locked_note": "Carteira bloqueada por 1 ano após o deploy",
 
   "docs_title": "📂 Documentos Oficiais e Contratos",
   "docs": {
-    "token": "Contrato do Token:   0xF46c...1278",
+    "token": "Contrato do Token: 0xF46c...1278",
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
+  },
+
+  "docs_links": {
+    "token_explorer": "(ver no BscScan)",
+    "pre_explorer": "(ver no BscScan)",
+    "termo_link": "Termo de Isenção de Responsabilidade",
+    "wallet_button": "Ver no BscScan"
   },
 
   "governance": {
@@ -77,14 +118,40 @@
   },
 
   "release_schedule": {
-    "title": "Calendário de Liberação de Tokens"
+    "title": "Calendário de Liberação de Tokens",
+    "liquidez": [
+      { "date": "01/12/2025", "amount": "500M MNR" },
+      { "date": "01/03/2026", "amount": "500M MNR" },
+      { "date": "01/06/2026", "amount": "1B MNR" },
+      { "date": "01/09/2026", "amount": "1B MNR" }
+    ],
+    "marketing": [
+      { "date": "01/01/2026", "amount": "125M MNR" },
+      { "date": "01/02/2026", "amount": "125M MNR" },
+      { "date": "01/03/2026", "amount": "125M MNR" },
+      { "date": "01/04/2026", "amount": "125M MNR" },
+      { "date": "01/05/2026", "amount": "125M MNR" },
+      { "date": "01/06/2026", "amount": "125M MNR" }
+    ],
+    "desenvolvimento": [
+      { "date": "01/01/2026", "amount": "100M MNR" },
+      { "date": "01/02/2026", "amount": "100M MNR" },
+      { "date": "01/03/2026", "amount": "100M MNR" },
+      { "date": "01/04/2026", "amount": "100M MNR" },
+      { "date": "01/05/2026", "amount": "100M MNR" }
+    ],
+    "reserva": [
+      { "date": "01/03/2027", "amount": "199.75M MNR" },
+      { "date": "01/09/2027", "amount": "199.75M MNR" }
+    ]
   },
 
   "lock_reason": {
     "title": "Por que os tokens estão travados?",
     "paragraph_1": "Os tokens de liquidez, marketing, desenvolvimento e reserva estão protegidos por travas de tempo automatizadas via contrato MasterVault. Isso garante que nenhum fundo será utilizado antes da hora, protegendo a economia do projeto e impedindo qualquer abuso, desvio ou movimentação antecipada.",
     "paragraph_2": "O contrato é público, auditável e imutável. Você pode verificar cada linha diretamente no blockchain:",
-    "button": "Ver contrato MasterVault no BscScan"
+    "button": "Ver contrato MasterVault no BscScan",
+    "url": "https://bscscan.com/address/0x4d3abE175ba575D2Ec967Ec19e8224f32EfB1467"
   },
 
   "ops": {
@@ -102,10 +169,13 @@
     ]
   },
 
-  "docs_links": {
-    "token_explorer": "(ver no BscScan)",
-    "pre_explorer": "(ver no BscScan)",
-    "termo_link": "Termo de Isenção de Responsabilidade",
-    "wallet_button": "Ver no BscScan"
+  "whitepaper": {
+    "label": "Ler o Whitepaper"
+  },
+
+  "aria": {
+    "copy_address": "Copiar endereço"
   }
+
+  
 }

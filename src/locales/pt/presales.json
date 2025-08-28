@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "A pré-venda da MoonRise financia infraestrutura. Não especulação.",
-    "description": "O token MNR é distribuído diretamente via contrato inteligente em rede pública, com fases definidas e entrega automática. Isso não é aposta. É construção.",
+    "description": "O token MNR é emitido e distribuído diretamente via contrato inteligente em rede pública, com fases claras e entrega automática. Sem apostas, sem promessas vazias. É construção real.",
     "button": "Acessar o Painel da Pré-venda"
   },
   "phases": {
@@ -14,56 +14,56 @@
   "buttons": {
     "tokenomics": "Ver Tokenomics",
     "transparency": "Ver Transparência",
-    "helper": "Detalhes do modelo e auditoria social do projeto."
+    "helper": "Acesse os detalhes completos do modelo e a auditoria social do projeto."
   },
   "network": {
     "title": "Por que estamos na BNB Chain?",
-    "description1": "Escolhemos a BNB Chain por segurança, estabilidade e liquidez de mercado. Ela garante taxas baixas, execução imediata e ampla compatibilidade para investidores.",
-    "description2": "Nosso ecossistema roda hoje com confiabilidade e eficiência — simples para entrar, fácil para acompanhar e totalmente verificável em tempo real."
+    "description1": "Escolhemos a BNB Chain por sua segurança robusta, estabilidade comprovada e liquidez global. Ela garante taxas baixas, execução imediata e ampla compatibilidade para investidores.",
+    "description2": "Nosso ecossistema já roda com confiabilidade e eficiência — simples para participar, fácil de acompanhar e totalmente verificável em tempo real."
   },
   "structure": {
     "title": "Como funciona a pré-venda?",
     "token": "Token: MoonRise (MNR) — padrão ERC20",
-    "smart": "Executado 100% via contrato inteligente (sem custódia)",
-    "phases": "3 fases com preços e limites definidos",
-    "delivery": "Entrega automática dos tokens após compra",
+    "smart": "Execução 100% automatizada via contrato inteligente (sem custódia manual)",
+    "phases": "3 fases sequenciais com preços e limites definidos",
+    "delivery": "Entrega instantânea dos tokens após a compra",
     "minimum": "Valor mínimo por transação: 0.005 BNB",
     "network": "Rede utilizada: BNB Smart Chain",
     "contractLink": "Ver contrato da pré-venda no BscScan"
   },
   "purpose": {
     "title": "Por que isso existe?",
-    "description": "O MNR é fundação de um ecossistema financeiro real. Quem participa da pré-venda entra como fundador do sistema — não compra hype, compra posição. O objetivo é financiar infraestrutura, liquidez e produtos que geram valor de longo prazo."
+    "description": "O MNR é a fundação de um ecossistema financeiro soberano. Participar da pré-venda significa assumir posição de fundador — não comprar hype, mas financiar liquidez, infraestrutura e produtos que vão gerar valor real de longo prazo."
   },
   "utility": {
     "title": "Utilidade do token MNR",
     "use1": "Moeda oficial do ecossistema MoonRise",
-    "use2": "Gas para transações internas e operações do app",
+    "use2": "Gás para transações internas e operações no app",
     "use3": "Token de staking, recompensas e liquidez",
-    "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonSwap, MoonBank, MoonBuy",
-    "use5": "Base para integrações com ativos reais (RWA) via Moon+"
+    "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonBank, Moon+",
+    "use5": "Base para integrações com ativos reais (RWA)"
   },
   "security": {
     "title": "Segurança & Transparência",
     "point1": "Toda entrega é 100% automática via contrato inteligente",
-    "point2": "Sem custódia. Sem promessas manuais",
-    "point3": "Contrato auditável e já em execução pública",
-    "point4": "Liquidez será aberta de forma controlada para garantir estabilidade"
+    "point2": "Sem custódia manual. Sem promessas externas",
+    "point3": "Contrato auditável e em execução pública on-chain",
+    "point4": "Liquidez aberta de forma controlada para garantir estabilidade"
   },
   "roadmap": {
     "title": "Roadmap",
     "step1": "Pré-venda aberta",
     "step2": "Liquidez inicial",
-    "step3": "Expansão de produtos MoonRise",
+    "step3": "Expansão dos produtos MoonRise",
     "step4": "Integração com Moon+ (RWA)",
     "step5": "Escala global do ecossistema"
   },
   "call": {
     "title": "Milhares vão assistir. Poucos vão fundar.",
-    "description": "Se você leu isso, é porque foi separado para construir. Esse é o chamado dos ousados: financiar e fundar uma infraestrutura soberana para as próximas gerações."
+    "description": "Se você chegou até aqui, é porque foi separado para construir. Esse é o chamado dos ousados: financiar e fundar uma infraestrutura soberana para as próximas gerações."
   },
   "legal": {
-    "disclaimer": "Esta página é informativa e não representa uma oferta pública registrada. A participação na pré-venda é voluntária e realizada diretamente via contrato inteligente."
+    "disclaimer": "Esta página é informativa e não representa uma oferta pública registrada. A participação na pré-venda é voluntária e ocorre diretamente via contrato inteligente on-chain."
   },
   "closeButton": "Fechar"
 }

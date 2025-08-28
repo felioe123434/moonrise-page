@@ -3,64 +3,105 @@
   "intro": "Here there is no empty talk. Every line, every block, every address exists to prove: MoonRise is real execution, visible and auditable. This tab is the mirror of our commitment to those who build with us. No promises. Only delivery.",
 
   "protection": {
-    "summary": "MoonRise protects the economy with logic, code, and automated shielding. Every operation respects limits, applies cooldowns, prevents abuse, and turns every action into real liquidity — fueling the system, blocking manipulation, and making everything visible in real time.",
-    "internalEconomyTitle": "Smart Internal Economy",
-    "internalEconomy": "Every movement inside the MoonRise ecosystem automatically feeds liquidity. Nothing is static. Every click strengthens the system and powers the financial engine we are building — automated, transparent, and scalable.",
+    "summary": "MoonRise protects the economy with logic, code, and automated shielding. Every operation respects limits, applies cooldowns, prevents abuse, and turns each action into real liquidity — feeding the system, blocking manipulation, and making everything visible in real time.",
+    "internalEconomyTitle": "Intelligent Internal Economy",
+    "internalEconomy": "Every movement within the MoonRise ecosystem automatically feeds liquidity. Nothing is static. Every click strengthens the system and fuels the financial engine we are building — in an automated, transparent, and scalable way.",
     "badges": [
       "Smart Liquidity",
       "Stabilized Chart",
       "Real Ecosystem",
-      "Dump Protection"
+      "Dump Blocking"
     ]
   },
 
   "dna": [
     "✅ Open-source code and auditable contracts — anyone can verify everything directly on BscScan. Zero centralized control.",
     "✅ Every movement feeds the ecosystem — no promises of external backing, only verifiable internal structure.",
-    "✅ 100% sovereign — no dependence on banks, companies, or third parties. Control is ours. Execution too.",
-    "✅ Active anti-whale defense — the system blocks suspicious moves to protect holders and the chart."
+    "✅ 100% sovereign — no reliance on banks, companies, or third parties. The control is ours. The execution too.",
+    "✅ Active anti-whale defense — the system blocks suspicious movements to protect holders and the chart."
   ],
 
   "proof_title": "🚀 Real and Auditable Proofs",
   "proof_intro": "We don’t ask for trust. We show execution. Everything here can be tracked in real time via blockchain, images, contracts, and public documents.",
   "proof": [
     "🔥 Burn of 1.6 billion tokens at deploy — visible on BscScan with public hash.",
-    "🛠️ Public visible infrastructure — contracts, fees, wallets, and documented operations.",
-    "📄 Presale in autonomous contract — no manual control, fixed rules in the code.",
+    "🛠️ Publicly visible infrastructure — contracts, fees, wallets, and documented operations.",
+    "📄 Pre-sale in autonomous contract — no manual control, with fixed rules in the code.",
     "🧾 Public wallets with tracking — marketing, liquidity, rewards. Everything visible, nothing hidden."
   ],
 
   "patrimonio_title": "💠 Expanding Ecosystem",
-  "patrimonio_desc": "MoonRise is not just crypto. It’s code, it’s network, it’s real infrastructure built with discipline and strategic reinvestment. Every fee goes back into the system. Every click fuels the empire. Nothing comes from outside. Everything is born within.",
+  "patrimonio_desc": "MoonRise is not just crypto. It is code, network, real infrastructure built with discipline and strategic reinvestment. Every fee goes back to the system. Every click feeds the empire. Nothing comes from outside. Everything is born from within.",
 
   "wallets_title": "Official Project Wallets",
-  "wallets_desc": "All addresses below are part of MoonRise’s public infrastructure. They are trackable, verifiable, and visible in real time on the blockchain.",
+  "wallets_lead": "All addresses below are part of MoonRise’s public infrastructure. They are traceable, verifiable, and visible in real time on the blockchain.",
+
   "wallets": {
     "liquidez": "Liquidity Wallet",
     "desenvolvimento": "Development Wallet",
     "marketing": "Marketing Wallet",
     "ecossistema": "Ecosystem Wallet",
     "reserva": "Reserve Wallet",
-    "fundador": "Founder Wallet"
+    "fundador": "Founder Wallet",
+    "admin": "Administrative Wallet (Owner)",
+    "presale": "Pre-sale Wallet",
+    "view_on_explorer": "View on BscScan"
   },
 
-  "wallets_locked_note": " Wallet locked for 1 year after deploy",
+  "wallets_badges": {
+    "liquidez": "LIQUIDITY",
+    "desenvolvimento": "DEV",
+    "marketing": "MARKETING",
+    "ecossistema": "ECOSYSTEM",
+    "reserva": "RESERVE",
+    "fundador": "FOUNDER",
+    "admin": "ADMIN / OWNER",
+    "presale": "PRE-SALE"
+  },
+
+  "wallets_desc": {
+    "liquidez": "Provision and controlled opening of liquidity according to schedule.",
+    "desenvolvimento": "Funds products, security, and strategic modules.",
+    "marketing": "Institutional actions and brand growth.",
+    "ecossistema": "Internal operations of the MoonRise ecosystem.",
+    "reserva": "Strategic fund for stability and expansion.",
+    "presale": "Receives BNB from the pre-sale contract — traceable in real time.",
+    "admin": "Temporary governance address with limits defined in code.",
+    "fundador": "Tokens locked for 1 year after deploy (time-lock)."
+  },
+
+  "disclaimer": {
+    "trigger": "Consult the Disclaimer Document"
+  },
+
+  "wallets_notes": {
+    "admin": "Recommended: multi-sig + timelock; sensitive privileges auditable."
+  },
+
+  "wallets_locked_note": "Wallet locked for 1 year after deploy",
 
   "docs_title": "📂 Official Documents and Contracts",
   "docs": {
-    "token": "Token Contract:   0xF46c...1278",
+    "token": "Token Contract: 0xF46c...1278",
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
   },
 
+  "docs_links": {
+    "token_explorer": "(view on BscScan)",
+    "pre_explorer": "(view on BscScan)",
+    "termo_link": "Disclaimer Document",
+    "wallet_button": "View on BscScan"
+  },
+
   "governance": {
     "title": "Temporary and Transparent Governance",
-    "intro": "During the presale phase, the contract is controlled by a visible and limited owner — with the sole objective of protecting the integrity of the initial operation.",
+    "intro": "During the pre-sale phase, the contract is controlled by a visible and limited owner — with the sole purpose of protecting the integrity of the initial operation.",
     "can": {
       "title": "What the owner CAN do",
       "items": [
         "Pause and resume the contract in case of attack",
-        "Adjust the sale fee (limit 10%)",
+        "Adjust the sale fee (limit of 10%)",
         "Update whitelisted wallets",
         "Modify anti-whale cooldown parameters"
       ]
@@ -70,42 +111,69 @@
       "items": [
         "Create new tokens (no mint function)",
         "Change the supply (fixed at deploy)",
-        "Redirect presale funds",
+        "Redirect pre-sale funds",
         "Bypass limits defined in the contract"
       ]
     }
   },
 
   "release_schedule": {
-    "title": "Token Release Schedule"
+    "title": "Token Release Schedule",
+    "liquidez": [
+      { "date": "12/01/2025", "amount": "500M MNR" },
+      { "date": "03/01/2026", "amount": "500M MNR" },
+      { "date": "06/01/2026", "amount": "1B MNR" },
+      { "date": "09/01/2026", "amount": "1B MNR" }
+    ],
+    "marketing": [
+      { "date": "01/01/2026", "amount": "125M MNR" },
+      { "date": "02/01/2026", "amount": "125M MNR" },
+      { "date": "03/01/2026", "amount": "125M MNR" },
+      { "date": "04/01/2026", "amount": "125M MNR" },
+      { "date": "05/01/2026", "amount": "125M MNR" },
+      { "date": "06/01/2026", "amount": "125M MNR" }
+    ],
+    "desenvolvimento": [
+      { "date": "01/01/2026", "amount": "100M MNR" },
+      { "date": "02/01/2026", "amount": "100M MNR" },
+      { "date": "03/01/2026", "amount": "100M MNR" },
+      { "date": "04/01/2026", "amount": "100M MNR" },
+      { "date": "05/01/2026", "amount": "100M MNR" }
+    ],
+    "reserva": [
+      { "date": "03/01/2027", "amount": "199.75M MNR" },
+      { "date": "09/01/2027", "amount": "199.75M MNR" }
+    ]
   },
 
   "lock_reason": {
-    "title": "Why are tokens locked?",
-    "paragraph_1": "Liquidity, marketing, development, and reserve tokens are protected by time locks via the MasterVault contract. This ensures no funds are used prematurely, protecting the project’s economy and preventing abuse, diversion, or early moves.",
+    "title": "Why are the tokens locked?",
+    "paragraph_1": "The liquidity, marketing, development, and reserve tokens are protected by automated time locks via the MasterVault contract. This ensures that no funds will be used ahead of time, protecting the project’s economy and preventing any abuse, misappropriation, or early movement.",
     "paragraph_2": "The contract is public, auditable, and immutable. You can verify every line directly on the blockchain:",
-    "button": "View MasterVault contract on BscScan"
+    "button": "View MasterVault contract on BscScan",
+    "url": "https://bscscan.com/address/0x4d3abE175ba575D2Ec967Ec19e8224f32EfB1467"
   },
 
   "ops": {
     "title": "MoonRise Operation",
-    "body": "Our infrastructure is public and auditable: open contracts, official wallets, and execution rules visible in real time. We don’t depend on third-party custody or manual controls. Every relevant movement leaves an on-chain trail."
+    "body": "Our infrastructure is public and auditable: open contracts, official wallets, and execution rules visible in real time. We do not rely on third-party custody or manual controls. Every relevant movement leaves an on-chain trace."
   },
 
   "liquidity": {
     "title": "Liquidity Policy & Market Defense",
     "items": [
-      "Liquidity opened in a controlled way, following a schedule and predefined rules.",
+      "Liquidity opened in a controlled way, following schedule and predefined rules.",
       "Anti-whale and anti-dump mechanisms in the contract to protect holders and the chart.",
       "Ecosystem fees and operations recorded on-chain (BscScan) with transparency.",
       "Stability fund and automated locks via MasterVault."
     ]
   },
 
-  "docs_links": {
-    "token_explorer": "(see on BscScan)",
-    "pre_explorer": "(see on BscScan)",
-    "termo_link": "Disclaimer Terms",
-    "wallet_button": "View on BscScan"
+  "whitepaper": {
+    "label": "Read the Whitepaper"
+  },
+
+  "aria": {
+    "copy_address": "Copy address"
   }
 }

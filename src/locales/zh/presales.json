@@ -1,54 +1,54 @@
 {
   "hero": {
-    "title": "MoonRise 预售融资基础设施，而非投机。",
-    "description": "MNR 代币通过智能合约在公共网络上直接分发，设有定义的阶段并自动交付。这不是赌博，而是建设。",
+    "title": "MoonRise 预售为基础设施融资，而非投机。",
+    "description": "MNR 代币通过公共网络上的智能合约直接发行和分发，具有清晰的阶段和自动交付。没有赌博，没有空洞的承诺。这是真实的建设。",
     "button": "进入预售面板"
   },
   "phases": {
     "counterTitle": "已售代币",
     "notificationsLink": "🔔 加入通知群",
-    "phase1": { "title": "阶段 1", "supply": "200,000,000 MNR", "price": "价格: 0.0000065959 BNB" },
-    "phase2": { "title": "阶段 2", "supply": "350,000,000 MNR", "price": "价格: 0.0000079542 BNB" },
-    "phase3": { "title": "阶段 3", "supply": "250,000,000 MNR", "price": "价格: 0.0000086765 BNB" }
+    "phase1": { "title": "第1阶段", "supply": "200,000,000 MNR", "price": "价格: 0.0000065959 BNB" },
+    "phase2": { "title": "第2阶段", "supply": "350,000,000 MNR", "price": "价格: 0.0000079542 BNB" },
+    "phase3": { "title": "第3阶段", "supply": "250,000,000 MNR", "price": "价格: 0.0000086765 BNB" }
   },
   "buttons": {
     "tokenomics": "查看代币经济",
     "transparency": "查看透明度",
-    "helper": "项目模型细节和社会审计。"
+    "helper": "访问完整的模型细节和项目的社会审计。"
   },
   "network": {
     "title": "为什么选择 BNB Chain？",
-    "description1": "我们选择 BNB Chain 是因为其安全性、稳定性和市场流动性。它保证低手续费、即时执行和广泛兼容性。",
-    "description2": "我们的生态系统如今以可靠性和高效性运行 —— 简单易加入，便于跟踪，并可实时完全验证。"
+    "description1": "我们选择 BNB Chain 是因为其强大的安全性、经过验证的稳定性和全球流动性。它保证低费用、即时执行和广泛的投资者兼容性。",
+    "description2": "我们的生态系统已经可靠高效地运行——加入简单，跟踪容易，并且完全可实时验证。"
   },
   "structure": {
     "title": "预售如何运作？",
     "token": "代币: MoonRise (MNR) — ERC20 标准",
-    "smart": "100% 通过智能合约执行（无托管）",
-    "phases": "3 个阶段，价格和限额已定义",
-    "delivery": "购买后自动交付代币",
-    "minimum": "每笔交易最低金额: 0.005 BNB",
-    "network": "使用网络: BNB Smart Chain",
+    "smart": "100% 通过智能合约自动执行（无人工托管）",
+    "phases": "3 个顺序阶段，具有明确的价格和限制",
+    "delivery": "购买后即时交付代币",
+    "minimum": "每笔交易的最小金额: 0.005 BNB",
+    "network": "使用的网络: BNB Smart Chain",
     "contractLink": "在 BscScan 上查看预售合约"
   },
   "purpose": {
     "title": "为什么存在？",
-    "description": "MNR 是真实金融生态系统的基础。参与预售的人作为系统创始人进入 —— 他们不是买炒作，而是买位置。目标是资助基础设施、流动性和能带来长期价值的产品。"
+    "description": "MNR 是主权金融生态系统的基础。参与预售意味着承担创始人的地位——不是购买炒作，而是为流动性、基础设施和将产生长期真实价值的产品提供资金。"
   },
   "utility": {
     "title": "MNR 代币的用途",
     "use1": "MoonRise 生态系统的官方货币",
     "use2": "内部交易和应用操作的 Gas",
-    "use3": "用于质押、奖励和流动性的代币",
-    "use4": "MoonRise 产品的原生货币: MoonWallet, MoonSwap, MoonBank, MoonBuy",
-    "use5": "通过 Moon+ 与真实资产 (RWA) 的集成基础"
+    "use3": "质押、奖励和流动性代币",
+    "use4": "MoonRise 产品的原生货币: MoonWallet, MoonBank, Moon+",
+    "use5": "与现实世界资产 (RWA) 集成的基础"
   },
   "security": {
     "title": "安全与透明",
     "point1": "所有交付均 100% 通过智能合约自动完成",
-    "point2": "无托管。无人工承诺",
-    "point3": "可审计的合约已在公共网络运行",
-    "point4": "流动性将以受控方式开放以确保稳定性"
+    "point2": "无人工托管。无外部承诺",
+    "point3": "可审计合约在链上公开运行",
+    "point4": "以受控方式开放流动性以确保稳定性"
   },
   "roadmap": {
     "title": "路线图",
@@ -59,11 +59,11 @@
     "step5": "生态系统全球扩展"
   },
   "call": {
-    "title": "数千人将观望。少数人将创立。",
-    "description": "如果你正在阅读这段话，那是因为你被选中去建设。这是勇敢者的召唤：为未来几代人融资并创立一个主权基础设施。"
+    "title": "成千上万人会观看，少数人会奠基。",
+    "description": "如果你能看到这里，那是因为你被选中去建设。这是勇敢者的号召：为后代融资并建立一个主权基础设施。"
   },
   "legal": {
-    "disclaimer": "本页面仅供参考，不代表注册的公开发行。参与预售是自愿的，并通过智能合约直接进行。"
+    "disclaimer": "此页面仅供参考，不代表注册的公开发行。参与预售是自愿的，并且直接通过链上智能合约进行。"
   },
   "closeButton": "关闭"
 }

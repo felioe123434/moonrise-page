@@ -10,7 +10,7 @@ import presalesPT from '@/locales/pt/presales.json';
 import moonplusPT from '@/locales/pt/moonplus.json';
 import tokenomicsPT from '@/locales/pt/tokenomics.json';
 import transparenciaPT from '@/locales/pt/transparencia.json';
-import appmoonrisePT from '@/locales/pt/appmoonrise.json';
+import moonwalletPT from '@/locales/pt/moonwallet.json';
 import legalPT from '@/locales/pt/legal.json';
 import ecosystemPT from '@/locales/pt/ecosystem.json';
 
@@ -22,7 +22,7 @@ import presalesEN from '@/locales/en/presales.json';
 import moonplusEN from '@/locales/en/moonplus.json';
 import tokenomicsEN from '@/locales/en/tokenomics.json';
 import transparenciaEN from '@/locales/en/transparencia.json';
-import appmoonriseEN from '@/locales/en/appmoonrise.json';
+import moonwalletEN from '@/locales/en/MoonWallet.json';
 import legalEN from '@/locales/en/legal.json';
 import ecosystemEN from '@/locales/en/ecosystem.json';
 
@@ -31,7 +31,7 @@ const extraLangs = ['es', 'fr', 'de', 'zh', 'ru', 'hi'];
 
 const namespaces = [
   'navbar', 'hero', 'presale', 'about', 'presales',
-  'moon+', 'tokenomics', 'transparencia', 'appmoonrise', 'legal', 'ecosystem' // <- certo
+  'moon+', 'tokenomics', 'transparencia', 'moonwallet', 'legal', 'ecosystem' // <- certo
 ];
 
 
@@ -47,7 +47,7 @@ const resources: any = {
     moonplus: moonplusPT,
     tokenomics: tokenomicsPT,
     transparencia: transparenciaPT,
-    appmoonrise: appmoonrisePT,
+    moonwallet: moonwalletPT,
     legal: legalPT,
    ecosystem: ecosystemPT
   },
@@ -60,7 +60,7 @@ const resources: any = {
     moonplus: moonplusEN,
     tokenomics: tokenomicsEN,
     transparencia: transparenciaEN,
-    appmoonrise: appmoonriseEN,
+    moonwallet: moonwalletEN,
     legal: legalEN,
     ecosystem: ecosystemEN
 

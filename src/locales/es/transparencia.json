@@ -1,9 +1,9 @@
 {
   "title": "Transparencia MoonRise",
-  "intro": "Aquí no existe discurso vacío. Cada línea, cada bloque, cada dirección existe para probar: MoonRise es ejecución real, visible y auditable. Esta pestaña es el reflejo de nuestro compromiso con quienes construyen con nosotros. Ninguna promesa. Solo entrega.",
+  "intro": "Aquí no existe discurso vacío. Cada línea, cada bloque, cada dirección existe para demostrar: MoonRise es ejecución real, visible y auditable. Esta pestaña es el reflejo de nuestro compromiso con quienes construyen con nosotros. Ninguna promesa. Solo entrega.",
 
   "protection": {
-    "summary": "MoonRise protege la economía con lógica, código y blindaje automatizado. Toda operación respeta límites, aplica cooldown, evita abusos y transforma cada acción en liquidez real — alimentando el sistema, bloqueando manipulaciones y haciendo todo visible en tiempo real.",
+    "summary": "MoonRise protege la economía con lógica, código y blindaje automatizado. Cada operación respeta límites, aplica cooldown, evita abusos y transforma cada acción en liquidez real — alimentando el sistema, bloqueando manipulaciones y haciendo todo visible en tiempo real.",
     "internalEconomyTitle": "Economía Interna Inteligente",
     "internalEconomy": "Cada movimiento dentro del ecosistema MoonRise alimenta automáticamente la liquidez. Nada es estático. Cada clic fortalece el sistema y alimenta el motor financiero que estamos construyendo — de forma automatizada, transparente y escalable.",
     "badges": [
@@ -15,42 +15,83 @@
   },
 
   "dna": [
-    "✅ Código abierto y contratos auditables — cualquiera puede verificar todo directamente en BscScan. Cero control centralizado.",
+    "✅ Código abierto y contratos auditables — cualquier persona puede verificar todo directamente en BscScan. Cero control centralizado.",
     "✅ Cada movimiento alimenta el ecosistema — sin promesas de respaldo externo, solo estructura interna comprobable.",
     "✅ 100% soberano — sin depender de bancos, empresas o terceros. El control es nuestro. La ejecución también.",
-    "✅ Defensa anti-ballena activa — el sistema bloquea movimientos sospechosos para proteger a los holders y el gráfico."
+    "✅ Defensa anti-ballena activa — el sistema bloquea movimientos sospechosos para proteger a los holders y al gráfico."
   ],
 
   "proof_title": "🚀 Pruebas Reales y Auditables",
-  "proof_intro": "No pedimos confianza. Mostramos ejecución. Todo aquí puede rastrearse en tiempo real a través de blockchain, imágenes, contratos y documentos públicos.",
+  "proof_intro": "No pedimos confianza. Mostramos ejecución. Todo aquí puede rastrearse en tiempo real vía blockchain, imágenes, contratos y documentos públicos.",
   "proof": [
     "🔥 Quema de 1,6 mil millones de tokens en el deploy — visible en BscScan con hash público.",
     "🛠️ Infraestructura pública visible — contratos, tasas, wallets y operaciones documentadas.",
     "📄 Preventa en contrato autónomo — sin control manual, con reglas fijas en el código.",
-    "🧾 Carteras públicas con rastreo — marketing, liquidez, recompensas. Todo visible, nada escondido."
+    "🧾 Carteras públicas con rastreo — marketing, liquidez, recompensas. Todo visible, nada oculto."
   ],
 
   "patrimonio_title": "💠 Ecosistema en Expansión",
-  "patrimonio_desc": "MoonRise no es solo cripto. Es código, es red, es infraestructura real construida con disciplina y reinversión estratégica. Cada tasa regresa al sistema. Cada clic alimenta el imperio. Nada viene de afuera. Todo nace de adentro.",
+  "patrimonio_desc": "MoonRise no es solo cripto. Es código, es red, es infraestructura real construida con disciplina y reinversión estratégica. Cada tasa vuelve al sistema. Cada clic alimenta el imperio. Nada viene de afuera. Todo nace de adentro.",
 
   "wallets_title": "Carteras Oficiales del Proyecto",
-  "wallets_desc": "Todas las direcciones abajo forman parte de la infraestructura pública de MoonRise. Son rastreables, verificables y visibles en tiempo real en la blockchain.",
+  "wallets_lead": "Todas las direcciones abajo forman parte de la infraestructura pública de MoonRise. Son rastreables, verificables y visibles en tiempo real en la blockchain.",
+
   "wallets": {
     "liquidez": "Cartera de Liquidez",
     "desenvolvimento": "Cartera de Desarrollo",
     "marketing": "Cartera de Marketing",
     "ecossistema": "Cartera del Ecosistema",
     "reserva": "Cartera de Reserva",
-    "fundador": "Cartera del Fundador"
+    "fundador": "Cartera del Fundador",
+    "admin": "Cartera Administrativa (Owner)",
+    "presale": "Cartera de Preventa",
+    "view_on_explorer": "Ver en BscScan"
   },
 
-  "wallets_locked_note": " Cartera bloqueada por 1 año después del deploy",
+  "wallets_badges": {
+    "liquidez": "LIQUIDEZ",
+    "desenvolvimento": "DEV",
+    "marketing": "MARKETING",
+    "ecossistema": "ECOSISTEMA",
+    "reserva": "RESERVA",
+    "fundador": "FUNDADOR",
+    "admin": "ADMIN / OWNER",
+    "presale": "PREVENTA"
+  },
+
+  "wallets_desc": {
+    "liquidez": "Provisión y apertura controlada de liquidez conforme a calendario.",
+    "desenvolvimento": "Financia productos, seguridad y módulos estratégicos.",
+    "marketing": "Acciones institucionales y crecimiento de marca.",
+    "ecossistema": "Operaciones internas del ecosistema MoonRise.",
+    "reserva": "Fondo estratégico para estabilidad y expansión.",
+    "presale": "Recibe BNB del contrato de preventa — rastreable en tiempo real.",
+    "admin": "Dirección de gobernanza temporal con límites definidos en el código.",
+    "fundador": "Tokens bloqueados por 1 año después del deploy (time-lock)."
+  },
+
+  "disclaimer": {
+    "trigger": "Consultar el Documento de Exención de Responsabilidad"
+  },
+
+  "wallets_notes": {
+    "admin": "Recomendado: multi-sig + timelock; privilegios sensibles auditables."
+  },
+
+  "wallets_locked_note": "Cartera bloqueada por 1 año después del deploy",
 
   "docs_title": "📂 Documentos Oficiales y Contratos",
   "docs": {
-    "token": "Contrato del Token:   0xF46c...1278",
+    "token": "Contrato del Token: 0xF46c...1278",
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
+  },
+
+  "docs_links": {
+    "token_explorer": "(ver en BscScan)",
+    "pre_explorer": "(ver en BscScan)",
+    "termo_link": "Documento de Exención de Responsabilidad",
+    "wallet_button": "Ver en BscScan"
   },
 
   "governance": {
@@ -66,46 +107,73 @@
       ]
     },
     "cannot": {
-      "title": "Lo que el owner NO puede hacer",
+      "title": "Lo que el owner NO PUEDE hacer",
       "items": [
         "Crear nuevos tokens (sin función mint)",
         "Alterar el supply (fijado en el deploy)",
         "Redirigir fondos de la preventa",
-        "Saltar los límites definidos en el contrato"
+        "Bypassear límites definidos en el contrato"
       ]
     }
   },
 
   "release_schedule": {
-    "title": "Calendario de Liberación de Tokens"
+    "title": "Calendario de Liberación de Tokens",
+    "liquidez": [
+      { "date": "01/12/2025", "amount": "500M MNR" },
+      { "date": "01/03/2026", "amount": "500M MNR" },
+      { "date": "01/06/2026", "amount": "1B MNR" },
+      { "date": "01/09/2026", "amount": "1B MNR" }
+    ],
+    "marketing": [
+      { "date": "01/01/2026", "amount": "125M MNR" },
+      { "date": "01/02/2026", "amount": "125M MNR" },
+      { "date": "01/03/2026", "amount": "125M MNR" },
+      { "date": "01/04/2026", "amount": "125M MNR" },
+      { "date": "01/05/2026", "amount": "125M MNR" },
+      { "date": "01/06/2026", "amount": "125M MNR" }
+    ],
+    "desenvolvimento": [
+      { "date": "01/01/2026", "amount": "100M MNR" },
+      { "date": "01/02/2026", "amount": "100M MNR" },
+      { "date": "01/03/2026", "amount": "100M MNR" },
+      { "date": "01/04/2026", "amount": "100M MNR" },
+      { "date": "01/05/2026", "amount": "100M MNR" }
+    ],
+    "reserva": [
+      { "date": "01/03/2027", "amount": "199.75M MNR" },
+      { "date": "01/09/2027", "amount": "199.75M MNR" }
+    ]
   },
 
   "lock_reason": {
     "title": "¿Por qué los tokens están bloqueados?",
-    "paragraph_1": "Los tokens de liquidez, marketing, desarrollo y reserva están protegidos por bloqueos de tiempo automatizados vía contrato MasterVault. Esto garantiza que ningún fondo se use antes de tiempo, protegiendo la economía del proyecto e impidiendo abusos, desvíos o movimientos anticipados.",
+    "paragraph_1": "Los tokens de liquidez, marketing, desarrollo y reserva están protegidos por bloqueos de tiempo automatizados vía contrato MasterVault. Esto garantiza que ningún fondo será utilizado antes de tiempo, protegiendo la economía del proyecto e impidiendo cualquier abuso, desvío o movimiento anticipado.",
     "paragraph_2": "El contrato es público, auditable e inmutable. Puedes verificar cada línea directamente en la blockchain:",
-    "button": "Ver contrato MasterVault en BscScan"
+    "button": "Ver contrato MasterVault en BscScan",
+    "url": "https://bscscan.com/address/0x4d3abE175ba575D2Ec967Ec19e8224f32EfB1467"
   },
 
   "ops": {
     "title": "Operación MoonRise",
-    "body": "Nuestra infraestructura es pública y auditable: contratos abiertos, carteras oficiales y reglas de ejecución visibles en tiempo real. No dependemos de custodia de terceros ni de controles manuales. Cada movimiento relevante deja rastro on-chain."
+    "body": "Nuestra infraestructura es pública y auditable: contratos abiertos, carteras oficiales y reglas de ejecución visibles en tiempo real. No dependemos de custodia de terceros ni de controles manuales. Cada movimiento relevante deja huella on-chain."
   },
 
   "liquidity": {
     "title": "Política de Liquidez y Defensa de Mercado",
     "items": [
       "Liquidez abierta de forma controlada, siguiendo calendario y reglas predefinidas.",
-      "Mecanismos anti-ballena y anti-dump en el contrato para proteger holders y el gráfico.",
+      "Mecanismos anti-ballena y anti-dump en el contrato para proteger a los holders y al gráfico.",
       "Tasas y operaciones del ecosistema registradas on-chain (BscScan) con transparencia.",
       "Fondo de estabilidad y bloqueos automatizados vía MasterVault."
     ]
   },
 
-  "docs_links": {
-    "token_explorer": "(ver en BscScan)",
-    "pre_explorer": "(ver en BscScan)",
-    "termo_link": "Término de Exención de Responsabilidad",
-    "wallet_button": "Ver en BscScan"
+  "whitepaper": {
+    "label": "Leer el Whitepaper"
+  },
+
+  "aria": {
+    "copy_address": "Copiar dirección"
   }
 }

@@ -1,75 +1,116 @@
 {
-  "title": "MoonRise 透明度",
-  "intro": "这里没有空话。每一行、每一个区块、每一个地址都存在来证明：MoonRise 是真实的执行，可见且可审计。此页面是我们对与我们一起建设的人们的承诺的镜子。没有承诺。只有交付。",
+  "title": "MoonRise 透明性",
+  "intro": "这里没有空话。每一行、每一个区块、每一个地址都存在是为了证明：MoonRise 是真实的执行，可见且可审计。这个页面是我们对建设者承诺的镜子。没有承诺，只有兑现。",
 
   "protection": {
-    "summary": "MoonRise 通过逻辑、代码和自动化防护来保护经济。每笔操作都遵循限制，应用冷却，防止滥用，并将每个动作转化为真实流动性 — 推动系统，阻止操纵，并让一切实时可见。",
+    "summary": "MoonRise 通过逻辑、代码和自动化防护来保护经济。每一笔操作都遵循限制，应用冷却时间，防止滥用，并将每个动作转化为真实流动性 —— 供养系统、阻止操纵，并让一切实时可见。",
     "internalEconomyTitle": "智能内部经济",
-    "internalEconomy": "MoonRise 生态系统中的每一笔操作都会自动注入流动性。没有任何静止。每一次点击都增强系统，并推动我们正在构建的金融引擎 — 自动化、透明且可扩展。",
+    "internalEconomy": "MoonRise 生态系统内的每一笔活动都会自动注入流动性。没有静止。每一次点击都强化系统，推动我们正在构建的金融引擎 —— 自动化、透明、可扩展。",
     "badges": [
       "智能流动性",
       "稳定图表",
       "真实生态系统",
-      "防止砸盘"
+      "防止抛售"
     ]
   },
 
   "dna": [
-    "✅ 开源代码和可审计合约 — 任何人都可以直接在 BscScan 上验证一切。零中心化控制。",
-    "✅ 每个动作都为生态系统提供动力 — 没有外部支撑的承诺，只有可验证的内部结构。",
-    "✅ 100% 主权 — 不依赖银行、公司或第三方。控制是我们的，执行也是。",
-    "✅ 启用反鲸鱼防御 — 系统会阻止可疑操作以保护持有人和图表。"
+    "✅ 开源代码和可审计合约 —— 任何人都可以直接在 BscScan 上验证。零中心化控制。",
+    "✅ 每一笔活动都为生态系统注入活力 —— 没有外部背书的承诺，只有可验证的内部结构。",
+    "✅ 100% 主权 —— 不依赖银行、公司或第三方。控制权在我们手中。执行权也在我们手中。",
+    "✅ 启用反巨鲸防御 —— 系统会阻止可疑操作以保护持有人和图表。"
   ],
 
   "proof_title": "🚀 真实且可审计的证明",
   "proof_intro": "我们不要求信任。我们展示执行。这里的一切都可以通过区块链、图像、合约和公共文件实时追踪。",
   "proof": [
-    "🔥 部署时销毁 16 亿枚代币 — 在 BscScan 上可见，带有公共哈希。",
-    "🛠️ 公共可见的基础设施 — 合约、费用、钱包和已记录的操作。",
-    "📄 自主合约中的预售 — 无人工控制，代码中固定规则。",
-    "🧾 公共钱包可追踪 — 营销、流动性、奖励。一切可见，没有隐藏。"
+    "🔥 部署时销毁 16 亿代币 —— 在 BscScan 上可见并带有公共哈希。",
+    "🛠️ 公共可见的基础设施 —— 合约、费用、钱包和已记录的操作。",
+    "📄 预售在自治合约中进行 —— 无人工控制，规则在代码中固定。",
+    "🧾 公共钱包可追踪 —— 市场推广、流动性、奖励。一切可见，无任何隐藏。"
   ],
 
-  "patrimonio_title": "💠 不断扩展的生态系统",
-  "patrimonio_desc": "MoonRise 不只是加密货币。它是代码，是网络，是通过纪律和战略再投资构建的真实基础设施。每一笔费用都会回到系统。每一次点击都滋养帝国。没有外部输入。一切都源于内部。",
+  "patrimonio_title": "💠 扩展中的生态系统",
+  "patrimonio_desc": "MoonRise 不只是加密货币。它是代码、是网络、是真实的基础设施，依靠纪律和战略性再投资构建。每一笔费用都会回流系统。每一次点击都会强化帝国。没有外部输入，一切源自内部。",
 
   "wallets_title": "项目官方钱包",
-  "wallets_desc": "以下所有地址都是 MoonRise 公共基础设施的一部分。它们是可追踪的、可验证的，并且在区块链上实时可见。",
+  "wallets_lead": "以下所有地址均属于 MoonRise 的公共基础设施。它们可追踪、可验证，并在区块链上实时可见。",
+
   "wallets": {
     "liquidez": "流动性钱包",
     "desenvolvimento": "开发钱包",
     "marketing": "营销钱包",
     "ecossistema": "生态系统钱包",
     "reserva": "储备钱包",
-    "fundador": "创始人钱包"
+    "fundador": "创始人钱包",
+    "admin": "管理钱包（Owner）",
+    "presale": "预售钱包",
+    "view_on_explorer": "在 BscScan 查看"
   },
 
-  "wallets_locked_note": " 部署后锁定 1 年的钱包",
+  "wallets_badges": {
+    "liquidez": "LIQUIDITY",
+    "desenvolvimento": "DEV",
+    "marketing": "MARKETING",
+    "ecossistema": "ECOSYSTEM",
+    "reserva": "RESERVE",
+    "fundador": "FOUNDER",
+    "admin": "ADMIN / OWNER",
+    "presale": "PRE-SALE"
+  },
+
+  "wallets_desc": {
+    "liquidez": "根据计划提供和受控释放流动性。",
+    "desenvolvimento": "为产品、安全和战略模块提供资金。",
+    "marketing": "机构推广和品牌增长。",
+    "ecossistema": "MoonRise 生态系统的内部操作。",
+    "reserva": "用于稳定和扩展的战略基金。",
+    "presale": "接收来自预售合约的 BNB —— 可实时追踪。",
+    "admin": "临时治理地址，代码中定义了限制。",
+    "fundador": "代币在部署后锁定 1 年（time-lock）。"
+  },
+
+  "disclaimer": {
+    "trigger": "查看免责声明文件"
+  },
+
+  "wallets_notes": {
+    "admin": "推荐：multi-sig + timelock；敏感权限可审计。"
+  },
+
+  "wallets_locked_note": "部署后钱包锁定 1 年",
 
   "docs_title": "📂 官方文件和合约",
   "docs": {
-    "token": "代币合约:   0xF46c...1278",
+    "token": "代币合约: 0xF46c...1278",
     "token_url": "https://bscscan.com/address/0xF46ca5A735E024B3F0aaBC5dfe242b5cA16B1278",
     "termo": "/termo-isencao.pdf"
   },
 
+  "docs_links": {
+    "token_explorer": "（在 BscScan 查看）",
+    "pre_explorer": "（在 BscScan 查看）",
+    "termo_link": "免责声明文件",
+    "wallet_button": "在 BscScan 查看"
+  },
+
   "governance": {
     "title": "临时且透明的治理",
-    "intro": "在预售阶段，合约由一个可见且受限的 owner 控制 — 唯一目的就是保护初始操作的完整性。",
+    "intro": "在预售阶段，合约由可见且受限的 Owner 控制 —— 唯一目的是保护初始操作的完整性。",
     "can": {
-      "title": "owner 可以做的",
+      "title": "Owner 可以做的事",
       "items": [
         "在遭受攻击时暂停和恢复合约",
-        "调整销售税（上限 10%）",
+        "调整销售费率（上限 10%）",
         "更新白名单钱包",
-        "修改反鲸鱼冷却参数"
+        "修改反巨鲸冷却参数"
       ]
     },
     "cannot": {
-      "title": "owner 不能做的",
+      "title": "Owner 不能做的事",
       "items": [
         "创建新代币（无 mint 功能）",
-        "更改供应量（部署时已固定）",
+        "更改 supply（部署时已固定）",
         "重定向预售资金",
         "绕过合约中定义的限制"
       ]
@@ -77,35 +118,62 @@
   },
 
   "release_schedule": {
-    "title": "代币释放计划"
+    "title": "代币释放时间表",
+    "liquidez": [
+      { "date": "2025/12/01", "amount": "500M MNR" },
+      { "date": "2026/03/01", "amount": "500M MNR" },
+      { "date": "2026/06/01", "amount": "1B MNR" },
+      { "date": "2026/09/01", "amount": "1B MNR" }
+    ],
+    "marketing": [
+      { "date": "2026/01/01", "amount": "125M MNR" },
+      { "date": "2026/02/01", "amount": "125M MNR" },
+      { "date": "2026/03/01", "amount": "125M MNR" },
+      { "date": "2026/04/01", "amount": "125M MNR" },
+      { "date": "2026/05/01", "amount": "125M MNR" },
+      { "date": "2026/06/01", "amount": "125M MNR" }
+    ],
+    "desenvolvimento": [
+      { "date": "2026/01/01", "amount": "100M MNR" },
+      { "date": "2026/02/01", "amount": "100M MNR" },
+      { "date": "2026/03/01", "amount": "100M MNR" },
+      { "date": "2026/04/01", "amount": "100M MNR" },
+      { "date": "2026/05/01", "amount": "100M MNR" }
+    ],
+    "reserva": [
+      { "date": "2027/03/01", "amount": "199.75M MNR" },
+      { "date": "2027/09/01", "amount": "199.75M MNR" }
+    ]
   },
 
   "lock_reason": {
     "title": "为什么代币被锁定？",
-    "paragraph_1": "流动性、营销、开发和储备代币由 MasterVault 合约的时间锁保护。这确保不会提前使用任何资金，保护项目经济并防止任何滥用、挪用或提前操作。",
-    "paragraph_2": "合约是公开的、可审计的、不可变的。您可以直接在区块链上验证每一行：",
-    "button": "在 BscScan 查看 MasterVault 合约"
+    "paragraph_1": "流动性、营销、开发和储备代币由 MasterVault 合约的自动时间锁保护。这确保了在时间到之前不会动用资金，保护项目经济并防止任何滥用、挪用或提前转移。",
+    "paragraph_2": "该合约是公开的、可审计的且不可更改。您可以直接在区块链上验证每一行：",
+    "button": "在 BscScan 查看 MasterVault 合约",
+    "url": "https://bscscan.com/address/0x4d3abE175ba575D2Ec967Ec19e8224f32EfB1467"
   },
 
   "ops": {
-    "title": "MoonRise 运行",
-    "body": "我们的基础设施是公开且可审计的：开放合约、官方钱包和实时可见的执行规则。我们不依赖第三方托管或人工控制。每个重要的操作都会留下链上痕迹。"
+    "title": "MoonRise 运营",
+    "body": "我们的基础设施是公开且可审计的：开放合约、官方钱包和实时可见的执行规则。我们不依赖第三方托管或人工控制。每一个相关的操作都会留下链上痕迹。"
   },
 
   "liquidity": {
     "title": "流动性政策与市场防御",
     "items": [
-      "流动性以受控方式开放，遵循时间表和预设规则。",
-      "合约中的反鲸鱼和反砸盘机制保护持有人和图表。",
-      "生态系统费用和操作在链上（BscScan）透明记录。",
-      "稳定基金和 MasterVault 自动锁仓。"
+      "流动性以受控方式开启，遵循时间表和预定义规则。",
+      "合约中的反巨鲸和反抛售机制保护持有人和图表。",
+      "生态系统费用和操作记录在链上（BscScan），透明可见。",
+      "稳定基金和 MasterVault 自动锁定。"
     ]
   },
 
-  "docs_links": {
-    "token_explorer": "(在 BscScan 查看)",
-    "pre_explorer": "(在 BscScan 查看)",
-    "termo_link": "免责声明",
-    "wallet_button": "在 BscScan 查看"
+  "whitepaper": {
+    "label": "阅读 Whitepaper"
+  },
+
+  "aria": {
+    "copy_address": "复制地址"
   }
 }

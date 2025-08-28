@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "control directo sobre tus activos",
+  "badge": "APP • EJECUCIÓN • ON-CHAIN",
+  "description": "Lectura on-chain, sin custodia y sin intermediarios. Precisión y velocidad en lo que es tuyo.",
+  "proofs": [
+    "No-custodial",
+    "Lectura on-chain en tiempo real",
+    "Multi-chain EVM",
+    "Importación inteligente de tokens",
+    "Cotizaciones BRL / USD",
+    "Interfaz fluida para móvil"
+  ],
+  "evolving": "App en evolución continua — versiones, medición y mejora.",
+  "visionTitle": "Más que una billetera",
+  "vision1": "Operación real 24/7 directamente en la blockchain. Lo que ves es lo que la red ve.",
+  "vision2": "Construida para ejecutores: simple, rápida y precisa.",
+  "featuresTitle": "Funcionalidades ya en ejecución",
+  "features": [
+    "Saldo e historial en tiempo real directo desde la blockchain",
+    "Importación inteligente de tokens (lectura de contratos)",
+    "Multi-chain EVM con redes configurables (BNB por defecto)",
+    "Estimación optimizada de tarifas/gas",
+    "Cotizaciones en múltiples monedas (BRL, USD y otras)",
+    "Interfaz fluida y responsiva para móvil"
+  ],
+  "differentialsTitle": "Por qué es diferente",
+  "differentials": [
+    "No-custodial — tus llaves, tus activos",
+    "Lectura on-chain nativa — sin filtros de terceros",
+    "Multi-idioma nativo — experiencia limpia y objetiva",
+    "Integración con el ecosistema MoonRise — operaciones conectadas"
+  ],
+  "statusTitle": "Estado de desarrollo",
+  "status": {
+    "readyTitle": "Listo",
+    "progressTitle": "En progreso",
+    "nextTitle": "Próximo",
+    "ready": ["Lectura on-chain", "Importación de tokens", "Multi-moneda", "UI móvil"],
+    "progress": ["Expansión de redes EVM (auto-detección)", "Optimizaciones de gas"],
+    "next": ["Seguridad de sesión", "Atajos avanzados de transacción"]
+  },
+  "cta": "Seguir el lanzamiento en Telegram",
+  "disclaimer": "Lo que ves es ejecución real: tokens, saldos y red en vivo — sin simulación."
+}

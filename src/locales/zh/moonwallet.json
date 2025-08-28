@@ -1,0 +1,45 @@
+{
+  "title": "MoonRise Wallet",
+  "subtitle": "直接掌控您的资产",
+  "badge": "APP • 执行 • ON-CHAIN",
+  "description": "链上读取，无托管，无中介。精准与高速，完全属于您。",
+  "proofs": [
+    "非托管",
+    "实时链上读取",
+    "多链 EVM",
+    "智能代币导入",
+    "BRL / USD 报价",
+    "流畅的移动端界面"
+  ],
+  "evolving": "应用持续演进 —— 版本迭代、测量与改进。",
+  "visionTitle": "不仅仅是一个钱包",
+  "vision1": "区块链上的 24/7 实时操作。您所见即网络所见。",
+  "vision2": "为执行者而建：简单、快速、精准。",
+  "featuresTitle": "已上线功能",
+  "features": [
+    "直接来自区块链的实时余额与历史记录",
+    "智能代币导入（合约读取）",
+    "多链 EVM，可配置网络（默认 BNB）",
+    "优化的费用/gas 估算",
+    "多币种报价（BRL、USD 及其他）",
+    "流畅且响应迅速的移动端界面"
+  ],
+  "differentialsTitle": "为什么与众不同",
+  "differentials": [
+    "非托管 —— 您的私钥，您的资产",
+    "原生链上读取 —— 无第三方过滤",
+    "原生多语言 —— 清晰且直接的体验",
+    "与 MoonRise 生态系统集成 —— 互联操作"
+  ],
+  "statusTitle": "开发状态",
+  "status": {
+    "readyTitle": "已完成",
+    "progressTitle": "进行中",
+    "nextTitle": "下一步",
+    "ready": ["链上读取", "代币导入", "多币种", "移动端 UI"],
+    "progress": ["EVM 网络扩展（自动检测）", "Gas 优化"],
+    "next": ["会话安全", "高级交易快捷方式"]
+  },
+  "cta": "在 Telegram 上关注发布",
+  "disclaimer": "您所见即为真实执行：代币、余额与实时网络 —— 无模拟。"
+}

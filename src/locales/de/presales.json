@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Der MoonRise-Vorverkauf finanziert Infrastruktur. Keine Spekulation.",
-    "description": "Der MNR-Token wird direkt über Smart Contract im öffentlichen Netzwerk verteilt, mit definierten Phasen und automatischer Lieferung. Das ist keine Wette. Das ist Aufbau.",
-    "button": "Zum Vorverkaufspanel"
+    "description": "Der MNR-Token wird direkt über einen Smart Contract im öffentlichen Netzwerk ausgegeben und verteilt, mit klaren Phasen und automatischer Lieferung. Keine Wetten, keine leeren Versprechen. Es ist echter Aufbau.",
+    "button": "Zum Vorverkaufs-Dashboard"
   },
   "phases": {
     "counterTitle": "Verkaufte Tokens",
@@ -14,56 +14,56 @@
   "buttons": {
     "tokenomics": "Tokenomics ansehen",
     "transparency": "Transparenz ansehen",
-    "helper": "Details zum Modell und soziale Projektprüfung."
+    "helper": "Greifen Sie auf die vollständigen Modelldetails und das soziale Audit des Projekts zu."
   },
   "network": {
     "title": "Warum sind wir auf der BNB Chain?",
-    "description1": "Wir haben die BNB Chain wegen Sicherheit, Stabilität und Markliquidität gewählt. Sie garantiert niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
-    "description2": "Unser Ökosystem läuft heute zuverlässig und effizient — einfach beizutreten, leicht zu verfolgen und vollständig in Echtzeit überprüfbar."
+    "description1": "Wir haben die BNB Chain wegen ihrer robusten Sicherheit, nachgewiesenen Stabilität und globalen Liquidität gewählt. Sie garantiert niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
+    "description2": "Unser Ökosystem läuft bereits zuverlässig und effizient — einfach beizutreten, leicht zu verfolgen und vollständig in Echtzeit überprüfbar."
   },
   "structure": {
     "title": "Wie funktioniert der Vorverkauf?",
     "token": "Token: MoonRise (MNR) — ERC20-Standard",
-    "smart": "100 % über Smart Contract ausgeführt (ohne Verwahrung)",
-    "phases": "3 Phasen mit definierten Preisen und Limits",
-    "delivery": "Automatische Token-Lieferung nach Kauf",
+    "smart": "100% automatisierte Ausführung über Smart Contract (keine manuelle Verwahrung)",
+    "phases": "3 aufeinanderfolgende Phasen mit festgelegten Preisen und Limits",
+    "delivery": "Sofortige Lieferung der Tokens nach dem Kauf",
     "minimum": "Mindestwert pro Transaktion: 0.005 BNB",
-    "network": "Genutztes Netzwerk: BNB Smart Chain",
+    "network": "Verwendetes Netzwerk: BNB Smart Chain",
     "contractLink": "Vorverkaufsvertrag auf BscScan ansehen"
   },
   "purpose": {
     "title": "Warum existiert das?",
-    "description": "MNR ist die Grundlage eines realen Finanzökosystems. Wer am Vorverkauf teilnimmt, wird Systemgründer — er kauft keinen Hype, sondern eine Position. Ziel ist es, Infrastruktur, Liquidität und Produkte zu finanzieren, die langfristigen Wert schaffen."
+    "description": "MNR ist die Grundlage eines souveränen Finanzökosystems. An der Vorverkauf teilzunehmen bedeutet, die Rolle eines Gründers einzunehmen — nicht Hype zu kaufen, sondern Liquidität, Infrastruktur und Produkte zu finanzieren, die langfristigen echten Wert schaffen."
   },
   "utility": {
-    "title": "Nützlichkeit des MNR-Tokens",
+    "title": "Nutzung des MNR-Tokens",
     "use1": "Offizielle Währung des MoonRise-Ökosystems",
     "use2": "Gas für interne Transaktionen und App-Operationen",
-    "use3": "Token für Staking, Belohnungen und Liquidität",
-    "use4": "Native Währung der MoonRise-Produkte: MoonWallet, MoonSwap, MoonBank, MoonBuy",
-    "use5": "Basis für Integrationen mit realen Vermögenswerten (RWA) über Moon+"
+    "use3": "Staking-, Belohnungs- und Liquiditätstoken",
+    "use4": "Native Währung der MoonRise-Produkte: MoonWallet, MoonBank, Moon+",
+    "use5": "Basis für Integrationen mit realen Vermögenswerten (RWA)"
   },
   "security": {
     "title": "Sicherheit & Transparenz",
-    "point1": "Jede Lieferung erfolgt 100 % automatisch über Smart Contract",
-    "point2": "Keine Verwahrung. Keine manuellen Versprechen",
-    "point3": "Auditierbarer Vertrag bereits öffentlich aktiv",
-    "point4": "Liquidität wird kontrolliert geöffnet, um Stabilität zu gewährleisten"
+    "point1": "Jede Lieferung erfolgt 100% automatisch über Smart Contract",
+    "point2": "Keine manuelle Verwahrung. Keine externen Versprechen",
+    "point3": "Auditierbarer Vertrag, der öffentlich on-chain läuft",
+    "point4": "Liquidität wird kontrolliert freigegeben, um Stabilität zu gewährleisten"
   },
   "roadmap": {
     "title": "Roadmap",
     "step1": "Vorverkauf geöffnet",
-    "step2": "Erstliquidität",
+    "step2": "Anfangsliquidität",
     "step3": "Erweiterung der MoonRise-Produkte",
     "step4": "Integration mit Moon+ (RWA)",
     "step5": "Globale Skalierung des Ökosystems"
   },
   "call": {
     "title": "Tausende werden zuschauen. Wenige werden gründen.",
-    "description": "Wenn Sie das lesen, wurden Sie auserwählt zu bauen. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für die nächsten Generationen zu finanzieren und zu gründen."
+    "description": "Wenn Sie es bis hierher geschafft haben, dann weil Sie zum Bauen bestimmt sind. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für kommende Generationen zu finanzieren und zu gründen."
   },
   "legal": {
-    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über Smart Contract."
+    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über einen Smart Contract on-chain."
   },
   "closeButton": "Schließen"
 }

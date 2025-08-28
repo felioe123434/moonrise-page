@@ -1,11 +1,11 @@
 {
-  "title": "MoonRise Tokenomics",
-  "intro": "MoonRise 旨在通过结构设计确保平衡、透明和可持续增长。没有任何代币被免费分发 —— 一切都经过有目的的规划、战略和长期愿景。",
+  "title": "MoonRise 代币经济",
+  "intro": "MoonRise 旨在通过结构设计来确保平衡、透明和可持续增长。没有任何代币被免费分发——一切都经过有目的的规划、战略和长期愿景。",
   "supplyLabels": {
     "name": "名称",
     "symbol": "符号",
     "network": "网络",
-    "total": "总代码量",
+    "total": "总代币量",
     "burned": "已销毁代币",
     "circulating": "流通供应量"
   },
@@ -19,43 +19,43 @@
   },
   "buttons": {
     "transparency": "透明度",
-    "contract": "BscScan 合约"
+    "contract": "在 BscScan 上查看合约"
   },
   "distributionTitle": "代币分配",
-  "distributionNote": "供应的每一部分都带有目的地分配。没有剩余，没有偶然 —— 只有战略与执行。",
+  "distributionNote": "供应的每一部分都带有明确的目的。没有剩余，没有偶然——只有战略和执行。",
   "warnings": {
-    "totalNot100": "总分配为 {{total}}。"
+    "totalNot100": "分配总计 {{total}}。"
   },
   "distribution": [
     { "title": "流动性", "value": 53.3333333333, "label": "53.33 %" },
     { "title": "开发", "value": 6.6666666667, "label": "6.67 %" },
     { "title": "已销毁代币", "value": 21.3333333333, "label": "21.33 %" },
-    { "title": "营销", "value": 10, "label": "10.00 %" },
+    { "title": "市场营销", "value": 10, "label": "10.00 %" },
     { "title": "MoonRise 生态系统", "value": 5.3266666667, "label": "5.33 %" },
     { "title": "战略储备", "value": 3.3333333333, "label": "3.33 %" },
     { "title": "创始人（锁定）", "value": 0.0066666667, "label": "0.0067 %" }
   ],
   "fundsTitle": "募集资金的用途",
-  "fundsText": "所有募集资金都以透明、可追踪的方式分配。首要任务是创造价值、确保稳定并推动生态系统的增长。",
+  "fundsText": "所有募集的资金都将以透明和可追踪的方式分配。首要目标是创造价值、确保稳定并推动生态系统的增长。",
   "funds": [
     {
       "title": "MoonRise 生态系统",
-      "desc": "持续再投资于基础设施、产品（Wallet、MoonSwap、Bank）和扩展。每笔交易都强化帝国。"
+      "desc": "持续再投资于基础设施、产品（Wallet, Bank, Moon+）和扩展。每一笔交易都强化帝国。"
     },
     {
       "title": "稳定储备",
-      "desc": "保护基金，用于在高波动和市场事件期间保持流动性并支持价格。"
+      "desc": "用于在高波动和市场事件期间维持流动性并支撑价格的保护基金。"
     },
     {
       "title": "市场流动性",
-      "desc": "确保深度和流畅度，保证健康的代币交易。"
+      "desc": "确保深度和顺畅的流动，以维持健康的代币交易。"
     },
     {
-      "title": "持有者价值",
-      "desc": "部分利润和战略执行以直接和间接收益的形式回馈忠实持有者。"
+      "title": "持有者回报",
+      "desc": "部分利润和战略执行将以直接和间接利益的形式回馈忠实持有者。"
     }
   ],
   "closing": {
-    "phrase": "MoonRise 建立在执行、数据和长期愿景之上。无空投，无额外增发。公开透明且可审计的锁仓。"
+    "phrase": "MoonRise 建立在执行、数据和长期愿景之上。没有空投，没有额外增发。公开透明，可审计锁定。"
   }
 }
