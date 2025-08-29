@@ -5,8 +5,11 @@
     "button": "Zum Vorverkaufs-Dashboard"
   },
   "phases": {
+    "title": "Vorverkaufsphasen",
     "counterTitle": "Verkaufte Tokens",
     "notificationsLink": "🔔 Benachrichtigungsgruppe beitreten",
+    "activeBadge": "Aktuelle Phase",
+
     "phase1": { "title": "Phase 1", "supply": "200.000.000 MNR", "price": "Preis: 0.0000065959 BNB" },
     "phase2": { "title": "Phase 2", "supply": "350.000.000 MNR", "price": "Preis: 0.0000079542 BNB" },
     "phase3": { "title": "Phase 3", "supply": "250.000.000 MNR", "price": "Preis: 0.0000086765 BNB" }
@@ -18,14 +21,14 @@
   },
   "network": {
     "title": "Warum sind wir auf der BNB Chain?",
-    "description1": "Wir haben die BNB Chain wegen ihrer robusten Sicherheit, nachgewiesenen Stabilität und globalen Liquidität gewählt. Sie garantiert niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
-    "description2": "Unser Ökosystem läuft bereits zuverlässig und effizient — einfach beizutreten, leicht zu verfolgen und vollständig in Echtzeit überprüfbar."
+    "description1": "Wir haben uns für die BNB Chain entschieden wegen ihrer robusten Sicherheit, bewährten Stabilität und globalen Liquidität. Sie gewährleistet niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
+    "description2": "Unser Ökosystem läuft bereits zuverlässig und effizient — einfach beizutreten, leicht zu verfolgen und in Echtzeit vollständig überprüfbar."
   },
   "structure": {
     "title": "Wie funktioniert der Vorverkauf?",
     "token": "Token: MoonRise (MNR) — ERC20-Standard",
     "smart": "100% automatisierte Ausführung über Smart Contract (keine manuelle Verwahrung)",
-    "phases": "3 aufeinanderfolgende Phasen mit festgelegten Preisen und Limits",
+    "phases": "3 aufeinanderfolgende Phasen mit definierten Preisen und Limits",
     "delivery": "Sofortige Lieferung der Tokens nach dem Kauf",
     "minimum": "Mindestwert pro Transaktion: 0.005 BNB",
     "network": "Verwendetes Netzwerk: BNB Smart Chain",
@@ -33,13 +36,13 @@
   },
   "purpose": {
     "title": "Warum existiert das?",
-    "description": "MNR ist die Grundlage eines souveränen Finanzökosystems. An der Vorverkauf teilzunehmen bedeutet, die Rolle eines Gründers einzunehmen — nicht Hype zu kaufen, sondern Liquidität, Infrastruktur und Produkte zu finanzieren, die langfristigen echten Wert schaffen."
+    "description": "MNR ist das Fundament eines souveränen Finanzökosystems. An der Vorverkauf teilzunehmen bedeutet, eine Gründerposition einzunehmen — nicht Hype zu kaufen, sondern Liquidität, Infrastruktur und Produkte zu finanzieren, die echten langfristigen Wert schaffen."
   },
   "utility": {
-    "title": "Nutzung des MNR-Tokens",
+    "title": "MNR Token Nutzen",
     "use1": "Offizielle Währung des MoonRise-Ökosystems",
-    "use2": "Gas für interne Transaktionen und App-Operationen",
-    "use3": "Staking-, Belohnungs- und Liquiditätstoken",
+    "use2": "Liquiditätsdeckung und institutionelle Operationen",
+    "use3": "Governance-Einheit und Teilnahme an strategischen Entscheidungen",
     "use4": "Native Währung der MoonRise-Produkte: MoonWallet, MoonBank, Moon+",
     "use5": "Basis für Integrationen mit realen Vermögenswerten (RWA)"
   },
@@ -47,23 +50,23 @@
     "title": "Sicherheit & Transparenz",
     "point1": "Jede Lieferung erfolgt 100% automatisch über Smart Contract",
     "point2": "Keine manuelle Verwahrung. Keine externen Versprechen",
-    "point3": "Auditierbarer Vertrag, der öffentlich on-chain läuft",
-    "point4": "Liquidität wird kontrolliert freigegeben, um Stabilität zu gewährleisten"
+    "point3": "Auditierbarer Vertrag, öffentlich on-chain ausgeführt",
+    "point4": "Liquidität wird kontrolliert geöffnet, um Stabilität zu gewährleisten"
   },
   "roadmap": {
     "title": "Roadmap",
     "step1": "Vorverkauf geöffnet",
-    "step2": "Anfangsliquidität",
-    "step3": "Erweiterung der MoonRise-Produkte",
+    "step2": "Erstliquidität",
+    "step3": "Expansion der MoonRise-Produkte",
     "step4": "Integration mit Moon+ (RWA)",
     "step5": "Globale Skalierung des Ökosystems"
   },
   "call": {
     "title": "Tausende werden zuschauen. Wenige werden gründen.",
-    "description": "Wenn Sie es bis hierher geschafft haben, dann weil Sie zum Bauen bestimmt sind. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für kommende Generationen zu finanzieren und zu gründen."
+    "description": "Wenn Sie bis hierher gekommen sind, liegt es daran, dass Sie ausgewählt wurden, um zu bauen. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für kommende Generationen zu finanzieren und zu gründen."
   },
   "legal": {
-    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über einen Smart Contract on-chain."
+    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über einen on-chain Smart Contract."
   },
   "closeButton": "Schließen"
 }

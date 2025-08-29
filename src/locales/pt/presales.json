@@ -5,8 +5,11 @@
     "button": "Acessar o Painel da Pré-venda"
   },
   "phases": {
+    "title": "Fases da Pré-venda",
     "counterTitle": "Tokens vendidos",
     "notificationsLink": "🔔 Entrar no Grupo de Notificações",
+    "activeBadge": "Fase Atual",
+
     "phase1": { "title": "Fase 1", "supply": "200.000.000 MNR", "price": "Preço: 0.0000065959 BNB" },
     "phase2": { "title": "Fase 2", "supply": "350.000.000 MNR", "price": "Preço: 0.0000079542 BNB" },
     "phase3": { "title": "Fase 3", "supply": "250.000.000 MNR", "price": "Preço: 0.0000086765 BNB" }
@@ -35,13 +38,13 @@
     "title": "Por que isso existe?",
     "description": "O MNR é a fundação de um ecossistema financeiro soberano. Participar da pré-venda significa assumir posição de fundador — não comprar hype, mas financiar liquidez, infraestrutura e produtos que vão gerar valor real de longo prazo."
   },
-  "utility": {
-    "title": "Utilidade do token MNR",
-    "use1": "Moeda oficial do ecossistema MoonRise",
-    "use2": "Gás para transações internas e operações no app",
-    "use3": "Token de staking, recompensas e liquidez",
-    "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonBank, Moon+",
-    "use5": "Base para integrações com ativos reais (RWA)"
+ "utility": {
+  "title": "Utilidade do token MNR",
+  "use1": "Moeda oficial do ecossistema MoonRise",
+  "use2": "Lastro de liquidez e operações institucionais",
+  "use3": "Unidade de governança e participação em decisões estratégicas",
+  "use4": "Moeda nativa dos produtos MoonRise: MoonWallet, MoonBank, Moon+",
+  "use5": "Base para integrações com ativos reais (RWA)"
   },
   "security": {
     "title": "Segurança & Transparência",

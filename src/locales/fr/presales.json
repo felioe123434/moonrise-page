@@ -1,12 +1,15 @@
 {
   "hero": {
     "title": "La prévente de MoonRise finance l’infrastructure. Pas la spéculation.",
-    "description": "Le jeton MNR est émis et distribué directement via un contrat intelligent sur un réseau public, avec des phases claires et une livraison automatique. Pas de paris, pas de promesses vides. C’est de la construction réelle.",
-    "button": "Accéder au Tableau de Bord de la Prévente"
+    "description": "Le token MNR est émis et distribué directement via un contrat intelligent sur un réseau public, avec des phases claires et une livraison automatique. Pas de paris, pas de promesses vides. C’est une construction réelle.",
+    "button": "Accéder au tableau de bord de la prévente"
   },
   "phases": {
+    "title": "Phases de la prévente",
     "counterTitle": "Tokens vendus",
-    "notificationsLink": "🔔 Rejoindre le Groupe de Notifications",
+    "notificationsLink": "🔔 Rejoindre le groupe de notifications",
+    "activeBadge": "Phase actuelle",
+
     "phase1": { "title": "Phase 1", "supply": "200 000 000 MNR", "price": "Prix : 0.0000065959 BNB" },
     "phase2": { "title": "Phase 2", "supply": "350 000 000 MNR", "price": "Prix : 0.0000079542 BNB" },
     "phase3": { "title": "Phase 3", "supply": "250 000 000 MNR", "price": "Prix : 0.0000086765 BNB" }
@@ -18,13 +21,13 @@
   },
   "network": {
     "title": "Pourquoi sommes-nous sur BNB Chain ?",
-    "description1": "Nous avons choisi la BNB Chain pour sa sécurité robuste, sa stabilité éprouvée et sa liquidité mondiale. Elle garantit des frais bas, une exécution immédiate et une large compatibilité pour les investisseurs.",
+    "description1": "Nous avons choisi BNB Chain pour sa sécurité robuste, sa stabilité éprouvée et sa liquidité mondiale. Elle garantit des frais bas, une exécution immédiate et une large compatibilité pour les investisseurs.",
     "description2": "Notre écosystème fonctionne déjà avec fiabilité et efficacité — simple à rejoindre, facile à suivre et totalement vérifiable en temps réel."
   },
   "structure": {
     "title": "Comment fonctionne la prévente ?",
     "token": "Token : MoonRise (MNR) — standard ERC20",
-    "smart": "Exécution 100% automatisée via contrat intelligent (aucune garde manuelle)",
+    "smart": "Exécution 100 % automatisée via contrat intelligent (sans garde manuelle)",
     "phases": "3 phases séquentielles avec prix et limites définis",
     "delivery": "Livraison instantanée des tokens après l’achat",
     "minimum": "Valeur minimale par transaction : 0.005 BNB",
@@ -33,21 +36,21 @@
   },
   "purpose": {
     "title": "Pourquoi cela existe-t-il ?",
-    "description": "Le MNR est la fondation d’un écosystème financier souverain. Participer à la prévente signifie prendre la place de fondateur — ne pas acheter du hype, mais financer la liquidité, l’infrastructure et les produits qui généreront une valeur réelle à long terme."
+    "description": "Le MNR est la base d’un écosystème financier souverain. Participer à la prévente signifie prendre une position de fondateur — non pas acheter du hype, mais financer la liquidité, l’infrastructure et les produits qui généreront une valeur réelle à long terme."
   },
   "utility": {
-    "title": "Utilité du jeton MNR",
+    "title": "Utilité du token MNR",
     "use1": "Monnaie officielle de l’écosystème MoonRise",
-    "use2": "Gaz pour les transactions internes et les opérations de l’app",
-    "use3": "Jeton de staking, récompenses et liquidité",
+    "use2": "Garantie de liquidité et opérations institutionnelles",
+    "use3": "Unité de gouvernance et participation aux décisions stratégiques",
     "use4": "Monnaie native des produits MoonRise : MoonWallet, MoonBank, Moon+",
     "use5": "Base pour les intégrations avec des actifs réels (RWA)"
   },
   "security": {
     "title": "Sécurité & Transparence",
-    "point1": "Toute livraison est 100% automatique via contrat intelligent",
-    "point2": "Pas de garde manuelle. Pas de promesses externes",
-    "point3": "Contrat auditable et en exécution publique on-chain",
+    "point1": "Toute livraison est 100 % automatique via contrat intelligent",
+    "point2": "Aucune garde manuelle. Aucune promesse externe",
+    "point3": "Contrat vérifiable et en exécution publique on-chain",
     "point4": "Liquidité ouverte de manière contrôlée pour garantir la stabilité"
   },
   "roadmap": {
@@ -63,7 +66,7 @@
     "description": "Si vous êtes arrivé jusqu’ici, c’est parce que vous avez été choisi pour construire. C’est l’appel des audacieux : financer et fonder une infrastructure souveraine pour les prochaines générations."
   },
   "legal": {
-    "disclaimer": "Cette page est informative et ne constitue pas une offre publique enregistrée. La participation à la prévente est volontaire et se fait directement via contrat intelligent on-chain."
+    "disclaimer": "Cette page est informative et ne constitue pas une offre publique enregistrée. La participation à la prévente est volontaire et se fait directement via un contrat intelligent on-chain."
   },
   "closeButton": "Fermer"
 }
