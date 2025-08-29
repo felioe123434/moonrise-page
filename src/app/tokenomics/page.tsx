@@ -19,7 +19,7 @@ export default function TokenomicsPage() {
 
   const COLORS = ['#a855f7', '#38bdf8', '#22c55e', '#facc15', '#0ea5e9', '#f97316', '#ef4444', '#6b7280']
 
-  // --- helpers
+  /* ------------------------- helpers ------------------------- */
   const parsePercent = (v: string | number): number => {
     if (typeof v === 'number') return v
     const clean = v.toString().trim()
@@ -43,12 +43,14 @@ export default function TokenomicsPage() {
     [chartData]
   )
 
-  // micro motion (sem lib extra)
+  /* ------------------------- visual tokens ------------------------- */
   const cardBase = 'relative rounded-xl bg-white/3 border border-white/10 backdrop-blur-[1px]'
+  // Padrão de título (mesmo da Transparência / Hero)
+  const brandTitle = 'font-extrabold tracking-tight bg-gradient-to-r from-purple-300 via-fuchsia-300 to-amber-200 bg-clip-text text-transparent'
 
   return (
     <main className="relative bg-black text-white overflow-hidden">
-      {/* BACKDROP premium (coeso com MoonWallet) */}
+      {/* BACKDROP premium */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div
           className="absolute -top-40 -left-40 h-[720px] w-[720px] rounded-full blur-3xl"
@@ -62,13 +64,13 @@ export default function TokenomicsPage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.25)_60%,rgba(0,0,0,0.65)_100%)]" />
       </div>
 
-      <div className="mx-auto w-full max-w-7xl px-6 py-16 space-y-20">
+      <div className="mx-auto w-full max-w-7xl px-6 py-14 space-y-16">
         {/* TITULO */}
         <section className="text-center">
-          <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-extrabold text-purple-400 mb-5 drop-shadow-[0_0_25px_rgba(168,85,247,0.5)] tracking-tight">
+          <h1 className={`text-3xl md:text-4xl lg:text-5xl ${brandTitle} mb-4 drop-shadow-[0_0_18px_rgba(168,85,247,0.35)]`}>
             {t('title')}
           </h1>
-          <p className="text-gray-300 mx-auto max-w-3xl text-lg leading-relaxed">
+          <p className="text-gray-300 mx-auto max-w-3xl text-base md:text-lg leading-relaxed">
             <Trans t={t} i18nKey="intro" components={{ strong: <strong /> }} />
           </p>
         </section>
@@ -97,14 +99,13 @@ export default function TokenomicsPage() {
         </section>
 
         {/* DISTRIBUIÇÃO */}
-        <section className="w-full max-w-7xl mx-auto text-center space-y-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-300">{t('distributionTitle')}</h2>
+        <section className="w-full max-w-7xl mx-auto text-center space-y-8">
+          <h2 className={`text-2xl md:text-3xl ${brandTitle}`}>{t('distributionTitle')}</h2>
 
-          <div className="mx-auto" style={{ width: '100%', maxWidth: 640, height: 420 }}>
+          <div className="mx-auto" style={{ width: '100%', maxWidth: 640, height: 400 }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart role="img" aria-label={t('distributionTitle')}>
                 <defs>
-                  {/* leve shadow para o donut */}
                   <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
                     <feDropShadow dx="0" dy="6" stdDeviation="6" floodOpacity="0.25" />
                   </filter>
@@ -113,8 +114,8 @@ export default function TokenomicsPage() {
                   data={chartData}
                   cx="50%"
                   cy="50%"
-                  innerRadius={92}
-                  outerRadius={132}
+                  innerRadius={86}
+                  outerRadius={124}
                   paddingAngle={2}
                   dataKey="value"
                   isAnimationActive
@@ -138,18 +139,17 @@ export default function TokenomicsPage() {
                   }}
                   labelStyle={{ color: '#a855f7' }}
                 />
-                <Legend verticalAlign="bottom" height={36} wrapperStyle={{ color: '#e5e7eb', fontSize: 12 }} />
+                <Legend verticalAlign="bottom" height={34} wrapperStyle={{ color: '#e5e7eb', fontSize: 12 }} />
               </PieChart>
             </ResponsiveContainer>
           </div>
 
-          {/* Observações/validação */}
           <p className="text-gray-400 text-sm max-w-2xl mx-auto">{t('distributionNote')}</p>
           {Math.abs(totalPercent - 100) > 0.1 && (
             <p className="text-amber-300 text-xs">⚠️ {t('warnings.totalNot100', { total: formatPercent(totalPercent) })}</p>
           )}
 
-          {/* Cards leves com “linha” inferior (sem blocos pesados) */}
+          {/* Cards leves com “linha” inferior */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-sm font-bold max-w-5xl mx-auto">
             {distribution[0] && (
               <div className={`${cardBase} col-span-1 md:col-span-3 px-5 py-6 hover:scale-[1.015] transition`}>
@@ -169,10 +169,10 @@ export default function TokenomicsPage() {
           </div>
         </section>
 
-        {/* USO DOS FUNDOS (cards com borda sutil) */}
+        {/* USO DOS FUNDOS */}
         <section className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6 text-purple-400 tracking-tight">{t('fundsTitle')}</h2>
-          <p className="text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed text-base">{t('fundsText')}</p>
+          <h2 className={`mb-4 text-2xl md:text-3xl ${brandTitle}`}>{t('fundsTitle')}</h2>
+          <p className="text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed text-base">{t('fundsText')}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {[FaHome, FaPiggyBank, FaProjectDiagram, FaChartPie].map((Icon, idx) => (
               <div key={idx} className={`${cardBase} p-6 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(168,85,247,0.12)] transition`}>
@@ -191,7 +191,7 @@ export default function TokenomicsPage() {
           </p>
         </section>
 
-        <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
+        <footer className="w-full mt-16 py-6 text-center text-sm text-gray-500">
           {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
         </footer>
       </div>
